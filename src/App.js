@@ -1,6 +1,7 @@
 import { BrowserRouter, Route,Routes, useNavigate } from 'react-router-dom';
 import {PageRouter} from './Components/Router/PageRouter';
 import './App.css';
+import { Footer } from './Components/Footer/Footer.tsx';
 
 const Home = () => {
   const navigate = useNavigate()
@@ -35,15 +36,7 @@ const Home = () => {
   return (
     <div>
       <p>ホーム画面です</p>
-      {/* <button onClick={navigatePokemon}>pokemonページに遷移します</button>
-      <button onClick={navigateOnepiece}>onepieceページに遷移します</button>
-      <button onClick={navigateDragonball}>dragonballページに遷移します</button>
-      <button onClick={navigateYuugiou}>yuugiouページに遷移します</button>
-      <button onClick={navigateVice}>viceページに遷移します</button>
-      <button onClick={navigateUnionArena}>unionarenaページに遷移します</button>
-      <button onClick={navigateDP}>dpページに遷移します</button>
-      <button onClick={navigateStepUp}>stepupページに遷移します</button>
-      <button onClick={navigateOthers}>その他のページに遷移します</button> */}
+      <Footer />
     </div>
   )
 }
