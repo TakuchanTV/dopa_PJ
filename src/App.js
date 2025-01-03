@@ -35,7 +35,7 @@ const Home = () => {
   return (
     <div>
       <p>ホーム画面です</p>
-      <button onClick={navigatePokemon}>pokemonページに遷移します</button>
+      {/* <button onClick={navigatePokemon}>pokemonページに遷移します</button>
       <button onClick={navigateOnepiece}>onepieceページに遷移します</button>
       <button onClick={navigateDragonball}>dragonballページに遷移します</button>
       <button onClick={navigateYuugiou}>yuugiouページに遷移します</button>
@@ -43,7 +43,7 @@ const Home = () => {
       <button onClick={navigateUnionArena}>unionarenaページに遷移します</button>
       <button onClick={navigateDP}>dpページに遷移します</button>
       <button onClick={navigateStepUp}>stepupページに遷移します</button>
-      <button onClick={navigateOthers}>その他のページに遷移します</button>
+      <button onClick={navigateOthers}>その他のページに遷移します</button> */}
     </div>
   )
 }
