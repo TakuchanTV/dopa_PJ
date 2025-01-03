@@ -1,7 +1,25 @@
 import React from "react";
 import dopa_new_logo from "../Images/dopa_new_logo.png";
 import styled  from "styled-components"
+import { useNavigate } from "react-router-dom";
 export const Footer = () => {
+  const navigate = useNavigate()
+  const PageArray:string[] = [
+    "/pokemon",
+    "/onepiece",
+    "/dragonball",
+    "/others",
+    "/yuugiou",
+    "/vice",
+    "/unionarena"
+  ]
+console.log(PageArray);
+
+ 
+  const navigateEachPages = (i:number) => {
+    navigate(PageArray[i])
+  }
+  
     return (
   <div>
     <Scolorfulrod></Scolorfulrod>
@@ -13,25 +31,25 @@ export const Footer = () => {
      <Sli>
        カテゴリー 
      </Sli>
-     <Sli2>
+     <Sli2 onClick={() => navigateEachPages(0)}>
        ポケモン
      </Sli2>
-     <Sli2>
+     <Sli2 onClick={() => navigateEachPages(1)}>
        ワンピース
      </Sli2>
-     <Sli2>
+     <Sli2 onClick={() => navigateEachPages(2)}>
        ドラゴンボール
      </Sli2>
-     <Sli2>
+     <Sli2 onClick={() => navigateEachPages(3)}>
        その他
      </Sli2>
-     <Sli2>
+     <Sli2 onClick={() => navigateEachPages(4)}>
        遊戯王
      </Sli2>
-     <Sli2>
+     <Sli2 onClick={() => navigateEachPages(5)}>
        ヴァイス
      </Sli2>
-     <Sli2>
+     <Sli2 onClick={() => navigateEachPages(6)}>
       ユニオンアリーナ
      </Sli2>
     </ul>
