@@ -6,9 +6,12 @@ import bannerphoto3 from "../Images/バナーの写真/bannerphoto3.png"
 import bannerphoto4 from "../Images/バナーの写真/bannerphoto4.png"
 import bannerphoto5 from "../Images/バナーの写真/bannerphoto5.png"
 export const Banner = () => {
+  const SlideLef = useRef<HTMLDivElement>(null)
   const ListsRef = useRef<HTMLLIElement>(null)
+  let count:number = 0;
   
- 
+  const nextClick = () => {
+ }
   const handleClick = (i:number) => {
     ListsRef.current?.focus();
    alert(`${i}番目のボタンがクリックされました`)
@@ -21,7 +24,7 @@ export const Banner = () => {
 return (
     // スライドの外枠
    <div className={styles.slidewrapper} >
-    <div className={styles.slide}>
+    <div className={styles.slide} ref={SlideLef}>
       <div>
         <img src={bannerphoto1} className={styles.img} />
       </div>
