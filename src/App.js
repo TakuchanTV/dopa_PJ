@@ -2,6 +2,7 @@ import { BrowserRouter, Route,Routes, useNavigate } from 'react-router-dom';
 import {PageRouter} from './Components/Router/PageRouter';
 import './App.css';
 import { Footer } from './Components/Footer/Footer.tsx';
+import { Banner } from './Components/Header/Banner.tsx';
 
 const Home = () => {
   const navigate = useNavigate()
@@ -35,6 +36,7 @@ const Home = () => {
   
   return (
     <div>
+      <Banner />
       <p>ホーム画面です</p>
       <Footer />
     </div>
