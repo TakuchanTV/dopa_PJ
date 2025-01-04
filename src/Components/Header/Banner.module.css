@@ -9,32 +9,34 @@ width: 450%;
 height: 100%;
 display: flex;
 transition: all 0.3s;
-transform: translateX(250px)
+transform: translateX(220px);
+overflow: hidden;
 
 };
 .slide div { /*スライドの中身*/
-width: 20%;
+width: 100%;
 height: 100%;
 font-size: 16px;
 display: flex;
 text-align: center;
 justify-content: center;
 align-items: center;
+overflow: hidden;
 }
 .slide1{/*スライドさせるために必要なクラス*/
-  transform: translateX(100px);
+  transform: translateX(220px);
 }
 .slide2{/*スライドさせるために必要なクラス*/
-  transform: translateX(-20.00%);
+  transform: translateX(-300px);
 }
 .slide3{/*スライドさせるために必要なクラス*/
-  transform: translateX(-40.00%);
+  transform: translateX(-845px);
 }
 .slide4{/*スライドさせるために必要なクラス*/
-  transform: translateX(-60.00%);
+  transform: translateX(-1368px);
 }
 .slide5{/*スライドさせるために必要なクラス*/
-  transform: translateX(-80.00%);
+  transform: translateX(-1920px);
 }
 
 
