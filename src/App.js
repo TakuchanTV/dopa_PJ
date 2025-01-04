@@ -2,6 +2,8 @@ import { BrowserRouter, Route,Routes, useNavigate } from 'react-router-dom';
 import {PageRouter} from './Components/Router/PageRouter';
 import './App.css';
 import { Footer } from './Components/Footer/Footer.tsx';
+import { Makingtab } from './Components/Header/Makingtab.tsx';
+import {Banner} from "./Components/Header/Banner.tsx";
 const Home = () => {
   const navigate = useNavigate()
   const navigatePokemon = () => {
@@ -34,6 +36,10 @@ const Home = () => {
   
   return (
     <div>
+      <Makingtab />
+      
+      <Banner />
+      
       <p>ホーム画面です</p>
       <Footer />
     </div>
