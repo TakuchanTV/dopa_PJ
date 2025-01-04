@@ -42,8 +42,8 @@ return (
       </div>
     </div>
      {/*左右のボタン */}
-     <span className={styles.prev}></span>
-     <span className={styles.next}></span>
+     {/* <span className={styles.prev}></span>
+     <span className={styles.next}></span> */}
      {/*インジケーター*/}
      <ul className={styles.indicator}>
        <li className={styles.list} ref={ListsRef} onClick={() =>handleClick(1)}></li>
