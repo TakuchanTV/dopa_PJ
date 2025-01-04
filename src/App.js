@@ -2,8 +2,6 @@ import { BrowserRouter, Route,Routes, useNavigate } from 'react-router-dom';
 import {PageRouter} from './Components/Router/PageRouter';
 import './App.css';
 import { Footer } from './Components/Footer/Footer.tsx';
-import { Makingtab } from './Components/Header/Makingtab.tsx';
-
 const Home = () => {
   const navigate = useNavigate()
   const navigatePokemon = () => {
