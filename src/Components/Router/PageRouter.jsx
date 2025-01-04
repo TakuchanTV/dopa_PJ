@@ -9,6 +9,7 @@ import { DP } from "../Pages/dp.tsx"
 import {UnionArena} from "../Pages/unionarena.tsx"
 import { StepUp } from "../Pages/stepup.tsx"
 import { Others } from "../Pages/others.tsx"
+import { Charge } from "../Pages/charge.tsx"
 
 export const PageRouter = () => {
    return (
@@ -22,6 +23,7 @@ export const PageRouter = () => {
       <Route path="dp" element={<DP />}/>
       <Route path="stepup" element={<StepUp />}/>
       <Route path="others" element={<Others />}/>
+      <Route path="charge" element={<Charge />}/>
     </Routes>
    )
 }
