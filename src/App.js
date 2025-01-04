@@ -36,10 +36,6 @@ const Home = () => {
   
   return (
     <div>
-      <Makingtab />
-      
-
-
       <p>ホーム画面です</p>
       <Footer />
     </div>
