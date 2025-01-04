@@ -1,12 +1,16 @@
 .slide img {
 width: 100%;
-height: 200px;
+height: 160px;
+transform: translateX(140px);
+
 }
 .slide { /*スライド全体*/
-width: 500%;  
+width: 450%;  
 height: 100%;
 display: flex;
-transition: all 0.3s
+transition: all 0.3s;
+transform: translateX(250px)
+
 };
 .slide div { /*スライドの中身*/
 width: 20%;
@@ -18,7 +22,7 @@ justify-content: center;
 align-items: center;
 }
 .slide1{/*スライドさせるために必要なクラス*/
-  transform: translateX(0);
+  transform: translateX(100px);
 }
 .slide2{/*スライドさせるために必要なクラス*/
   transform: translateX(-20.00%);
@@ -38,10 +42,11 @@ align-items: center;
 
 /*スライドの外枠*/
 .slidewrapper {
-  width: 100%;
-  height: 300px;
+  width: 70%;
+  height: 200px;
   position: relative;
   overflow: hidden;
+  align-items: center;
 }
 /*左右のボタン*/
 .next{
@@ -76,7 +81,8 @@ align-items: center;
 .indicator{
 width: 100%;
 position: absolute;
-bottom: 20px;
+top: 145px;
+left: 125px;
 display: flex;
 column-gap: 18px;
 z-index: 10;
