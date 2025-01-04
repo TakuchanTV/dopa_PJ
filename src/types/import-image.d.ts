@@ -1,3 +1,2 @@
 declare module "*.png";
-
-declare module "*./Banner.module.css"
+declare module "*./Makingtab.module.css"
