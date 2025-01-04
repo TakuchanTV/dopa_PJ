@@ -5,11 +5,47 @@
 }
 .tab img {
     width: 150px;
+    &:hover{
+    cursor: pointer;
+    }
 }
 .icon {
    position: absolute;
    right: 10px;
+   &:hover{
+    cursor: pointer;
+   }
 }
 .icon img{
     width: 40px;
+}
+.DP{
+    position: absolute;
+    right: 100px;
+    top: 8px;
+    border: solid 2px #000;
+    border-radius:80px; 
+    padding: 3px;
+    background-color: white;
+
+}
+.charge{
+    position: absolute;
+    right: 160px;
+    top: 8px;
+    border: solid 2px #000;
+    border-radius:80px; 
+    padding: 5px;
+    background-color: white;
+    font-size: 15px;
+    &:hover{
+      cursor: pointer;  
+    }
+}
+.plus{
+ border: solid 2px pink;
+ border-radius: 50%;
+ width: 24px;
+ height: 24px;
+ font-size: 15px;
 }
