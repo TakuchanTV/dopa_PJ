@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect, useRef} from "react"
 import styles from "./Banner.module.css"
 import bannerphoto1 from "../Images/バナーの写真/bannerphoto1.png"
 import bannerphoto2 from "../Images/バナーの写真/bannerphoto2.png"
@@ -6,6 +6,18 @@ import bannerphoto3 from "../Images/バナーの写真/bannerphoto3.png"
 import bannerphoto4 from "../Images/バナーの写真/bannerphoto4.png"
 import bannerphoto5 from "../Images/バナーの写真/bannerphoto5.png"
 export const Banner = () => {
+  const ListsRef = useRef<HTMLLIElement>(null)
+  
+ 
+  const handleClick = (i:number) => {
+    ListsRef.current?.focus();
+   alert(`${i}番目のボタンがクリックされました`)
+    
+  }
+
+  
+  
+  
 return (
     // スライドの外枠
    <div className={styles.slidewrapper} >
@@ -31,9 +43,11 @@ return (
      <span className={styles.next}></span>
      {/*インジケーター*/}
      <ul className={styles.indicator}>
-       <li className={styles.list}></li>
-       <li className={styles.list}></li>
-       <li className={styles.list}></li>
+       <li className={styles.list} ref={ListsRef} onClick={() =>handleClick(1)}></li>
+       <li className={styles.list} ref={ListsRef} onClick={() =>handleClick(2)} ></li>
+       <li className={styles.list} ref={ListsRef} onClick={() =>handleClick(3)}></li>
+       <li className={styles.list} ref={ListsRef} onClick={() =>handleClick(4)}></li>
+       <li className={styles.list} ref={ListsRef} onClick={() =>handleClick(5)}></li>
      </ul>
    </div> 
 )
