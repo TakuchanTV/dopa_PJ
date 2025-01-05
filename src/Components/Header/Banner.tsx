@@ -10,7 +10,8 @@ export const Banner = () => {
   const ListsRef = useRef<HTMLLIElement>(null)
   const [activeIndex, setActiveIndex] = useState<number>(0)
   const IndicatorRef = useRef<HTMLDivElement>(null)
-  const lists = ListsRef.current;
+  const listRefs = useRef<(HTMLLIElement| null)[]>([]);
+  const lists = ListsRef?.current;
   
   
 
@@ -53,13 +54,16 @@ return (
      <span className={styles.next}></span> */}
      {/*インジケーター*/}
      
-     <ul className={styles.indicator} >
-       <li className={`${styles.list} ${activeIndex === activeIndex ? styles.active:styles.notactive}`} ref={ListsRef} onClick={() =>handleClick(1)}></li>
-       <li className={`${styles.list} ${activeIndex === activeIndex ? styles.active:styles.notactive}`} ref={ListsRef} onClick={() =>handleClick(2)} ></li>
-       <li className={`${styles.list} ${activeIndex === activeIndex ? styles.active:styles.notactive}`} ref={ListsRef} onClick={() =>handleClick(3)}></li>
-       <li className={`${styles.list} ${activeIndex === activeIndex ? styles.active:styles.notactive}`} ref={ListsRef} onClick={() =>handleClick(4)}></li>
-       <li className={`${styles.list} ${activeIndex === activeIndex? styles.active:styles.notactive}`} ref={ListsRef} onClick={() =>handleClick(5)}></li>
-     </ul>
+     <ul className={styles.indicator}> 
+      {new Array(5).fill(null).map((_, index) => (
+         <li key={index} className={`${styles.list} 
+         ${activeIndex === index + 1 ? styles.active : styles.notactive}`} 
+      ref={(el) => {listRefs.current[index] = el
+      }} 
+      onClick={() => handleClick(index + 1)}>
+      </li> 
+    ))} 
+      </ul>
    </div> 
 )
 
