@@ -15,7 +15,6 @@ li {
   left: 400px;
   /* background-color: green; */
   
-  
 }
 
 .slide img {
@@ -116,10 +115,20 @@ align-items: center;
   background-color: #fff;
   border: 2px #000 solid;
   cursor: pointer;
+  /* background-color: #000; */
+
 }
-.indicator li:first-of-type{
+ 
+.li1{
   background-color: #000;
 }
 
 
+.indicator li.active { 
+  background-color: #000;
+}
+.indicator li.notactive {
+  background-color: #fff;
+
+}
 
