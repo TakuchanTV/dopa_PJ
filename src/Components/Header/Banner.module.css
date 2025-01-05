@@ -8,29 +8,32 @@ li {
 
 /*スライドの外枠*/
 .slidewrapper {
-  width: 70%;
-  height: 180px;
+  width: 45%;
+  height: 210px;
   position: relative;
   overflow: hidden;
-  background-color: green;
-  margin: 0, auto;
-  transform: translate(10%);
+  left: 400px;
+  /* background-color: green; */
+  
+  
 }
 
 .slide img {
 width: 100%;
-height: 50%;
-transform: translateX(140px);
+height: 60%;
 overflow: hidden;
 
 }
 .slide { /*スライド全体*/
-width: 450%;  
+width: 880%;  
 height: 300px;
 display: flex;
 transition: all 0.3s;
-transform:translateX(250px);
 overflow: hidden;
+position: relative;
+right: 280px;
+transform: translateX(273px)
+
 
 };
 .slide div { /*スライドの中身*/
@@ -41,23 +44,23 @@ display: flex;
 text-align: center;
 justify-content: center;
 align-items: center;
-transform: translate(50%,50%);
+/* transform: translateX(273px) */
 }
 .slide1{/*スライドさせるために必要なクラス*/
-  transform: translateX(250px);
+  transform: translateX(273px);
 }
 
 .slide2{/*スライドさせるために必要なクラス*/
-  transform: translateX(-240px);
+  transform: translateX(-318px);
 }
 .slide3{/*スライドさせるために必要なクラス*/
-  transform: translateX(-845px);
+  transform: translateX(-910px);
 }
 .slide4{/*スライドさせるために必要なクラス*/
-  transform: translateX(-1368px);
+  transform: translateX(-1508px);
 }
 .slide5{/*スライドさせるために必要なクラス*/
-  transform: translateX(-1920px);
+  transform: translateX(-2116px);
 }
 
 
@@ -97,8 +100,8 @@ transform: translate(50%,50%);
 .indicator{
 width: 100%;
 position: absolute;
-top: 145px;
-left: 125px;
+top: 190px;
+left: 20px;
 display: flex;
 column-gap: 18px;
 z-index: 10;
