@@ -1,48 +1,71 @@
+body,ul{
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+/*スライドの外枠*/
+.slidewrapper {
+  width: 45%;
+  height: 210px;
+  position: relative;
+  overflow: hidden;
+  left: 400px;
+  /* background-color: green; */
+  
+}
+
 .slide img {
 width: 100%;
-height: 200px;
+height: 60%;
+overflow: hidden;
+
 }
 .slide { /*スライド全体*/
-width: 500%;  
-height: 100%;
+width: 880%;  
+height: 300px;
 display: flex;
-transition: all 0.3s
+transition: all 0.3s;
+overflow: hidden;
+position: relative;
+right: 280px;
+transform: translateX(273px)
+
+
 };
 .slide div { /*スライドの中身*/
-width: 20%;
+width: 100%;
 height: 100%;
 font-size: 16px;
 display: flex;
 text-align: center;
 justify-content: center;
 align-items: center;
+/* transform: translateX(273px) */
 }
 .slide1{/*スライドさせるために必要なクラス*/
-  transform: translateX(0);
+  transform: translateX(273px);
 }
+
 .slide2{/*スライドさせるために必要なクラス*/
-  transform: translateX(-20.00%);
+  transform: translateX(-318px);
 }
 .slide3{/*スライドさせるために必要なクラス*/
-  transform: translateX(-40.00%);
+  transform: translateX(-910px);
 }
 .slide4{/*スライドさせるために必要なクラス*/
-  transform: translateX(-60.00%);
+  transform: translateX(-1508px);
 }
 .slide5{/*スライドさせるために必要なクラス*/
-  transform: translateX(-80.00%);
+  transform: translateX(-2116px);
 }
 
 
 
 
-/*スライドの外枠*/
-.slidewrapper {
-  width: 100%;
-  height: 300px;
-  position: relative;
-  overflow: hidden;
-}
+
 /*左右のボタン*/
 .next{
   position:absolute;
@@ -76,7 +99,8 @@ align-items: center;
 .indicator{
 width: 100%;
 position: absolute;
-bottom: 20px;
+top: 190px;
+left: 20px;
 display: flex;
 column-gap: 18px;
 z-index: 10;
@@ -91,10 +115,20 @@ align-items: center;
   background-color: #fff;
   border: 2px #000 solid;
   cursor: pointer;
+  /* background-color: #000; */
+
 }
-.indicator li:first-of-type{
+ 
+.li1{
   background-color: #000;
 }
 
 
+.indicator li.active { 
+  background-color: #000;
+}
+.indicator li.notactive {
+  background-color: #fff;
+
+}
 
