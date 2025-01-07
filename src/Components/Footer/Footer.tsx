@@ -100,7 +100,7 @@ const Sdivflex = styled.div`
 `
 const Scolorfulrod = styled.div`
     border-bottom: 5px solid;
-    height: 300px;
+    height: 600px;
     width: 80%;
     margin: 0 auto;
     border-image: linear-gradient(to right, rgb(233, 70, 70), #1ed724d6) 1;
