@@ -1,0 +1,122 @@
+
+
+/*div ここから*/
+.Div1{
+    display: flex;
+    justify-content: center;
+    justify-content: center ;
+    align-items: center;
+    position: relative;  
+    right: 65px;
+    top: 40px;
+ }
+ 
+ .div1 img{
+     position: relative; 
+     left: 80px;
+  }
+
+ .div1,.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .div1 img,.div2 img{
+   width: 450px; 
+   height: auto;
+   border-radius: 30px;
+   position: relative;
+ }
+ /*div ここまで */
+ 
+ /*span ここから*/
+ .span1{
+   display: inline-block;
+   padding: 10px;
+ }
+
+ .span1 .img1, .span1 .img2, .span1 .img3,
+ .span1 .img4, .span1 .img5,.span1 .img6{
+     display: block;
+     width: 60px;
+     padding: 0;
+     margin: 0;
+     border-radius: 0;
+  }
+  /*span ここまで*/
+  
+  /*list ここから*/
+  .list1 {
+     display: flex;
+     margin: 5px;
+  }
+  .list3 {
+     display: flex;
+     margin: 5px;
+  }
+  .list5 {
+     display: flex;
+     margin: 5px;
+  }
+  .list1 img{
+     /* position: relative;
+     left: 190px; */
+   }
+   .list2 img{
+     position: relative;
+     left: 20px;
+   }
+  
+  .list1 img, .list2 img{
+    width: 6%;
+    padding: 5px;
+  }
+  .list3 img, .list4 img{
+     width: 6%;
+     padding: 5px;
+  }
+  
+  .list2 .img1, .list2 .img2, .list2 .img3
+  , .list2 .img4, .list2 .img5{
+   width:60px;
+  }
+  
+  
+ /*list ここまで*/
+ 
+ /*button ここから*/
+  .button1{
+     position: relative;
+     left: 60px;
+     padding: 30px 210px;
+     margin: 0 30px;
+     background-color: rgb(79, 94, 79);
+     border-radius: 10px;
+     &:hover{
+         cursor: pointer;
+         background-color: rgb(81, 192, 209) ;
+       }
+  }
+
+  .button1 span {
+     font-size: 20px;
+     font-family:"HGS創英角ﾎﾟｯﾌﾟ体";
+  }
+  
+  .button1 .gacha{
+     border: solid 2px black;
+     width: 24px;
+     height: 24px;
+     border-radius: 50%;
+     padding: 5px 14px;
+     background-color: rgb(141, 178, 85);
+     position: relative;
+     right: 10px;
+ }
+
+ .button{
+     display: flex;
+ }
+ /*button ここまで*/
