@@ -18,6 +18,10 @@ console.log(PageArray);
  
   const navigateEachPages = (i:number) => {
     navigate(PageArray[i])
+    window.scroll({
+      top:0,
+      behavior:"smooth"
+    })
   }
   
     return (
