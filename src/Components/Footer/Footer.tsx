@@ -11,7 +11,8 @@ export const Footer = () => {
     "/others",
     "/yuugiou",
     "/vice",
-    "/unionarena"
+    "/unionarena",
+    "/"
   ]
 console.log(PageArray);
 
@@ -28,7 +29,7 @@ console.log(PageArray);
   <div>
     <Scolorfulrod></Scolorfulrod>
     <div>
-    <Simg src={dopa_new_logo} />
+    <Simg src={dopa_new_logo} onClick={() => navigateEachPages(7)} />
     </div>
     <Sdivflex>
     <ul>
