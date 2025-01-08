@@ -30,11 +30,13 @@ import yuugiou4_3    from "../Images/遊戯王ページの写真/遊戯王ペー
 import yuugiou4_4    from "../Images/遊戯王ページの写真/遊戯王ページのリスト/遊戯王4のリスト写真/yuugiouimg4.png"
 import yuugiou4_5    from "../Images/遊戯王ページの写真/遊戯王ページのリスト/遊戯王4のリスト写真/yuugiouimg5.png"
 import yuugiou4_6    from "../Images/遊戯王ページの写真/遊戯王ページのリスト/遊戯王4のリスト写真/yuugiouimg6.png"
+import { PagesChangetag } from "../Header/PageChangestag.tsx";
 export const Yuugiou = () => {
     return (
         <div>
             <Makingtab />
             <Banner />
+            <PagesChangetag />
             <div>
                <div className={styles.Div1}>
                  <div className={styles.div1}>

@@ -45,6 +45,7 @@ import pokemon6_3 from "../Images/ポケモンページの写真/ポケモンペ
 import pokemon6_4 from "../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン6のリスト写真/pokemonimg4.png"
 import pokemon6_5 from "../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン6のリスト写真/pokemonimg5.png"
 import pokemon6_6 from "../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン6のリスト写真/pokemonimg6.png"
+import { PagesChangetag } from "../Header/PageChangestag.tsx";
 export const Pokemon = () => {
     const navigate = useNavigate();
     const navigateHome = () => {
@@ -54,6 +55,8 @@ export const Pokemon = () => {
         <div>
             <Makingtab />
             <Banner />
+            <PagesChangetag/>
+            
              <div>
                <div className={styles.Div1}>
                  <div className={styles.div1}>

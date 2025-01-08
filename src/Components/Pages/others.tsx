@@ -10,11 +10,13 @@ import others3 from "../Images/その他ページの写真/その他ページの
 import others4 from "../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg4.png"
 import others5 from "../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg5.png"
 import others6 from "../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg6.png"
+import { PagesChangetag } from "../Header/PageChangestag.tsx";
 export const Others = () => {
     return (
         <div>
          <Makingtab />
           <Banner />
+          <PagesChangetag />
             <div>
                <div className={styles.Div1}>
                  <div className={styles.div1}>
