@@ -10,7 +10,7 @@ import others3 from "../Images/その他ページの写真/その他ページの
 import others4 from "../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg4.png"
 import others5 from "../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg5.png"
 import others6 from "../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg6.png"
-import { PagesChangetag } from "../Header/PageChangestag.tsx";
+import { PagesChangetag } from "../Header/PagesChange.tsx";
 export const Others = () => {
     return (
         <div>

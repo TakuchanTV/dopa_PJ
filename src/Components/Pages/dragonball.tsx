@@ -44,7 +44,7 @@ import dragonball6_3  from "../Images/ドラゴンボールページの写真/�
 import dragonball6_4  from "../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール6のリスト写真/dragonballimg4.png"
 import dragonball6_5  from "../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール6のリスト写真/dragonballimg5.png"
 import dragonball6_6  from "../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール6のリスト写真/dragonballimg6.png"
-import { PagesChangetag } from "../Header/PageChangestag.tsx";
+import { PagesChangetag } from "../Header/PagesChange.tsx";
 
 
 export const Dragonball = () => {

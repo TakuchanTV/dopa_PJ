@@ -44,7 +44,7 @@ import vice6_3    from "../Images/ヴァイスページの写真/ヴァイス6�
 import vice6_4    from "../Images/ヴァイスページの写真/ヴァイス6のリスト写真/vicepageimg4.png"
 import vice6_5    from "../Images/ヴァイスページの写真/ヴァイス6のリスト写真/vicepageimg5.png"
 import vice6_6    from "../Images/ヴァイスページの写真/ヴァイス6のリスト写真/vicepageimg6.png"
-import { PagesChangetag } from "../Header/PageChangestag.tsx";
+import { PagesChangetag } from "../Header/PagesChange.tsx";
 export const Vice = () => {
     return (
         <div>

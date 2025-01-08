@@ -30,7 +30,7 @@ import yuugiou4_3    from "../Images/遊戯王ページの写真/遊戯王ペー
 import yuugiou4_4    from "../Images/遊戯王ページの写真/遊戯王ページのリスト/遊戯王4のリスト写真/yuugiouimg4.png"
 import yuugiou4_5    from "../Images/遊戯王ページの写真/遊戯王ページのリスト/遊戯王4のリスト写真/yuugiouimg5.png"
 import yuugiou4_6    from "../Images/遊戯王ページの写真/遊戯王ページのリスト/遊戯王4のリスト写真/yuugiouimg6.png"
-import { PagesChangetag } from "../Header/PageChangestag.tsx";
+import { PagesChangetag } from "../Header/PagesChange.tsx";
 export const Yuugiou = () => {
     return (
         <div>
