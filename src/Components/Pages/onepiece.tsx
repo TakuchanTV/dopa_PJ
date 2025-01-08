@@ -45,11 +45,14 @@ import onepiece6_3    from "../Images/ワンピースページの写真/ワン�
 import onepiece6_4    from "../Images/ワンピースページの写真/ワンピースページのリスト/ワンピース6のリスト写真/onepieceimg4.png"
 import onepiece6_5    from "../Images/ワンピースページの写真/ワンピースページのリスト/ワンピース6のリスト写真/onepieceimg5.png"
 import onepiece6_6    from "../Images/ワンピースページの写真/ワンピースページのリスト/ワンピース6のリスト写真/onepieceimg6.png"
+import { PagesChangetag } from "../Header/PagesChange.tsx";
 export const OnePiece = () => {
     return (
         <div>
             <Makingtab />
             <Banner />
+            <PagesChangetag/>
+            
             <div>
                <div className={styles.Div1}>
                  <div className={styles.div1}>

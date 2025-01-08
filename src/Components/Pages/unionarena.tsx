@@ -16,11 +16,14 @@ import unionarena2_2 from "../Images/ユニオンアリーナページの写真/
 import unionarena2_3 from "../Images/ユニオンアリーナページの写真/ユニオンアリーナページのリスト/ユニオンアリーナ2のリスト写真/unionarenaimg3.png"
 import unionarena2_4 from "../Images/ユニオンアリーナページの写真/ユニオンアリーナページのリスト/ユニオンアリーナ2のリスト写真/unionarenaimg4.png"
 import unionarena2_5 from "../Images/ユニオンアリーナページの写真/ユニオンアリーナページのリスト/ユニオンアリーナ2のリスト写真/unionarenaimg5.png"
+import { PagesChangetag } from "../Header/PagesChange.tsx";
 export const UnionArena = () => {
     return (
         <div>
             <Makingtab />
             <Banner />
+            <PagesChangetag/>
+            
             <div>
                <div className={styles.Div1}>
                  <div className={styles.div1}>
