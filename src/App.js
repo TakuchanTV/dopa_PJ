@@ -52,7 +52,7 @@ import pokemon6_3 from "../src/Components/Images/ポケモンページの写真/
 import pokemon6_4 from "../src/Components/Images/ポケモンページの写真/ポケモンページのリスト/ポケモン6のリスト写真/pokemonimg4.png"
 import pokemon6_5 from "../src/Components/Images/ポケモンページの写真/ポケモンページのリスト/ポケモン6のリスト写真/pokemonimg5.png"
 import pokemon6_6 from "../src/Components/Images/ポケモンページの写真/ポケモンページのリスト/ポケモン6のリスト写真/pokemonimg6.png"
-import {PagesChangetag } from './Components/Header/PageChangestag.tsx';
+import {PagesChangetag } from './Components/Header/PagesChange.tsx';
 
 const Home = () => {
   const navigate = useNavigate()
