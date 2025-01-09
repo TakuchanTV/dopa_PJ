@@ -7,4 +7,6 @@ declare module "*../ModuleCSS/dragonball.module.css";
 declare module "*../ModuleCSS/vice.module.css";
 declare module "*../ModuleCSS/unionarena.module.css";
 declare module "*../ModuleCSS/others.module.css";
-declare module "*../Header/PagesChangetag.module.css"
+declare module "*../Header/PagesChangetag.module.css";
+declare module "*./Loadingdots.module.css";
+declare module "*../Loading/Loadingdots.module.css"
