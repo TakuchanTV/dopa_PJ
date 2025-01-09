@@ -53,7 +53,7 @@ const [isVisable, setIsVisable] = useState(true)
 useEffect(() => {
   const timer = setTimeout(() => {
     setIsVisable(false)
-  },1500)
+  },2500)
   return () => clearTimeout(timer)
 },[])
     return(

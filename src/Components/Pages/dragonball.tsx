@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { Footer } from "../Footer/Footer.tsx";
 import { Makingtab } from "../Header/Makingtab.tsx";
 import { Banner } from "../Header/Banner.tsx";
@@ -45,15 +45,33 @@ import dragonball6_4  from "../Images/ドラゴンボールページの写真/�
 import dragonball6_5  from "../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール6のリスト写真/dragonballimg5.png"
 import dragonball6_6  from "../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール6のリスト写真/dragonballimg6.png"
 import { PagesChangetag } from "../Header/PagesChange.tsx";
+import spinerstyles from "../Loading/Loadingdots.module.css"
 
 
 export const Dragonball = () => {
+const [isVisable, setIsVisable] = useState(true);
+useEffect(() => {
+  const timer = setTimeout(() => {
+   setIsVisable(false);
+  },2500)
+  return () => clearTimeout(timer)
+},[]);
     return (
+      isVisable ? (
+        <div className={spinerstyles.spindiv}>
+                  <div className={spinerstyles.spinnerbox}>
+                     <div className={spinerstyles.pulsecontainer}>
+                        <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble1}`}></div>
+                        <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble2}`}></div>
+                        <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble3}`}></div>
+                    </div>
+                  </div>
+                </div>
+      ) : (
         <div>
             <Makingtab />
             <Banner />
             <PagesChangetag/>
-            
             <div>
                <div className={styles.Div1}>
                  <div className={styles.div1}>
@@ -227,8 +245,8 @@ export const Dragonball = () => {
                  </div>
                </div>
              </div>
-
            <Footer />
         </div>
+      )
     )
 };

@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { Footer } from "../Footer/Footer.tsx";
 import { Makingtab } from "../Header/Makingtab.tsx";
 import { Banner } from "../Header/Banner.tsx";
@@ -31,8 +31,27 @@ import yuugiou4_4    from "../Images/遊戯王ページの写真/遊戯王ペー
 import yuugiou4_5    from "../Images/遊戯王ページの写真/遊戯王ページのリスト/遊戯王4のリスト写真/yuugiouimg5.png"
 import yuugiou4_6    from "../Images/遊戯王ページの写真/遊戯王ページのリスト/遊戯王4のリスト写真/yuugiouimg6.png"
 import { PagesChangetag } from "../Header/PagesChange.tsx";
+import spinerstyles from "../Loading/Loadingdots.module.css"
 export const Yuugiou = () => {
+  const [isVisable, setIsVisable] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+     setIsVisable(false);
+    },2500)
+    return () => clearTimeout(timer)
+  },[]);
     return (
+      isVisable ? (
+        <div className={spinerstyles.spindiv}>
+                          <div className={spinerstyles.spinnerbox}>
+                             <div className={spinerstyles.pulsecontainer}>
+                                <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble1}`}></div>
+                                <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble2}`}></div>
+                                <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble3}`}></div>
+                            </div>
+                          </div>
+                        </div>
+      ) : (
         <div>
             <Makingtab />
             <Banner />
@@ -150,5 +169,6 @@ export const Yuugiou = () => {
              </div>
            <Footer />
         </div>
+      )
     )
 };
