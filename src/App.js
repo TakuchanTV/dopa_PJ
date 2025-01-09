@@ -53,6 +53,7 @@ import pokemon6_4 from "../src/Components/Images/ポケモンページの写真/
 import pokemon6_5 from "../src/Components/Images/ポケモンページの写真/ポケモンページのリスト/ポケモン6のリスト写真/pokemonimg5.png"
 import pokemon6_6 from "../src/Components/Images/ポケモンページの写真/ポケモンページのリスト/ポケモン6のリスト写真/pokemonimg6.png"
 import {PagesChangetag } from './Components/Header/PagesChange.tsx';
+import { Loadingdots } from './Components/Loading/Loadingdots.tsx';
 
 const Home = () => {
   const navigate = useNavigate()
@@ -87,10 +88,10 @@ const Home = () => {
   return (
     <div>
       <Makingtab />
-      
       <Banner />
       <PagesChangetag/>
-      <div>
+      <Loadingdots />
+      {/* <div>
                <div className={styles.Div1}>
                  <div className={styles.div1}>
                   <img src={pokemonimg1} className={styles.img} /> 
@@ -262,7 +263,7 @@ const Home = () => {
                    </button>  
                  </div>
                </div>
-             </div>
+             </div> */}
       <Footer />
     </div>
   )
