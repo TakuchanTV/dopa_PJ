@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { Footer } from "../Footer/Footer.tsx";
 import { Makingtab } from "../Header/Makingtab.tsx";
 import { Banner } from "../Header/Banner.tsx";
@@ -46,13 +46,24 @@ import onepiece6_4    from "../Images/ワンピースページの写真/ワン�
 import onepiece6_5    from "../Images/ワンピースページの写真/ワンピースページのリスト/ワンピース6のリスト写真/onepieceimg5.png"
 import onepiece6_6    from "../Images/ワンピースページの写真/ワンピースページのリスト/ワンピース6のリスト写真/onepieceimg6.png"
 import { PagesChangetag } from "../Header/PagesChange.tsx";
+import spinerstyles from "../Loading/Loadingdots.module.css"
+import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
 export const OnePiece = () => {
+const [isVisable, setIsVisable] = useState(true);
+useEffect(() => {
+  const timer = setTimeout(() => {
+   setIsVisable(false);
+  },2500)
+  return () => clearTimeout(timer)
+},[]);
     return (
+      isVisable ? (
+       <Loadingsquares />
+      ) : (
         <div>
             <Makingtab />
             <Banner />
             <PagesChangetag/>
-            
             <div>
                <div className={styles.Div1}>
                  <div className={styles.div1}>
@@ -228,5 +239,6 @@ export const OnePiece = () => {
              </div>
            <Footer />
         </div>
+      )
     )
 };
