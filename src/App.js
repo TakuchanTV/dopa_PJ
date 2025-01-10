@@ -54,44 +54,27 @@ import pokemon6_5 from "../src/Components/Images/ポケモンページの写真/
 import pokemon6_6 from "../src/Components/Images/ポケモンページの写真/ポケモンページのリスト/ポケモン6のリスト写真/pokemonimg6.png"
 import {PagesChangetag } from './Components/Header/PagesChange.tsx';
 import { Loadingdots } from './Components/Loading/Loadingdots.tsx';
+import { Loadingsquares } from './Components/Loading/Loadingsquares.tsx';
+import { useEffect, useState } from 'react';
 
 const Home = () => {
-  const navigate = useNavigate()
-  const navigatePokemon = () => {
-    navigate("/pokemon")
-  }
-  const navigateOnepiece = () => {
-    navigate("/onepiece")
-  }
-  const navigateDragonball = () => {
-    navigate("/dragonball")
-  }
-  const navigateYuugiou = () => {
-    navigate("/yuugiou")
-  }
-  const navigateVice = () => {
-    navigate("/vice")
-  }
-  const navigateUnionArena = () => {
-    navigate("/unionarena")
-  }
-  const navigateDP = () => {
-    navigate("/dp")
-  }
-  const navigateStepUp = () => {
-    navigate("/stepup")
-  }
-  const navigateOthers = () => {
-    navigate("/others")
-  }
+  const [isVisable, setIsVisable] = useState(true)
+      useEffect(() => {
+            const timer = setTimeout(() => {
+              setIsVisable(false)
+            },3000);
+            return () => clearTimeout(timer)
+          },[])
   
   return (
+    isVisable ? (
+      <Loadingsquares />
+    ) : (
     <div>
       <Makingtab />
       <Banner />
       <PagesChangetag/>
-      <Loadingdots />
-      {/* <div>
+          <div>
                <div className={styles.Div1}>
                  <div className={styles.div1}>
                   <img src={pokemonimg1} className={styles.img} /> 
@@ -263,9 +246,10 @@ const Home = () => {
                    </button>  
                  </div>
                </div>
-             </div> */}
+             </div>
       <Footer />
     </div>
+    )
   )
 }
 
