@@ -8,10 +8,23 @@ import bannerphoto5 from "../Images/バナーの写真/bannerphoto5.png"
 export const Banner = () => {
   const SlideLef = useRef<HTMLDivElement>(null)
   const ListsRef = useRef<HTMLLIElement>(null)
-  const [activeIndex, setActiveIndex] = useState<number>(0)
+  const [activeIndex, setActiveIndex] = useState<number>(1)
   const IndicatorRef = useRef<HTMLDivElement>(null)
   const listRefs = useRef<(HTMLLIElement| null)[]>([]);
   const lists = ListsRef?.current;
+  useEffect(() => {
+   const autoPlaybanner = setInterval(() => {
+    setActiveIndex(prevIndex => {
+      const nextIndex = prevIndex === 5 ? 1 :prevIndex + 1
+      if (SlideLef.current){
+        SlideLef.current.className = `${styles.slide} ${styles[`slide${nextIndex}`]}`
+      }
+      return nextIndex
+    }) 
+   },3000)  
+   return () => clearInterval(autoPlaybanner)
+  
+  },[])
   
   
 
@@ -20,12 +33,8 @@ export const Banner = () => {
    if (SlideLef.current){
     SlideLef.current.className = `${styles.slide} ${styles[`slide${i}`]}`;
    }
-  //  if (lists) {
-  //   lists.className = `${styles.list} ${styles[`li${i}`]}`
-  //  }
   }
-
-  
+ 
   
   
   
