@@ -47,6 +47,7 @@ import onepiece6_5    from "../Images/ワンピースページの写真/ワン�
 import onepiece6_6    from "../Images/ワンピースページの写真/ワンピースページのリスト/ワンピース6のリスト写真/onepieceimg6.png"
 import { PagesChangetag } from "../Header/PagesChange.tsx";
 import spinerstyles from "../Loading/Loadingdots.module.css"
+import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
 export const OnePiece = () => {
 const [isVisable, setIsVisable] = useState(true);
 useEffect(() => {
@@ -57,15 +58,7 @@ useEffect(() => {
 },[]);
     return (
       isVisable ? (
-       <div className={spinerstyles.spindiv}>
-          <div className={spinerstyles.spinnerbox}>
-             <div className={spinerstyles.pulsecontainer}>
-                <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble1}`}></div>
-                <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble2}`}></div>
-                <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble3}`}></div>
-            </div>
-          </div>
-        </div>
+       <Loadingsquares />
       ) : (
         <div>
             <Makingtab />

@@ -12,6 +12,7 @@ import others5 from "../Images/その他ページの写真/その他ページの
 import others6 from "../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg6.png"
 import { PagesChangetag } from "../Header/PagesChange.tsx";
 import spinerstyles from "../Loading/Loadingdots.module.css"
+import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
 
 export const Others = () => {
   const [isVisable, setIsVisable] = useState(true);
@@ -23,15 +24,7 @@ export const Others = () => {
       },[]);
     return (
       isVisable ? (
-     <div className={spinerstyles.spindiv}>
-                     <div className={spinerstyles.spinnerbox}>
-                         <div className={spinerstyles.pulsecontainer}>
-                           <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble1}`}></div>
-                           <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble2}`}></div>
-                           <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble3}`}></div>
-                         </div>
-                     </div>
-                    </div>        
+       <Loadingsquares />
       ) : (
         <div>
          <Makingtab />

@@ -46,6 +46,7 @@ import dragonball6_5  from "../Images/ドラゴンボールページの写真/�
 import dragonball6_6  from "../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール6のリスト写真/dragonballimg6.png"
 import { PagesChangetag } from "../Header/PagesChange.tsx";
 import spinerstyles from "../Loading/Loadingdots.module.css"
+import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
 
 
 export const Dragonball = () => {
@@ -58,15 +59,7 @@ useEffect(() => {
 },[]);
     return (
       isVisable ? (
-        <div className={spinerstyles.spindiv}>
-                  <div className={spinerstyles.spinnerbox}>
-                     <div className={spinerstyles.pulsecontainer}>
-                        <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble1}`}></div>
-                        <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble2}`}></div>
-                        <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble3}`}></div>
-                    </div>
-                  </div>
-                </div>
+        <Loadingsquares />
       ) : (
         <div>
             <Makingtab />

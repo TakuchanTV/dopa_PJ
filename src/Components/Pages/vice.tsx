@@ -46,6 +46,7 @@ import vice6_5    from "../Images/ヴァイスページの写真/ヴァイス6�
 import vice6_6    from "../Images/ヴァイスページの写真/ヴァイス6のリスト写真/vicepageimg6.png"
 import { PagesChangetag } from "../Header/PagesChange.tsx";
 import spinerstyles from "../Loading/Loadingdots.module.css"
+import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
 export const Vice = () => {
 const [isVisable, setIsVisable] = useState(true);
   useEffect(() => {
@@ -56,15 +57,7 @@ const [isVisable, setIsVisable] = useState(true);
   },[]);
     return (
       isVisable ? (
-        <div className={spinerstyles.spindiv}>
-                                    <div className={spinerstyles.spinnerbox}>
-                                     <div className={spinerstyles.pulsecontainer}>
-                                        <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble1}`}></div>
-                                        <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble2}`}></div>
-                                        <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble3}`}></div>
-                                    </div>
-                                  </div>
-                                </div>
+       <Loadingsquares />
       ) : (
         <div>
             <Makingtab />

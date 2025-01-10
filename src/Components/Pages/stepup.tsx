@@ -4,6 +4,7 @@ import { Makingtab } from "../Header/Makingtab.tsx";
 import { Banner } from "../Header/Banner.tsx";
 import { PagesChangetag } from "../Header/PagesChange.tsx";
 import spinerstyles from "../Loading/Loadingdots.module.css"
+import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
 
 export const StepUp = () => {
 const [isVisable, setIsVisable] = useState(true);
@@ -15,15 +16,7 @@ const [isVisable, setIsVisable] = useState(true);
       },[]);
     return (
        isVisable ? (
-        <div className={spinerstyles.spindiv}>
-                             <div className={spinerstyles.spinnerbox}>
-                                 <div className={spinerstyles.pulsecontainer}>
-                                   <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble1}`}></div>
-                                   <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble2}`}></div>
-                                   <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble3}`}></div>
-                                 </div>
-                             </div>
-                            </div>
+        <Loadingsquares />
        )  : (
         <div>
             <Makingtab />

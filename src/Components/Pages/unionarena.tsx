@@ -18,6 +18,7 @@ import unionarena2_4 from "../Images/ユニオンアリーナページの写真/
 import unionarena2_5 from "../Images/ユニオンアリーナページの写真/ユニオンアリーナページのリスト/ユニオンアリーナ2のリスト写真/unionarenaimg5.png"
 import { PagesChangetag } from "../Header/PagesChange.tsx";
 import spinerstyles from "../Loading/Loadingdots.module.css"
+import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
 export const UnionArena = () => {
   const [isVisable, setIsVisable] = useState(true);
     useEffect(() => {
@@ -28,15 +29,7 @@ export const UnionArena = () => {
     },[]);
     return (
       isVisable ? (
-        <div className={spinerstyles.spindiv}>
-          <div className={spinerstyles.spinnerbox}>
-              <div className={spinerstyles.pulsecontainer}>
-                <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble1}`}></div>
-                <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble2}`}></div>
-                <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble3}`}></div>
-              </div>
-          </div>
-         </div>
+        <Loadingsquares />
       ) : (
         <div>
             <Makingtab />

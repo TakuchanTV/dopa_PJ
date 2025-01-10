@@ -32,6 +32,7 @@ import yuugiou4_5    from "../Images/遊戯王ページの写真/遊戯王ペー
 import yuugiou4_6    from "../Images/遊戯王ページの写真/遊戯王ページのリスト/遊戯王4のリスト写真/yuugiouimg6.png"
 import { PagesChangetag } from "../Header/PagesChange.tsx";
 import spinerstyles from "../Loading/Loadingdots.module.css"
+import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
 export const Yuugiou = () => {
   const [isVisable, setIsVisable] = useState(true);
   useEffect(() => {
@@ -42,15 +43,7 @@ export const Yuugiou = () => {
   },[]);
     return (
       isVisable ? (
-        <div className={spinerstyles.spindiv}>
-                          <div className={spinerstyles.spinnerbox}>
-                             <div className={spinerstyles.pulsecontainer}>
-                                <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble1}`}></div>
-                                <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble2}`}></div>
-                                <div className={`${spinerstyles.pulsebubble} ${spinerstyles.pulsebubble3}`}></div>
-                            </div>
-                          </div>
-                        </div>
+        <Loadingsquares />
       ) : (
         <div>
             <Makingtab />
