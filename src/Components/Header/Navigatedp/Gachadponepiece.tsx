@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from "../Navigatedp/Gachadp.module.css"
+import styles from "../../Header/Navigatedp/Gachadp.module.css"
 import arrow from "../../Images/リサイクル矢印1.png"
 import { useNavigate } from 'react-router-dom'
 export const Gachadponepiece = () => {

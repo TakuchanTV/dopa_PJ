@@ -2,13 +2,13 @@ import React from 'react'
 import styles from "../../Header/Navigatedp/Gachadp.module.css"
 import arrow from "../../Images/リサイクル矢印1.png"
 import { useNavigate } from 'react-router-dom'
-export const Gachadppokemon = () => {
+export const Gachaddragonball = () => {
     const navigate = useNavigate();
     const handleNavigate = () => {
-      navigate("/pokemon")
+      navigate("/dragonball")
     }
   const handleNavigatedp = () => {
-     navigate("/pokemon/dp")
+     navigate("/dragonball/dp")
   }
   return (
     <div className={styles.gachadp} >
