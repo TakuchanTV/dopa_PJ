@@ -49,6 +49,7 @@ import { PagesChangetag } from "../Header/PagesChange.tsx";
 import { Loadingdots } from "../Loading/Loadingdots.tsx";
 import spinerstyles from "../Loading/Loadingdots.module.css"
 import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
+import { Gachadppokemon } from "../Header/Navigatedp/Gachadppokemon.tsx";
 export const Pokemon = () => {
 const [isVisable, setIsVisable] = useState(true)
 useEffect(() => {
@@ -64,6 +65,7 @@ useEffect(() => {
       <div>
            <Makingtab />
            <Banner />
+           <Gachadppokemon />
            <PagesChangetag/>
            <div>
             <div className={styles.Div1}>
