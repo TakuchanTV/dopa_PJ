@@ -19,6 +19,7 @@ import unionarena2_5 from "../Images/ユニオンアリーナページの写真/
 import { PagesChangetag } from "../Header/PagesChange.tsx";
 import spinerstyles from "../Loading/Loadingdots.module.css"
 import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
+import { Gachadpunionarena } from "../Header/Navigatedp/Gachadpunionarena.tsx";
 export const UnionArena = () => {
   const [isVisable, setIsVisable] = useState(true);
     useEffect(() => {
@@ -34,6 +35,7 @@ export const UnionArena = () => {
         <div>
             <Makingtab />
             <Banner />
+            <Gachadpunionarena />
             <PagesChangetag/>
             
             <div>

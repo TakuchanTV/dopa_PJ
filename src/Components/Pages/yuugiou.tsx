@@ -33,6 +33,7 @@ import yuugiou4_6    from "../Images/遊戯王ページの写真/遊戯王ペー
 import { PagesChangetag } from "../Header/PagesChange.tsx";
 import spinerstyles from "../Loading/Loadingdots.module.css"
 import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
+import { Gachadpyuugiou } from "../Header/Navigatedp/Gachadpyuugiou.tsx";
 export const Yuugiou = () => {
   const [isVisable, setIsVisable] = useState(true);
   useEffect(() => {
@@ -48,6 +49,7 @@ export const Yuugiou = () => {
         <div>
             <Makingtab />
             <Banner />
+            <Gachadpyuugiou />
             <PagesChangetag />
             <div>
                <div className={styles.Div1}>
