@@ -1,0 +1,68 @@
+/*全てを囲っているdivタグ*/
+.charge{
+   display: flex; 
+   justify-content: center;  
+   align-items: center;
+   flex-direction: column;
+}
+.charge p{
+   font-size: 20px;
+}
+.charge span{
+   position: relative;
+   bottom: 20px;
+}
+/*.charge ここまで*/
+
+/*60円(500point)のデザイン*/
+.yen60{
+border: 1px solid black;
+width: 380px;
+border-radius: 20px;
+box-shadow: rgb(73, 224, 73) 2px 2px 15px;
+position: relative;
+}
+.yen60 .span1{
+   border: px solid black;
+   padding:20px 0px 20px 0px;
+   background-color: purple;
+   position: relative;
+   top: 0px;
+   right: 0px;
+   margin-bottom: -10px;
+   border-radius: 0 20px 20px 0 ;
+   writing-mode: vertical-lr;
+   transform: rotate(180deg);
+}
+.yen60 .span2{
+    position: relative;
+    left: 30px;
+   
+}
+.yen60 .span2 .span500{
+    position: relative;
+    left: 30px;
+    font-size: 30px;
+}
+.yen60 .span2 .point{
+    position: relative;
+    left: 30px;
+}
+.yen60 .span2 img{
+    position: relative;
+    right: 100px;
+    bottom: 10px;
+    width: 40px;
+}
+.yen60 .span3{
+    position: relative;
+    left: 140px;
+    bottom: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 23px;
+    padding:2px 30px;
+    background-color: rgb(141, 141, 141);
+    color: white;
+
+}
