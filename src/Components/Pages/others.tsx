@@ -13,6 +13,7 @@ import others6 from "../Images/その他ページの写真/その他ページの
 import { PagesChangetag } from "../Header/PagesChange.tsx";
 import spinerstyles from "../Loading/Loadingdots.module.css"
 import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
+import { Gachadpothers } from "../Header/Navigatedp/Gachadpothers.tsx";
 
 export const Others = () => {
   const [isVisable, setIsVisable] = useState(true);
@@ -29,6 +30,7 @@ export const Others = () => {
         <div>
          <Makingtab />
           <Banner />
+          <Gachadpothers />
           <PagesChangetag />
             <div>
                <div className={styles.Div1}>

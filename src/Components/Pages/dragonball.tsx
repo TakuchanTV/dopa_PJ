@@ -45,8 +45,8 @@ import dragonball6_4  from "../Images/ドラゴンボールページの写真/�
 import dragonball6_5  from "../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール6のリスト写真/dragonballimg5.png"
 import dragonball6_6  from "../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール6のリスト写真/dragonballimg6.png"
 import { PagesChangetag } from "../Header/PagesChange.tsx";
-import spinerstyles from "../Loading/Loadingdots.module.css"
 import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
+import { Gachaddragonball } from "../Header/Navigatedp/Gachadpdragonball.tsx";
 
 
 export const Dragonball = () => {
@@ -64,6 +64,7 @@ useEffect(() => {
         <div>
             <Makingtab />
             <Banner />
+            <Gachaddragonball />
             <PagesChangetag/>
             <div>
                <div className={styles.Div1}>

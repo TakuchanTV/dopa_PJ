@@ -48,6 +48,7 @@ import onepiece6_6    from "../Images/ワンピースページの写真/ワン�
 import { PagesChangetag } from "../Header/PagesChange.tsx";
 import spinerstyles from "../Loading/Loadingdots.module.css"
 import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
+import {Gachadponepiece} from "../Header/Navigatedp/Gachadponepiece.tsx"
 export const OnePiece = () => {
 const [isVisable, setIsVisable] = useState(true);
 useEffect(() => {
@@ -63,6 +64,7 @@ useEffect(() => {
         <div>
             <Makingtab />
             <Banner />
+            <Gachadponepiece/>
             <PagesChangetag/>
             <div>
                <div className={styles.Div1}>

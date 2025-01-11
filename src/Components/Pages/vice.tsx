@@ -47,6 +47,7 @@ import vice6_6    from "../Images/ヴァイスページの写真/ヴァイス6�
 import { PagesChangetag } from "../Header/PagesChange.tsx";
 import spinerstyles from "../Loading/Loadingdots.module.css"
 import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
+import { Gachadpvice } from "../Header/Navigatedp/Gachadpvice.tsx";
 export const Vice = () => {
 const [isVisable, setIsVisable] = useState(true);
   useEffect(() => {
@@ -62,6 +63,7 @@ const [isVisable, setIsVisable] = useState(true);
         <div>
             <Makingtab />
             <Banner />
+            <Gachadpvice />
            <PagesChangetag/>
             <div>
                <div className={styles.Div1}>
