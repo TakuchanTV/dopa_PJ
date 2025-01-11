@@ -56,7 +56,7 @@ import {PagesChangetag } from './Components/Header/PagesChange.tsx';
 import { Loadingdots } from './Components/Loading/Loadingdots.tsx';
 import { Loadingsquares } from './Components/Loading/Loadingsquares.tsx';
 import { useEffect, useState } from 'react';
-
+import { Gachadppokemon } from './Components/Header/Navigatedp/Gachadppokemon.tsx';
 const Home = () => {
   const [isVisable, setIsVisable] = useState(true)
       useEffect(() => {
@@ -73,6 +73,7 @@ const Home = () => {
     <div>
       <Makingtab />
       <Banner />
+      <Gachadppokemon />
       <PagesChangetag/>
           <div>
                <div className={styles.Div1}>
