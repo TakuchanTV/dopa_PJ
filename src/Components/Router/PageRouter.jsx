@@ -10,7 +10,6 @@ import {UnionArena} from "../Pages/unionarena.tsx"
 import { StepUp } from "../Pages/stepup.tsx"
 import { Others } from "../Pages/others.tsx"
 import { Charge } from "../Pages/charge.tsx"
-
 export const PageRouter = () => {
    return (
     <Routes >
