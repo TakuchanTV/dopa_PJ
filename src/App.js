@@ -20,6 +20,7 @@ import { Loadingdots } from './Components/Loading/Loadingdots.tsx';
 import { Loadingsquares } from './Components/Loading/Loadingsquares.tsx';
 import { useEffect, useState } from 'react';
 import { Gachadppokemon } from './Components/Header/Navigatedp/Gachadppokemon.tsx';
+import '@testing-library/jest-dom';
 const Home = () => {
   const [isVisable, setIsVisable] = useState(true)
       useEffect(() => {
