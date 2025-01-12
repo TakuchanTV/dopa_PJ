@@ -1,0 +1,521 @@
+/*全てを囲っているdivタグ*/
+.charge{
+   display: flex; 
+   justify-content: center;  
+   align-items: center;
+   flex-direction: column;
+   height: 1200px
+}
+.charge p{
+   font-size: 20px;
+}
+.charge span{
+   position: relative;
+   bottom: 20px;
+}
+/*.charge ここまで*/
+
+/*60円(500point)のデザインここから*/
+.yen60{
+border: 1px solid black;
+width: 380px;
+border-radius: 20px;
+box-shadow: rgb(73, 224, 73) 2px 2px 15px;
+position: relative;
+}
+.yen60 .span1{
+    border: px solid black;
+    padding:20px 0px 20px 0px;
+    background-color: rgb(218, 127, 15);
+    color: white;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    margin-bottom: -10px;
+    border-radius: 0 20px 20px 0 ;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+ }
+ .yen60 .span2{
+    position: relative;
+    left: 30px;
+}
+.yen60 .span2 .span500{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+}
+.yen60 .span2 .point{
+    position: relative;
+    left: 20px;
+}
+.yen60 .span2 img{
+    position: relative;
+    right: 110px;
+    bottom: 10px;
+    width: 40px;
+}
+.yen60 .span3{
+    position: relative;
+    left: 75px;
+    bottom: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 23px;
+    padding:2px 65px 2px 40px;
+    background-color: rgb(141, 141, 141);
+    color: white;
+    &:hover{
+        cursor: pointer;
+    }
+}
+/*60円(500point)のデザインここまで*/
+
+/*400円(1000point)のデザインここから*/
+
+.yen400{
+border: 1px solid black;
+width: 380px;
+border-radius: 20px;
+box-shadow: rgb(73, 224, 73) 2px 2px 15px;
+position: relative;
+top: 20px;
+}
+
+.yen400 .span1{
+   border: px solid black;
+   padding:20px 0px 20px 0px;
+   background-color: rgb(218, 127, 15);
+   color: white;
+   position: relative;
+   top: 0px;
+   right: 0px;
+   margin-bottom: -10px;
+   border-radius: 0 20px 20px 0 ;
+   writing-mode: vertical-lr;
+   transform: rotate(180deg);
+}
+.yen400 .span2{
+    position: relative;
+    left: 30px;
+}
+.yen400 .span2 .span1000{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+}
+.yen400 .span2 .point{
+    position: relative;
+    left: 20px;
+}
+
+.yen400 .span2 img{
+    position: relative;
+    right: 135px;
+    bottom: 10px;
+    width: 40px;
+}
+
+.yen400 .span3{
+    position: relative;
+    left: 55px;
+    bottom: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 23px;
+    padding:2px 50px 2px 40px;
+    background-color: rgb(141, 141, 141);
+    color: white;
+    &:hover{
+        cursor: pointer;
+    }
+}
+/*400円(1000point)のデザインここまで*/
+
+/*1500円(3000point)のデザインここから*/
+
+.yen1500{
+border: 1px solid black;
+width: 380px;
+border-radius: 20px;
+box-shadow: rgb(73, 224, 73) 2px 2px 15px;
+position: relative;
+top: 40px;
+}
+
+.yen1500 .span1{
+   border: px solid black;
+   padding:20px 0px 20px 0px;
+   background-color: rgb(218, 127, 15);
+   color: white;
+   position: relative;
+   top: 0px;
+   right: 0px;
+   margin-bottom: -10px;
+   border-radius: 0 20px 20px 0 ;
+   writing-mode: vertical-lr;
+   transform: rotate(180deg);
+}
+.yen1500 .span2{
+    position: relative;
+    left: 30px;
+}
+.yen1500 .span2 .span3000{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+}
+.yen1500 .span2 .point{
+    position: relative;
+    left: 20px;
+}
+
+.yen1500 .span2 img{
+    position: relative;
+    right: 135px;
+    bottom: 10px;
+    width: 40px;
+}
+
+.yen1500 .span3{
+    position: relative;
+    left: 55px;
+    bottom: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 23px;
+    padding:2px 30px 2px 40px;
+    background-color: rgb(141, 141, 141);
+    color: white;
+    &:hover{
+        cursor: pointer;
+    }
+}
+/*1500円(3000point)のデザインここまで*/
+
+/*3000円(5000point)のデザインここから*/
+
+.yen3000{
+border: 1px solid black;
+width: 380px;
+border-radius: 20px;
+box-shadow: rgb(73, 224, 73) 2px 2px 15px;
+position: relative;
+top: 60px;
+}
+
+.yen3000 .span1{
+   border: px solid black;
+   padding:20px 0px 20px 0px;
+   background-color: rgb(218, 127, 15);
+   color: white;
+   position: relative;
+   top: 0px;
+   right: 0px;
+   margin-bottom: -10px;
+   border-radius: 0 20px 20px 0 ;
+   writing-mode: vertical-lr;
+   transform: rotate(180deg);
+}
+.yen3000 .span2{
+    position: relative;
+    left: 30px;
+}
+.yen3000 .span2 .span5000{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+}
+.yen3000 .span2 .point{
+    position: relative;
+    left: 20px;
+}
+
+.yen3000 .span2 img{
+    position: relative;
+    right: 135px;
+    bottom: 10px;
+    width: 40px;
+}
+
+.yen3000 .span3{
+    position: relative;
+    left: 55px;
+    bottom: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 23px;
+    padding:2px 30px 2px 40px;
+    background-color: rgb(141, 141, 141);
+    color: white;
+    &:hover{
+        cursor: pointer;
+    }
+}
+/*3000円(5000point)のデザインここまで*/
+
+/*7000円(10000point)のデザインここから*/
+
+.yen7000{
+border: 1px solid black;
+width: 380px;
+border-radius: 20px;
+box-shadow: rgb(73, 224, 73) 2px 2px 15px;
+position: relative;
+top: 80px;
+}
+
+.yen7000 .span1{
+   border: px solid black;
+   padding:20px 0px 20px 0px;
+   background-color: rgb(218, 127, 15);
+   color: white;
+   position: relative;
+   top: 0px;
+   right: 0px;
+   margin-bottom: -10px;
+   border-radius: 0 20px 20px 0 ;
+   writing-mode: vertical-lr;
+   transform: rotate(180deg);
+}
+.yen7000 .span2{
+    position: relative;
+    left: 30px;
+}
+.yen7000 .span2 .span10000{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+}
+.yen7000 .span2 .point{
+    position: relative;
+    left: 20px;
+}
+
+.yen7000 .span2 img{
+    position: relative;
+    right: 150px;
+    bottom: 10px;
+    width: 40px;
+}
+
+.yen7000 .span3{
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 23px;
+    padding:2px 30px 2px 40px;
+    background-color: rgb(141, 141, 141);
+    color: white;
+    &:hover{
+        cursor: pointer;
+    }
+}
+/*7000円(10000point)のデザインここまで*/
+
+/*26100円(30000point)のデザインここから*/
+
+.yen26100{
+border: 1px solid black;
+width: 380px;
+border-radius: 20px;
+box-shadow: rgb(73, 224, 73) 2px 2px 15px;
+position: relative;
+top: 100px;
+}
+
+.yen26100 .span1{
+   border: px solid black;
+   padding:20px 0px 20px 0px;
+   background-color: rgb(218, 127, 15);
+   color: white;
+   position: relative;
+   top: 0px;
+   right: 0px;
+   margin-bottom: -10px;
+   border-radius: 0 20px 20px 0 ;
+   writing-mode: vertical-lr;
+   transform: rotate(180deg);
+}
+.yen26100 .span2{
+    position: relative;
+    left: 30px;
+}
+.yen26100 .span2 .span30000{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+}
+.yen26100 .span2 .point{
+    position: relative;
+    left: 20px;
+}
+
+.yen26100 .span2 img{
+    position: relative;
+    right: 150px;
+    bottom: 10px;
+    width: 40px;
+}
+
+.yen26100 .span3{
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 23px;
+    padding:2px 30px;
+    background-color: rgb(141, 141, 141);
+    color: white;
+    &:hover{
+        cursor: pointer;
+    }
+}
+/*26100円(30000point)のデザインここまで*/
+
+/*45000円(50000point)のデザインここから*/
+
+.yen45000{
+border: 1px solid black;
+width: 380px;
+border-radius: 20px;
+box-shadow: rgb(73, 224, 73) 2px 2px 15px;
+position: relative;
+top: 120px;
+}
+
+.yen45000 .span1{
+   border: px solid black;
+   padding:20px 0px 20px 0px;
+   background-color: rgb(218, 127, 15);
+   color: white;
+   position: relative;
+   top: 0px;
+   right: 0px;
+   margin-bottom: -10px;
+   border-radius: 0 20px 20px 0 ;
+   writing-mode: vertical-lr;
+   transform: rotate(180deg);
+}
+.yen45000 .span2{
+    position: relative;
+    left: 30px;
+}
+.yen45000 .span2 .span50000{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+}
+.yen45000 .span2 .point{
+    position: relative;
+    left: 20px;
+}
+
+.yen45000 .span2 img{
+    position: relative;
+    right: 150px;
+    bottom: 10px;
+    width: 40px;
+}
+
+.yen45000 .span3{
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 23px;
+    padding:2px 30px;
+    background-color: rgb(141, 141, 141);
+    color: white;
+    &:hover{
+        cursor: pointer;
+    }
+}
+/*45000円(50000point)のデザインここまで*/
+
+/*90000円(100000point)のデザインここから*/
+
+.yen90000{
+border: 1px solid black;
+width: 380px;
+border-radius: 20px;
+box-shadow: rgb(73, 224, 73) 2px 2px 15px;
+position: relative;
+top: 140px;
+}
+
+.yen90000 .span1{
+   border: px solid black;
+   padding:20px 0px 20px 0px;
+   background-color: rgb(218, 127, 15);
+   color: white;
+   position: relative;
+   top: 0px;
+   right: 0px;
+   margin-bottom: -10px;
+   border-radius: 0 20px 20px 0 ;
+   writing-mode: vertical-lr;
+   transform: rotate(180deg);
+}
+.yen90000 .span2{
+    position: relative;
+    left: 30px;
+}
+.yen90000 .span2 .span100000{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+}
+.yen90000 .span2 .point{
+    position: relative;
+    left: 20px;
+}
+
+.yen90000 .span2 img{
+    position: relative;
+    right: 165px;
+    bottom: 10px;
+    width: 40px;
+}
+
+.yen90000 .span3{
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 23px;
+    padding:2px 30px;
+    background-color: rgb(141, 141, 141);
+    color: white;
+    &:hover{
+        cursor: pointer;
+    }
+}
+/*90000円(100000point)のデザインここまで*/
+
+.button{
+    /* position: relative;
+    top: 140px; */
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 10px;
+    margin-top: 180px;
+}
+.button .back{
+    /* margin: 170px; */
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 23px;
+    padding:2px 70px;
+    background-color: rgb(141, 141, 141);
+    color: white;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
