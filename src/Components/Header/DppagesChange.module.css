@@ -1,0 +1,37 @@
+.tag{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 35px;
+    z-index: 1000;
+    /* background-color: rgb(63, 162, 63); */
+    padding: 10px;
+    overflow: hidden;
+    width: 100%;
+    background-color: aquamarine;
+  }
+  .spandiv{
+      /* background-color: yellow ; */
+       display: flex;
+  }
+  .spandiv div{
+    /* background-color: orange; */
+  }
+  .spandiv span{
+  }
+  .tag span {
+   padding: 10px;
+   margin: 0 15px;
+   font-family: "HGS創英角ﾎﾟｯﾌﾟ体";
+  &:hover{
+      cursor: pointer;
+  }}
+  .active{
+  background-color: rgb(125, 125, 239);
+  border-radius: 20px;
+  padding: 10px;
+  margin:0 15px;
+         }
