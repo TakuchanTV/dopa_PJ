@@ -80,6 +80,7 @@ console.log(PageArray);
   </div>
     )
 }
+
 const Sli = styled.li`
     list-style: none;
     font-size: 20px;
@@ -102,10 +103,12 @@ const Simg = styled.img`
 `
 const Sdivflex = styled.div`
   display: flex;
+  position: relative;
+  left: 300px;
 `
 const Scolorfulrod = styled.div`
     border-bottom: 5px solid;
-    height: 600px;
+    height: 300px;
     width: 80%;
     margin: 0 auto;
     border-image: linear-gradient(to right, rgb(233, 70, 70), #1ed724d6) 1;
