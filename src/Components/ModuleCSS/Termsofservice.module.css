@@ -1,0 +1,20 @@
+.terms{
+  
+}
+.div{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   right: 320px;
+}
+.div p{
+   position: relative; 
+   left: 450px;
+   margin-top: -5px;
+}
+.div h3{
+    position: relative;
+    left: 15px;
+}
