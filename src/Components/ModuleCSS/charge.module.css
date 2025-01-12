@@ -4,6 +4,7 @@
    justify-content: center;  
    align-items: center;
    flex-direction: column;
+   height: 1200px
 }
 .charge p{
    font-size: 20px;
@@ -496,3 +497,25 @@ top: 140px;
     }
 }
 /*90000円(100000point)のデザインここまで*/
+
+.button{
+    /* position: relative;
+    top: 140px; */
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 10px;
+    margin-top: 180px;
+}
+.button .back{
+    /* margin: 170px; */
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 23px;
+    padding:2px 70px;
+    background-color: rgb(141, 141, 141);
+    color: white;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
