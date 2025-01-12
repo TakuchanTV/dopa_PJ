@@ -2,6 +2,7 @@
   "name": "dopapj",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://TakuchanTV.github.io/dopa_PJ/",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
@@ -12,6 +13,7 @@
     "typed-css-modules": "^0.9.1"
   },
   "scripts": {
+    "deploy": "rm -rf docs && npm run build && mv build docs",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
