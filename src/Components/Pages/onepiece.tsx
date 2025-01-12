@@ -61,186 +61,168 @@ useEffect(() => {
       isVisable ? (
        <Loadingsquares />
       ) : (
-        <div>
-            <Makingtab />
-            <Banner />
-            <Gachadponepiece/>
-            <PagesChangetag/>
-            <div>
-               <div className={styles.Div1}>
-                 <div className={styles.div1}>
-                  <img src={onepieceimg1} className={styles.img} /> 
-                   <div className={styles.list1}>
-                    <span className={styles.span1}>
-                    <img src={onepiece1} className={styles.img1}/>
-                    </span>
-                    <span className={styles.span1}>
-                    <img src={onepiece2} className={styles.img2}/>
-                    </span>
-                    <span className={styles.span1}>
-                    <img src={onepiece3} className={styles.img3}/>
-                    </span>
-                    <span className={styles.span1}>
-                    <img src={onepiece4} className={styles.img4}/>
-                    </span>
-                    <span className={styles.span1}>
-                    <img src={onepiece5} className={styles.img5}/>
-                    </span>
-                    <span className={styles.span1}>
-                    <img src={onepiece6} className={styles.img6}/>
-                    </span>
-                   </div> 
-                   <button className={styles.button1}>
-                    <span className={styles.gacha}></span>
-                    <span>1回ガチャ</span>
-                   </button>
-                 </div>
-                 <div className={styles.div2}>
-                  <img src={onepieceimg2} className={styles.img} /> 
-                  <div className={styles.list2}>
-                  <span className={styles.span2}>
-                    <img src={onepiece2_1} className={styles.img1}/>
-                    </span>
-                    <span className={styles.span2}>
-                    <img src={onepiece2_2} className={styles.img2}/>
-                    </span>
-                    <span className={styles.span2}>
-                    <img src={onepiece2_3} className={styles.img3}/>
-                    </span>
-                    <span className={styles.span2}>
-                    <img src={onepiece2_4} className={styles.img4}/>
-                    </span>
-                    <span className={styles.span2}>
-                    <img src={onepiece2_5} className={styles.img5}/>
-                    </span>
-                   </div>
-                   <button className={styles.button2}>
-                    <span className={styles.gacha}></span>
-                    <span>1回ガチャ</span>
-                   </button>  
-                 </div>
-               </div>
-               <div className={styles.Div2}>
-                 <div className={styles.div3}>
-                  <img src={onepieceimg3} className={styles.img} /> 
-                  <div className={styles.list3}>
-                  <span className={styles.span3}>
-                    <img src={onepiece3_1} className={styles.img1}/>
-                    </span>
-                    <span className={styles.span3}>
-                    <img src={onepiece3_2} className={styles.img2}/>
-                    </span>
-                    <span className={styles.span3}>
-                    <img src={onepiece3_3} className={styles.img3}/>
-                    </span>
-                    <span className={styles.span3}>
-                    <img src={onepiece3_4} className={styles.img4}/>
-                    </span>
-                    <span className={styles.span3}>
-                    <img src={onepiece3_5} className={styles.img5}/>
-                    </span>
-                    <span className={styles.span3}>
-                    <img src={onepiece3_6} className={styles.img6}/>
-                    </span>
-                   </div>
-                   <button className={styles.button3}>
-                    <span className={styles.gacha}></span>
-                    <span>1回ガチャ</span>
-                   </button>  
-                 </div>
-                 <div className={styles.div4}>
-                  <img src={onepieceimg4} className={styles.img} />
-                  <div className={styles.list4}>
-                  <span className={styles.span4}>
-                    <img src={onepiece4_1} className={styles.img1}/>
-                    </span>
-                    <span className={styles.span4}>
-                    <img src={onepiece4_2} className={styles.img2}/>
-                    </span>
-                    <span className={styles.span4}>
-                    <img src={onepiece4_3} className={styles.img3}/>
-                    </span>
-                    <span className={styles.span4}>
-                    <img src={onepiece4_4} className={styles.img4}/>
-                    </span>
-                    <span className={styles.span4}>
-                    <img src={onepiece4_5} className={styles.img5}/>
-                    </span>
-                    <span className={styles.span4}>
-                    <img src={onepiece4_6} className={styles.img6}/>
-                    </span>
-                   </div>
-                   <button className={styles.button4}>
-                    <span className={styles.gacha}></span>
-                    <span>1回ガチャ</span>
-                   </button>    
-                 </div>
-               </div>
-               <div className={styles.Div3}>
-               <div className={styles.div5}>
-                  <img src={onepieceimg5} className={styles.img} /> 
-                  <div className={styles.list5}>
-                  <span className={styles.span5}>
-                    <img src={onepiece5_1} className={styles.img1}/>
-                    </span>
-                    <span className={styles.span5}>
-                    <img src={onepiece5_2} className={styles.img2}/>
-                    </span>
-                    <span className={styles.span5}>
-                    <img src={onepiece5_3} className={styles.img3}/>
-                    </span>
-                    <span className={styles.span5}>
-                    <img src={onepiece5_4} className={styles.img4}/>
-                    </span>
-                    <span className={styles.span5}>
-                    <img src={onepiece5_5} className={styles.img5}/>
-                    </span>
-                    <span className={styles.span5}>
-                    <img src={onepiece5_6} className={styles.img6}/>
-                    </span>
-                   </div>
-                   <div className={styles.button}>
-                   <button className={styles.button5_1}>
-                    <span className={styles.gacha}></span>
-                    <span>1回ガチャ</span>
-                   </button>  
-                   <button className={styles.button5_2}>
-                    <span className={styles.gacha}></span>
-                    <span>10連ガチャ</span>
-                   </button>  
-                   </div>
-                 </div>
-                 <div className={styles.div6}>
-                  <img src={onepieceimg6} className={styles.img} /> 
-                  <div className={styles.list6}>
-                  <span className={styles.span6}>
-                    <img src={onepiece6_1} className={styles.img1}/>
-                    </span>
-                    <span className={styles.span6}>
-                    <img src={onepiece6_2} className={styles.img2}/>
-                    </span>
-                    <span className={styles.span6}>
-                    <img src={onepiece6_3} className={styles.img3}/>
-                    </span>
-                    <span className={styles.span6}>
-                    <img src={onepiece6_4} className={styles.img4}/>
-                    </span>
-                    <span className={styles.span6}>
-                    <img src={onepiece6_5} className={styles.img5}/>
-                    </span>
-                    <span className={styles.span6}>
-                    <img src={onepiece6_6} className={styles.img6}/>
-                    </span>
-                   </div>
-                   <button className={styles.button6}>
-                    <span className={styles.gacha}></span>
-                    <span>1回ガチャ</span>
-                   </button>  
-                 </div>
-               </div>
+        <div className={styles.fixwidth}>
+        <Makingtab />
+        <Banner />
+        <Gachadponepiece />
+        <PagesChangetag/>
+        <div className={styles.div}>
+         <div className={styles.Div1}>
+           <div className={styles.div1}>
+            <img src={onepieceimg1} className={styles.img} /> 
+             <div className={styles.list1}>
+              <span className={styles.span1}>
+              <img src={onepiece1} className={styles.img1}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece2} className={styles.img2}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece3} className={styles.img3}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece4} className={styles.img4}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece5} className={styles.img5}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece6} className={styles.img6}/>
+              </span>
              </div>
-           <Footer />
-        </div>
+             <div>
+             <button className={styles.button1_1}>
+              <span className={styles.gacha}></span>
+              <span>1回ガチャ</span>
+             </button>
+             <button className={styles.button1_2}>
+              <span className={styles.gacha}></span>
+              <span>10連ガチャ</span>
+             </button>
+             </div> 
+             <button className={styles.button1_3}>
+              <span className={styles.gacha}></span>
+              <span>100連ガチャ</span>
+             </button>
+           </div>
+           <div className={styles.div1}>
+            <img src={onepieceimg1} className={styles.img} /> 
+             <div className={styles.list1}>
+              <span className={styles.span1}>
+              <img src={onepiece1} className={styles.img1}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece2} className={styles.img2}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece3} className={styles.img3}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece4} className={styles.img4}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece5} className={styles.img5}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece6} className={styles.img6}/>
+              </span>
+             </div>
+             <div>
+             <button className={styles.button1_1}>
+              <span className={styles.gacha}></span>
+              <span>1回ガチャ</span>
+             </button>
+             <button className={styles.button1_2}>
+              <span className={styles.gacha}></span>
+              <span>10連ガチャ</span>
+             </button>
+             </div> 
+             <button className={styles.button1_3}>
+              <span className={styles.gacha}></span>
+              <span>100連ガチャ</span>
+             </button>
+           </div>
+          
+         </div>
+         <div className={styles.Div2}>
+         <div className={styles.div1}>
+            <img src={onepieceimg1} className={styles.img} /> 
+             <div className={styles.list1}>
+              <span className={styles.span1}>
+              <img src={onepiece1} className={styles.img1}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece2} className={styles.img2}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece3} className={styles.img3}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece4} className={styles.img4}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece5} className={styles.img5}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece6} className={styles.img6}/>
+              </span>
+             </div>
+             <div>
+             <button className={styles.button1_1}>
+              <span className={styles.gacha}></span>
+              <span>1回ガチャ</span>
+             </button>
+             <button className={styles.button1_2}>
+              <span className={styles.gacha}></span>
+              <span>10連ガチャ</span>
+             </button>
+             </div> 
+             <button className={styles.button1_3}>
+              <span className={styles.gacha}></span>
+              <span>100連ガチャ</span>
+             </button>
+           </div>
+           <div className={styles.div1}>
+            <img src={onepieceimg1} className={styles.img} /> 
+             <div className={styles.list1}>
+              <span className={styles.span1}>
+              <img src={onepiece1} className={styles.img1}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece2} className={styles.img2}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece3} className={styles.img3}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece4} className={styles.img4}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece5} className={styles.img5}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={onepiece6} className={styles.img6}/>
+              </span>
+             </div>
+             <div>
+             <button className={styles.button1_1}>
+              <span className={styles.gacha}></span>
+              <span>1回ガチャ</span>
+             </button>
+             <button className={styles.button1_2}>
+              <span className={styles.gacha}></span>
+              <span>10連ガチャ</span>
+             </button>
+             </div> 
+             <button className={styles.button1_3}>
+              <span className={styles.gacha}></span>
+              <span>100連ガチャ</span>
+             </button>
+           </div>
+         </div>
+       </div>
+     <Footer /> 
+      </div>
       )
     )
 };

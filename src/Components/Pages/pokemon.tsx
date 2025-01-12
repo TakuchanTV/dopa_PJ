@@ -5,11 +5,7 @@ import { Makingtab } from "../Header/Makingtab.tsx";
 import { Banner } from "../Header/Banner.tsx";
 import styles from "../ModuleCSS/pokemon.module.css"
 import pokemonimg1 from "../Images/ポケモンページの写真/pokemonimg1.png"
-import pokemonimg2 from "../Images/ポケモンページの写真/pokemonimg2.png"
-import pokemonimg3 from "../Images/ポケモンページの写真/pokemonimg3.png"
-import pokemonimg4 from "../Images/ポケモンページの写真/pokemonimg4.png"
-import pokemonimg5 from "../Images/ポケモンページの写真/pokemonimg5.png"
-import pokemonimg6 from "../Images/ポケモンページの写真/pokemonimg6.png"
+
 import pokemon1 from "../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon1.png"
 import pokemon2 from "../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon2.png"
 import pokemon3 from "../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon3.png"

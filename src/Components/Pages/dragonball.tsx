@@ -61,186 +61,168 @@ useEffect(() => {
       isVisable ? (
         <Loadingsquares />
       ) : (
-        <div>
-            <Makingtab />
-            <Banner />
-            <Gachaddragonball />
-            <PagesChangetag/>
-            <div>
-               <div className={styles.Div1}>
-                 <div className={styles.div1}>
-                  <img src={dragonballimg1} className={styles.img} /> 
-                   <div className={styles.list1}>
-                    <span className={styles.span1}>
-                    <img src={dragonball1} className={styles.img1}/>
-                    </span>
-                    <span className={styles.span1}>
-                    <img src={dragonball2} className={styles.img2}/>
-                    </span>
-                    <span className={styles.span1}>
-                    <img src={dragonball3} className={styles.img3}/>
-                    </span>
-                    <span className={styles.span1}>
-                    <img src={dragonball4} className={styles.img4}/>
-                    </span>
-                    <span className={styles.span1}>
-                    <img src={dragonball5} className={styles.img5}/>
-                    </span>
-                    <span className={styles.span1}>
-                    <img src={dragonball6} className={styles.img6}/>
-                    </span>
-                   </div> 
-                   <button className={styles.button1}>
-                    <span className={styles.gacha}></span>
-                    <span>1回ガチャ</span>
-                   </button>
-                 </div>
-                 <div className={styles.div2}>
-                  <img src={dragonballimg2} className={styles.img} /> 
-                  <div className={styles.list2}>
-                  <span className={styles.span2}>
-                    <img src={dragonball2_1} className={styles.img1}/>
-                    </span>
-                    <span className={styles.span2}>
-                    <img src={dragonball2_2} className={styles.img2}/>
-                    </span>
-                    <span className={styles.span2}>
-                    <img src={dragonball2_3} className={styles.img3}/>
-                    </span>
-                    <span className={styles.span2}>
-                    <img src={dragonball2_4} className={styles.img4}/>
-                    </span>
-                    <span className={styles.span2}>
-                    <img src={dragonball2_5} className={styles.img5}/>
-                    </span>
-                   </div>
-                   <button className={styles.button2}>
-                    <span className={styles.gacha}></span>
-                    <span>1回ガチャ</span>
-                   </button>  
-                 </div>
-               </div>
-               <div className={styles.Div2}>
-                 <div className={styles.div3}>
-                  <img src={dragonballimg3} className={styles.img} /> 
-                  <div className={styles.list3}>
-                  <span className={styles.span3}>
-                    <img src={dragonball3_1} className={styles.img1}/>
-                    </span>
-                    <span className={styles.span3}>
-                    <img src={dragonball3_2} className={styles.img2}/>
-                    </span>
-                    <span className={styles.span3}>
-                    <img src={dragonball3_3} className={styles.img3}/>
-                    </span>
-                    <span className={styles.span3}>
-                    <img src={dragonball3_4} className={styles.img4}/>
-                    </span>
-                    <span className={styles.span3}>
-                    <img src={dragonball3_5} className={styles.img5}/>
-                    </span>
-                    <span className={styles.span3}>
-                    <img src={dragonball3_6} className={styles.img6}/>
-                    </span>
-                   </div>
-                   <button className={styles.button3}>
-                    <span className={styles.gacha}></span>
-                    <span>1回ガチャ</span>
-                   </button>  
-                 </div>
-                 <div className={styles.div4}>
-                  <img src={dragonballimg4} className={styles.img} />
-                  <div className={styles.list4}>
-                  <span className={styles.span4}>
-                    <img src={dragonball4_1} className={styles.img1}/>
-                    </span>
-                    <span className={styles.span4}>
-                    <img src={dragonball4_2} className={styles.img2}/>
-                    </span>
-                    <span className={styles.span4}>
-                    <img src={dragonball4_3} className={styles.img3}/>
-                    </span>
-                    <span className={styles.span4}>
-                    <img src={dragonball4_4} className={styles.img4}/>
-                    </span>
-                    <span className={styles.span4}>
-                    <img src={dragonball4_5} className={styles.img5}/>
-                    </span>
-                    <span className={styles.span4}>
-                    <img src={dragonball4_6} className={styles.img6}/>
-                    </span>
-                   </div>
-                   <button className={styles.button4}>
-                    <span className={styles.gacha}></span>
-                    <span>1回ガチャ</span>
-                   </button>    
-                 </div>
-               </div>
-               <div className={styles.Div3}>
-               <div className={styles.div5}>
-                  <img src={dragonballimg5} className={styles.img} /> 
-                  <div className={styles.list5}>
-                  <span className={styles.span5}>
-                    <img src={dragonball5_1} className={styles.img1}/>
-                    </span>
-                    <span className={styles.span5}>
-                    <img src={dragonball5_2} className={styles.img2}/>
-                    </span>
-                    <span className={styles.span5}>
-                    <img src={dragonball5_3} className={styles.img3}/>
-                    </span>
-                    <span className={styles.span5}>
-                    <img src={dragonball5_4} className={styles.img4}/>
-                    </span>
-                    <span className={styles.span5}>
-                    <img src={dragonball5_5} className={styles.img5}/>
-                    </span>
-                    <span className={styles.span5}>
-                    <img src={dragonball5_6} className={styles.img6}/>
-                    </span>
-                   </div>
-                   <div className={styles.button}>
-                   <button className={styles.button5_1}>
-                    <span className={styles.gacha}></span>
-                    <span>1回ガチャ</span>
-                   </button>  
-                   <button className={styles.button5_2}>
-                    <span className={styles.gacha}></span>
-                    <span>10連ガチャ</span>
-                   </button>  
-                   </div>
-                 </div>
-                 <div className={styles.div6}>
-                  <img src={dragonballimg6} className={styles.img} /> 
-                  <div className={styles.list6}>
-                  <span className={styles.span6}>
-                    <img src={dragonball6_1} className={styles.img1}/>
-                    </span>
-                    <span className={styles.span6}>
-                    <img src={dragonball6_2} className={styles.img2}/>
-                    </span>
-                    <span className={styles.span6}>
-                    <img src={dragonball6_3} className={styles.img3}/>
-                    </span>
-                    <span className={styles.span6}>
-                    <img src={dragonball6_4} className={styles.img4}/>
-                    </span>
-                    <span className={styles.span6}>
-                    <img src={dragonball6_5} className={styles.img5}/>
-                    </span>
-                    <span className={styles.span6}>
-                    <img src={dragonball6_6} className={styles.img6}/>
-                    </span>
-                   </div>
-                   <button className={styles.button6}>
-                    <span className={styles.gacha}></span>
-                    <span>1回ガチャ</span>
-                   </button>  
-                 </div>
-               </div>
+        <div className={styles.fixwidth}>
+        <Makingtab />
+        <Banner />
+        <Gachaddragonball />
+        <PagesChangetag/>
+        <div className={styles.div}>
+         <div className={styles.Div1}>
+           <div className={styles.div1}>
+            <img src={dragonballimg1} className={styles.img} /> 
+             <div className={styles.list1}>
+              <span className={styles.span1}>
+              <img src={dragonball1} className={styles.img1}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball2} className={styles.img2}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball3} className={styles.img3}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball4} className={styles.img4}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball5} className={styles.img5}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball6} className={styles.img6}/>
+              </span>
              </div>
-           <Footer />
-        </div>
+             <div>
+             <button className={styles.button1_1}>
+              <span className={styles.gacha}></span>
+              <span>1回ガチャ</span>
+             </button>
+             <button className={styles.button1_2}>
+              <span className={styles.gacha}></span>
+              <span>10連ガチャ</span>
+             </button>
+             </div> 
+             <button className={styles.button1_3}>
+              <span className={styles.gacha}></span>
+              <span>100連ガチャ</span>
+             </button>
+           </div>
+           <div className={styles.div1}>
+            <img src={dragonballimg1} className={styles.img} /> 
+             <div className={styles.list1}>
+              <span className={styles.span1}>
+              <img src={dragonball1} className={styles.img1}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball2} className={styles.img2}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball3} className={styles.img3}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball4} className={styles.img4}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball5} className={styles.img5}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball6} className={styles.img6}/>
+              </span>
+             </div>
+             <div>
+             <button className={styles.button1_1}>
+              <span className={styles.gacha}></span>
+              <span>1回ガチャ</span>
+             </button>
+             <button className={styles.button1_2}>
+              <span className={styles.gacha}></span>
+              <span>10連ガチャ</span>
+             </button>
+             </div> 
+             <button className={styles.button1_3}>
+              <span className={styles.gacha}></span>
+              <span>100連ガチャ</span>
+             </button>
+           </div>
+          
+         </div>
+         <div className={styles.Div2}>
+         <div className={styles.div1}>
+            <img src={dragonballimg1} className={styles.img} /> 
+             <div className={styles.list1}>
+              <span className={styles.span1}>
+              <img src={dragonball1} className={styles.img1}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball2} className={styles.img2}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball3} className={styles.img3}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball4} className={styles.img4}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball5} className={styles.img5}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball6} className={styles.img6}/>
+              </span>
+             </div>
+             <div>
+             <button className={styles.button1_1}>
+              <span className={styles.gacha}></span>
+              <span>1回ガチャ</span>
+             </button>
+             <button className={styles.button1_2}>
+              <span className={styles.gacha}></span>
+              <span>10連ガチャ</span>
+             </button>
+             </div> 
+             <button className={styles.button1_3}>
+              <span className={styles.gacha}></span>
+              <span>100連ガチャ</span>
+             </button>
+           </div>
+           <div className={styles.div1}>
+            <img src={dragonballimg1} className={styles.img} /> 
+             <div className={styles.list1}>
+              <span className={styles.span1}>
+              <img src={dragonball1} className={styles.img1}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball2} className={styles.img2}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball3} className={styles.img3}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball4} className={styles.img4}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball5} className={styles.img5}/>
+              </span>
+              <span className={styles.span1}>
+              <img src={dragonball6} className={styles.img6}/>
+              </span>
+             </div>
+             <div>
+             <button className={styles.button1_1}>
+              <span className={styles.gacha}></span>
+              <span>1回ガチャ</span>
+             </button>
+             <button className={styles.button1_2}>
+              <span className={styles.gacha}></span>
+              <span>10連ガチャ</span>
+             </button>
+             </div> 
+             <button className={styles.button1_3}>
+              <span className={styles.gacha}></span>
+              <span>100連ガチャ</span>
+             </button>
+           </div>
+         </div>
+       </div>
+     <Footer /> 
+      </div>
       )
     )
 };
