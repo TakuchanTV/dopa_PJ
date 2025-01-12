@@ -1,8 +1,11 @@
 import React from "react";
 import styles from "../ModuleCSS/charge.module.css"
 import Coin from "../Images/Coin.png"
+import { useNavigate } from "react-router-dom";
 
 export const Charge = () => {
+  const navigate = useNavigate();
+  const handleNavigate = () => navigate("/")
     return (
         <div className={styles.charge}>
           <p>ポイントを選択</p>
@@ -94,6 +97,9 @@ export const Charge = () => {
             <img src={Coin} />
             </span>
             <span className={styles.span3}>￥90,000</span>
+          </div>
+          <div className={styles.button}>
+          <button className={styles.back} onClick={handleNavigate}>戻る</button>
           </div>
         </div>
     )
