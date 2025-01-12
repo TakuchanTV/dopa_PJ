@@ -12,5 +12,6 @@ declare module "*./Loadingdots.module.css";
 declare module "*../Loading/Loadingdots.module.css";
 declare module "*../Loading/Loadingsquares.module.css";
 declare module "*../../Header/Navigatedp/Gachadp.module.css";
-declare module "*../ModuleCSS/charge.module.css"
+declare module "*../ModuleCSS/charge.module.css";
+declare module "*../ModuleCSS/Termsofservice.module.css"
 
