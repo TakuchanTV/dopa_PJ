@@ -12,5 +12,13 @@ declare module "*./Loadingdots.module.css";
 declare module "*../Loading/Loadingdots.module.css";
 declare module "*../Loading/Loadingsquares.module.css";
 declare module "*../../Header/Navigatedp/Gachadp.module.css";
-declare module "*../ModuleCSS/charge.module.css"
+declare module "*../ModuleCSS/charge.module.css";
+declare module "*../DPpagesModuleCSS/Dppokemon.module.css";
+declare module "*../DPpagesModuleCSS/Dponepiece.module.css";
+declare module "*../DPpagesModuleCSS/Dpdragonball.module.css";
+declare module "*../DPpagesModuleCSS/Dpyuugiou.module.css";
+declare module "*../DPpagesModuleCSS/Dpvice.module.css"
+declare module "*../DPpagesModuleCSS/Dpunionarena.module.css";
+declare module "*../DPpagesModuleCSS/Dpothers.module.css";
+declare module "*../Header/DppagesChange.module.css"
 

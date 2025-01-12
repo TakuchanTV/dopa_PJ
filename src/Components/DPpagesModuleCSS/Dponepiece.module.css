@@ -1,0 +1,211 @@
+.divwidth{
+    overflow-x: hidden;
+}
+.carddiv{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0 -40px 0;
+    background-color: white;
+}
+/*card1　ここから*/
+.card1{
+    border: 2px solid black;
+    width: 150px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 20px;
+   
+}
+.card1 img{
+    width: 120px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+.card1 .span1{
+ position: relative;
+ top: 30px;
+ left: 20px;
+ white-space: nowrap;
+ font-weight:bold ;
+}
+.card1 .span1 span{
+    color: red;
+}
+.card1 .DP{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    border: 2px black solid;
+    width: 20px;
+    height: 220px;
+    padding:3px 30px;
+    border-radius: 20px;
+    &:hover{
+        cursor: pointer;
+        background-color: aqua;
+    }
+}
+
+/*card1　ここまで*/
+/*card2　ここから*/
+
+.card2{
+    border: 2px solid black;
+    width: 150px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 20px;
+    
+}
+.card2 img{
+    width: 120px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+.card2 .span1{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    white-space: nowrap;
+    font-weight:bold ;
+   }
+   .card2 .span1 span{
+       color: red;
+   }
+   .card2 .DP{
+       position: relative;
+       top: 40px;
+       left: 20px;
+       border: 2px black solid;
+       width: 20px;
+       height: 220px;
+       padding:3px 30px;
+       border-radius: 20px;
+       &:hover{
+           cursor: pointer;
+           background-color: aqua;
+       }
+   }
+/*card2　ここまで*/
+/*card3　ここから*/
+
+.card3{
+    border: 2px solid black;
+    width: 150px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 20px;
+}
+.card3 img{
+    width: 120px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+.card3 .span1{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    white-space: nowrap;
+    font-weight:bold ;
+   }
+   .card3 .span1 span{
+       color: red;
+   }
+   .card3 .DP{
+       position: relative;
+       top: 40px;
+       left: 20px;
+       border: 2px black solid;
+       width: 20px;
+       height: 220px;
+       padding:3px 30px;
+       border-radius: 20px;
+       &:hover{
+           cursor: pointer;
+           background-color: aqua;
+       }
+   }
+/*card3　ここまで*/
+/*card4　ここから*/
+
+.card4{
+    border: 2px solid black;
+    width: 150px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 20px;
+}
+.card4 img{
+    width: 120px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+.card4 .span1{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    white-space: nowrap;
+    font-weight:bold ;
+   }
+   .card4 .span1 span{
+       color: red;
+   }
+   .card4 .DP{
+       position: relative;
+       top: 40px;
+       left: 20px;
+       border: 2px black solid;
+       width: 20px;
+       height: 220px;
+       padding:3px 30px;
+       border-radius: 20px;
+       &:hover{
+           cursor: pointer;
+           background-color: aqua;
+       }
+   }
+/*card4　ここまで*/
+/*card5　ここから*/
+.card5{
+    border: 2px solid black;
+    width: 150px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 20px;
+}
+.card5 img{
+    width: 120px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+.card5 .span1{
+    position: relative;
+    top: 30px;
+    left: 20px;
+    white-space: nowrap;
+    font-weight:bold ;
+   }
+   .card5 .span1 span{
+       color: red;
+   }
+   .card5 .DP{
+       position: relative;
+       top: 40px;
+       left: 20px;
+       border: 2px black solid;
+       width: 20px;
+       height: 220px;
+       padding:3px 30px;
+       border-radius: 20px;
+       &:hover{
+           cursor: pointer;
+           background-color: aqua;
+       }
+   }
+/*card5　ここまで*/
