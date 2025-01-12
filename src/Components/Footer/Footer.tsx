@@ -24,6 +24,12 @@ console.log(PageArray);
       behavior:"smooth"
     })
   }
+  const PageArray2:string[] = [
+    "/termsofservice",
+  ]
+  const navigateEachPages2 = (i:number) => {
+    navigate(PageArray2[i])
+  }
   
     return (
   <div>
@@ -62,7 +68,7 @@ console.log(PageArray);
      <Sli>
        DOPA!について 
      </Sli>
-     <Sli2>
+     <Sli2 onClick={()=>navigateEachPages2(0)}>
        利用規約
      </Sli2>
      <Sli2>
