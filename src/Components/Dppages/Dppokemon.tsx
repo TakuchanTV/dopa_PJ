@@ -10,13 +10,14 @@ import pokemonimg2 from "../Images/DPページの写真/ポケモン/img2.png"
 import pokemonimg3 from "../Images/DPページの写真/ポケモン/img3.png"
 import pokemonimg4 from "../Images/DPページの写真/ポケモン/img4.png"
 import pokemonimg5 from "../Images/DPページの写真/ポケモン/img5.png"
+import { DppagesChange } from '../Header/DppagesChange.tsx'
 export const Dppokemon = () => {
   return (
    <div className={styles.divwidth}>
          <Makingtab />
           <Banner />
        <Gachadppokemon />
-      <PagesChangetag/>
+      <DppagesChange/>
       <div className={styles.carddiv}>
         <div className={styles.card1}>
           <img src={pokemonimg1} />
