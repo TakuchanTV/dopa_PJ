@@ -2,7 +2,7 @@
   "name": "dopapj",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://takuchantv.github.io/dopa_PJ/",
+  "homepage": "https://TakuchanTV.github.io/dopa_PJ/",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",

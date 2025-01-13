@@ -1,4 +1,4 @@
-import { BrowserRouter, Route,Routes, useNavigate } from 'react-router-dom';
+import { HashRouter, Route,Routes, useNavigate } from 'react-router-dom';
 import {PageRouter} from './Components/Router/PageRouter';
 import './App.css';
 import { Footer } from './Components/Footer/Footer.tsx';
@@ -198,16 +198,16 @@ const Home = () => {
     )
   )
 }
-
+const URL = process.env.PUBLIC_URL;
 function App() {
   return (
     <div >
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path='/' element={<Home />} />
         </Routes>
         <PageRouter/>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
