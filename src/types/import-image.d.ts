@@ -20,5 +20,10 @@ declare module "*../DPpagesModuleCSS/Dpyuugiou.module.css";
 declare module "*../DPpagesModuleCSS/Dpvice.module.css"
 declare module "*../DPpagesModuleCSS/Dpunionarena.module.css";
 declare module "*../DPpagesModuleCSS/Dpothers.module.css";
-declare module "*../Header/DppagesChange.module.css"
+declare module "*../Header/DppagesChange.module.css";
+declare module "*../../Header/Makingtab.module.css"
+declare module "*../PhoneModuleCSS/PhoneMakingtab.module.css"
+declare module "*../Responsivepages/ResponsiveCSS/ResPokemon.module.css";
+
+
 
