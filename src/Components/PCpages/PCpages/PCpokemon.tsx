@@ -15,6 +15,7 @@ import pokemon6 from "../../Images/ポケモンページの写真/ポケモン�
 
 import { Footer } from '../../Footer/Footer.tsx'
 import { ResMakingtab } from '../../Responsivepages/ResponsiveHeader/ResMakingtab.tsx'
+import { ResGachadppokemon } from '../../Responsivepages/ResponsiveHeader/Navigatedp/ResGachadppokemon.tsx'
 
 
 
@@ -41,7 +42,7 @@ export const PCpokemon = () => {
     <div className={styles.fixwidth}>
     <ResMakingtab/>
     <Banner />
-    <Gachadppokemon />
+    <ResGachadppokemon />
     <PagesChangetag/>
     <div className={styles.div}>
      <div className={styles.Div1}>
