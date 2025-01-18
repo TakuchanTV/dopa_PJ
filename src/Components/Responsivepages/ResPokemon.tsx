@@ -15,10 +15,8 @@ import pokemon3 from "../Images/ポケモンページの写真/ポケモンペ�
 import pokemon4 from "../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon4.png"
 import pokemon5 from "../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon5.png"
 import pokemon6 from "../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon6.png"
-import { Footer } from '../Footer/Footer.tsx'
-import { Pokemon } from '../Pages/pokemon.tsx'
 import { PCpokemon } from '../PCpages/PCpages/PCpokemon.tsx'
-import { ResMakingtab } from './ResponsiveHeader/ResMakingtab.tsx'
+import { PhonePokemon } from '../Phonepages/Phonepages/PhonePokemon.tsx'
 
 
 
@@ -29,7 +27,8 @@ export const ResPokemon = () => {
       {/*414px以上はデスクトップの画面*/}  
       {isDesktop && <PCpokemon />}
       {/*414px未満はモバイル用の画面*/}  
-      {!isDesktop && <ResMakingtab />
+      {!isDesktop && <PhonePokemon />
+
   //     <div className={styles2.fixwidth}>
   //     <Makingtab />
   //     <Banner />
