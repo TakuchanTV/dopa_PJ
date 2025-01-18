@@ -1,7 +1,7 @@
 import React from 'react'
 import { useMediaQuery } from 'react-responsive'
-import { Banner } from '../../Header/Banner'
-import { PhoneBanner } from '../../Phonepages/PhoneHeader/PhoneBanner'
+import { Banner } from '../../Header/Banner.tsx'
+import { PhoneBanner } from '../../Phonepages/PhoneHeader/PhoneBanner.tsx'
 
 export const ResBanner = () => {
 const isDesktop: boolean = useMediaQuery({query: `(min-width: 414px)`})  
