@@ -24,7 +24,9 @@ declare module "*../Header/DppagesChange.module.css";
 declare module "*../../Header/Makingtab.module.css"
 declare module "*../PhoneModuleCSS/PhoneMakingtab.module.css"
 declare module "*../Responsivepages/ResponsiveCSS/ResPokemon.module.css";
-declare module "*../PhoneModuleCSS/PhoneBanner.module.css"
+declare module "*../PhoneModuleCSS/PhoneBanner.module.css";
+declare module "*../PhoneModuleCSS/PhonePokemon.module.css";
+declare module "*../Navigatedp/PhoneGachadppokemon.module.css"
 
 
 
