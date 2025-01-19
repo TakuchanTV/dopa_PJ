@@ -26,7 +26,8 @@ declare module "*../PhoneModuleCSS/PhoneMakingtab.module.css"
 declare module "*../Responsivepages/ResponsiveCSS/ResPokemon.module.css";
 declare module "*../PhoneModuleCSS/PhoneBanner.module.css";
 declare module "*../PhoneModuleCSS/PhonePokemon.module.css";
-declare module "*../Navigatedp/PhoneGachadppokemon.module.css"
+declare module "*../Navigatedp/PhoneGachadppokemon.module.css";
+declare module "*../PhoneModuleCSS/PhonePagesChange.module.css"
 
 
 
