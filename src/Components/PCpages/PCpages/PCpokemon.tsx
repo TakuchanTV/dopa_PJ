@@ -17,6 +17,7 @@ import { Footer } from '../../Footer/Footer.tsx'
 import { ResMakingtab } from '../../Responsivepages/ResponsiveHeader/ResMakingtab.tsx'
 import { ResGachadppokemon } from '../../Responsivepages/ResponsiveHeader/Navigatedp/ResGachadppokemon.tsx'
 import { ResBanner } from '../../Responsivepages/ResponsiveHeader/ResBanner.tsx'
+import { ResPagesChange } from '../../Responsivepages/ResponsiveHeader/ResPagesChange.tsx'
 
 
 
@@ -44,7 +45,7 @@ export const PCpokemon = () => {
     <ResMakingtab/>
     <ResBanner />
     <ResGachadppokemon />
-    <PagesChangetag/>
+    <ResPagesChange/>
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
