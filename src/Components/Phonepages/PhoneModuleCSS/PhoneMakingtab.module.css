@@ -1,0 +1,56 @@
+.tab{
+    width: 100%;
+    background-color:  rgb(229, 237, 80);
+    height: 40px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.tab img {
+    width: 150px;
+    &:hover{
+    cursor: pointer;
+    }
+}
+.icon {
+   position: absolute;
+   right: 10px;
+   top: 5px;
+   &:hover{
+    cursor: pointer;
+   }
+}
+.icon img{
+    width: 30px;
+}
+.DP{
+    position: absolute;
+    right: 60px;
+    top: 2px;
+    border: solid 2px #000;
+    border-radius:80px; 
+    padding: 3px;
+    background-color: white;
+
+}
+.charge{
+    position: absolute;
+    right: 110px;
+    top: 2px;
+    border: solid 2px #000;
+    border-radius:80px; 
+    padding: 5px;
+    background-color: white;
+    font-size: 15px;
+    &:hover{
+      cursor: pointer;  
+    }
+}
+.plus{
+ border: solid 2px pink;
+ border-radius: 50%;
+ width: 24px;
+ height: 24px;
+ font-size: 15px;
+}

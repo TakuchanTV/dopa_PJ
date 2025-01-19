@@ -1,0 +1,141 @@
+body,ul{
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+  
+  /*スライドの外枠*/
+  .slidewrapper {
+    width: 500%;
+    height: 100%;
+    position: relative;
+    left: 25px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+  }
+  
+  .slide img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  
+  }
+  .slide { /*スライド全体*/
+  width: 100%;  
+  height: 300px;
+  display: flex;
+  transition: all 0.3s;
+  overflow: hidden;
+  position: relative;
+  right: 280px;
+  transform: translateX(290px);
+  
+  
+  };
+  .slide div { /*スライドの中身*/
+  width: 120%;
+  height: 40%;
+  font-size: 16px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  /* transform: translateX(273px) */
+  }
+  .slide1{/*スライドさせるために必要なクラス*/
+    transform: translateX(13%);
+  }
+  
+  .slide2{/*スライドさせるために必要なクラス*/
+    transform: translateX(-7%);
+  }
+  .slide3{/*スライドさせるために必要なクラス*/
+    transform: translateX(-27%);
+  }
+  .slide4{/*スライドさせるために必要なクラス*/
+    transform: translateX(-46%);
+  }
+  .slide5{/*スライドさせるために必要なクラス*/
+    transform: translateX(-66%);
+  }
+  
+  
+  
+  
+  
+  /*左右のボタン*/
+  .next{
+    position:absolute;
+    width: 15px;
+    height: 15px;
+    right: 10px;
+    bottom:  50%;
+    z-index: 10;
+    cursor: pointer;
+    border-top: solid 3px #000;
+    border-right: solid 3px #000;
+    -webkit-transform:rotate(45deg) translateY(50%);
+    transform: rotate(45deg) translateY(50%);
+  
+  
+  }
+  .prev{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 25px;
+    bottom: 50%;
+    z-index: 10;
+    cursor: pointer;
+    border-top: solid 3px #000;
+    border-right: solid 3px #000;
+    -webkit-transform: rotate(-135deg) translateY(-50%);
+    transform: rotate(-135deg) translateY(-50%);
+  }
+  /*インディケーター*/
+  .indicator{
+  width: 10%;
+  position: absolute;
+  top: 260px;
+  left: 100px;
+  display: flex;
+  column-gap: 18px;
+  z-index: 100;
+  /* background-color: green; */
+  }
+  .indicator li {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    list-style: none;
+    background-color: #fff;
+    border: 2px #000 solid;
+    cursor: pointer;
+    position: relative;
+    /* background-color: #000; */
+  
+  }
+   
+  .li1{
+    background-color: #000;
+  }
+  
+  
+  .indicator li.active { 
+    background-color: #000;
+  }
+  .indicator li.notactive {
+    background-color: #fff;
+  
+  }
+  
+  

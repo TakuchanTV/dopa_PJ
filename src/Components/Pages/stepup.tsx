@@ -3,8 +3,8 @@ import { Footer } from "../Footer/Footer.tsx";
 import { Makingtab } from "../Header/Makingtab.tsx";
 import { Banner } from "../Header/Banner.tsx";
 import { PagesChangetag } from "../Header/PagesChange.tsx";
-import spinerstyles from "../Loading/Loadingdots.module.css"
 import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
+import { ResStepup } from "../Responsivepages/ResStepup.tsx";
 
 export const StepUp = () => {
 const [isVisable, setIsVisable] = useState(true);
@@ -22,7 +22,8 @@ const [isVisable, setIsVisable] = useState(true);
             <Makingtab />
             <Banner />
             <PagesChangetag />
-           <p>StepUpページです</p> 
+           {/* <p>StepUpページです</p> */}
+           <ResStepup />
            <Footer />
         </div>
        )

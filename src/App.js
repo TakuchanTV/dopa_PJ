@@ -20,6 +20,9 @@ import { Loadingdots } from './Components/Loading/Loadingdots.tsx';
 import { Loadingsquares } from './Components/Loading/Loadingsquares.tsx';
 import { useEffect, useState } from 'react';
 import { Gachadppokemon } from './Components/Header/Navigatedp/Gachadppokemon.tsx';
+import { Pokemon } from './Components/Pages/pokemon.tsx';
+import { PCpokemon } from './Components/PCpages/PCpages/PCpokemon.tsx';
+import { ResPokemon } from './Components/Responsivepages/ResPokemon.tsx';
 const Home = () => {
   const [isVisable, setIsVisable] = useState(true)
       useEffect(() => {
@@ -33,168 +36,170 @@ const Home = () => {
     isVisable ? (
       <Loadingsquares />
     ) : (
-      <div className={styles.fixwidth}>
-      <Makingtab />
-      <Banner />
-      <Gachadppokemon />
-      <PagesChangetag/>
-      <div className={styles.div}>
-       <div className={styles.Div1}>
-         <div className={styles.div1}>
-          <img src={pokemonimg1} className={styles.img} /> 
-           <div className={styles.list1}>
-            <span className={styles.span1}>
-            <img src={pokemon1} className={styles.img1}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon2} className={styles.img2}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon3} className={styles.img3}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon4} className={styles.img4}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon5} className={styles.img5}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon6} className={styles.img6}/>
-            </span>
-           </div>
-           <div>
-           <button className={styles.button1_1}>
-            <span className={styles.gacha}></span>
-            <span>1回ガチャ</span>
-           </button>
-           <button className={styles.button1_2}>
-            <span className={styles.gacha}></span>
-            <span>10連ガチャ</span>
-           </button>
-           </div> 
-           <button className={styles.button1_3}>
-            <span className={styles.gacha}></span>
-            <span>100連ガチャ</span>
-           </button>
-         </div>
-         <div className={styles.div1}>
-          <img src={pokemonimg1} className={styles.img} /> 
-           <div className={styles.list1}>
-            <span className={styles.span1}>
-            <img src={pokemon1} className={styles.img1}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon2} className={styles.img2}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon3} className={styles.img3}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon4} className={styles.img4}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon5} className={styles.img5}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon6} className={styles.img6}/>
-            </span>
-           </div>
-           <div>
-           <button className={styles.button1_1}>
-            <span className={styles.gacha}></span>
-            <span>1回ガチャ</span>
-           </button>
-           <button className={styles.button1_2}>
-            <span className={styles.gacha}></span>
-            <span>10連ガチャ</span>
-           </button>
-           </div> 
-           <button className={styles.button1_3}>
-            <span className={styles.gacha}></span>
-            <span>100連ガチャ</span>
-           </button>
-         </div>
+      
+        <ResPokemon />
+  //     <div className={styles.fixwidth}>
+  //     <Makingtab />
+  //     <Banner />
+  //     <Gachadppokemon />
+  //     <PagesChangetag/>
+  //     <div className={styles.div}>
+  //      <div className={styles.Div1}>
+  //        <div className={styles.div1}>
+  //         <img src={pokemonimg1} className={styles.img} /> 
+  //          <div className={styles.list1}>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon1} className={styles.img1}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon2} className={styles.img2}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon3} className={styles.img3}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon4} className={styles.img4}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon5} className={styles.img5}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon6} className={styles.img6}/>
+  //           </span>
+  //          </div>
+  //          <div>
+  //          <button className={styles.button1_1}>
+  //           <span className={styles.gacha}></span>
+  //           <span>1回ガチャ</span>
+  //          </button>
+  //          <button className={styles.button1_2}>
+  //           <span className={styles.gacha}></span>
+  //           <span>10連ガチャ</span>
+  //          </button>
+  //          </div> 
+  //          <button className={styles.button1_3}>
+  //           <span className={styles.gacha}></span>
+  //           <span>100連ガチャ</span>
+  //          </button>
+  //        </div>
+  //        <div className={styles.div1}>
+  //         <img src={pokemonimg1} className={styles.img} /> 
+  //          <div className={styles.list1}>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon1} className={styles.img1}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon2} className={styles.img2}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon3} className={styles.img3}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon4} className={styles.img4}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon5} className={styles.img5}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon6} className={styles.img6}/>
+  //           </span>
+  //          </div>
+  //          <div>
+  //          <button className={styles.button1_1}>
+  //           <span className={styles.gacha}></span>
+  //           <span>1回ガチャ</span>
+  //          </button>
+  //          <button className={styles.button1_2}>
+  //           <span className={styles.gacha}></span>
+  //           <span>10連ガチャ</span>
+  //          </button>
+  //          </div> 
+  //          <button className={styles.button1_3}>
+  //           <span className={styles.gacha}></span>
+  //           <span>100連ガチャ</span>
+  //          </button>
+  //        </div>
         
-       </div>
-       <div className={styles.Div2}>
-       <div className={styles.div1}>
-          <img src={pokemonimg1} className={styles.img} /> 
-           <div className={styles.list1}>
-            <span className={styles.span1}>
-            <img src={pokemon1} className={styles.img1}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon2} className={styles.img2}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon3} className={styles.img3}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon4} className={styles.img4}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon5} className={styles.img5}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon6} className={styles.img6}/>
-            </span>
-           </div>
-           <div>
-           <button className={styles.button1_1}>
-            <span className={styles.gacha}></span>
-            <span>1回ガチャ</span>
-           </button>
-           <button className={styles.button1_2}>
-            <span className={styles.gacha}></span>
-            <span>10連ガチャ</span>
-           </button>
-           </div> 
-           <button className={styles.button1_3}>
-            <span className={styles.gacha}></span>
-            <span>100連ガチャ</span>
-           </button>
-         </div>
-         <div className={styles.div1}>
-          <img src={pokemonimg1} className={styles.img} /> 
-           <div className={styles.list1}>
-            <span className={styles.span1}>
-            <img src={pokemon1} className={styles.img1}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon2} className={styles.img2}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon3} className={styles.img3}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon4} className={styles.img4}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon5} className={styles.img5}/>
-            </span>
-            <span className={styles.span1}>
-            <img src={pokemon6} className={styles.img6}/>
-            </span>
-           </div>
-           <div>
-           <button className={styles.button1_1}>
-            <span className={styles.gacha}></span>
-            <span>1回ガチャ</span>
-           </button>
-           <button className={styles.button1_2}>
-            <span className={styles.gacha}></span>
-            <span>10連ガチャ</span>
-           </button>
-           </div> 
-           <button className={styles.button1_3}>
-            <span className={styles.gacha}></span>
-            <span>100連ガチャ</span>
-           </button>
-         </div>
-       </div>
-     </div>
-   <Footer /> 
-    </div>
+  //      </div>
+  //      <div className={styles.Div2}>
+  //      <div className={styles.div1}>
+  //         <img src={pokemonimg1} className={styles.img} /> 
+  //          <div className={styles.list1}>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon1} className={styles.img1}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon2} className={styles.img2}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon3} className={styles.img3}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon4} className={styles.img4}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon5} className={styles.img5}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon6} className={styles.img6}/>
+  //           </span>
+  //          </div>
+  //          <div>
+  //          <button className={styles.button1_1}>
+  //           <span className={styles.gacha}></span>
+  //           <span>1回ガチャ</span>
+  //          </button>
+  //          <button className={styles.button1_2}>
+  //           <span className={styles.gacha}></span>
+  //           <span>10連ガチャ</span>
+  //          </button>
+  //          </div> 
+  //          <button className={styles.button1_3}>
+  //           <span className={styles.gacha}></span>
+  //           <span>100連ガチャ</span>
+  //          </button>
+  //        </div>
+  //        <div className={styles.div1}>
+  //         <img src={pokemonimg1} className={styles.img} /> 
+  //          <div className={styles.list1}>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon1} className={styles.img1}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon2} className={styles.img2}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon3} className={styles.img3}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon4} className={styles.img4}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon5} className={styles.img5}/>
+  //           </span>
+  //           <span className={styles.span1}>
+  //           <img src={pokemon6} className={styles.img6}/>
+  //           </span>
+  //          </div>
+  //          <div>
+  //          <button className={styles.button1_1}>
+  //           <span className={styles.gacha}></span>
+  //           <span>1回ガチャ</span>
+  //          </button>
+  //          <button className={styles.button1_2}>
+  //           <span className={styles.gacha}></span>
+  //           <span>10連ガチャ</span>
+  //          </button>
+  //          </div> 
+  //          <button className={styles.button1_3}>
+  //           <span className={styles.gacha}></span>
+  //           <span>100連ガチャ</span>
+  //          </button>
+  //        </div>
+  //      </div>
+  //    </div>
+  //  <Footer /> 
+  //   </div>
     )
   )
 }

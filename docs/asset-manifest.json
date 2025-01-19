@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dopa_PJ/static/css/main.69c7a6ae.css",
-    "main.js": "/dopa_PJ/static/js/main.9d563525.js",
+    "main.css": "/dopa_PJ/static/css/main.e6d13310.css",
+    "main.js": "/dopa_PJ/static/js/main.05f126f1.js",
     "static/media/img3.png": "/dopa_PJ/static/media/img3.dfd37e1c79ad9b9158b7.png",
     "static/media/img4.png": "/dopa_PJ/static/media/img4.dbee630695a8b337488f.png",
     "static/media/img1.png": "/dopa_PJ/static/media/img1.ff380c544c22058ced96.png",
@@ -58,11 +58,11 @@
     "static/media/pokemon4.png": "/dopa_PJ/static/media/pokemon4.c91b43eaadee01ca3860.png",
     "static/media/dopa_new_logo.png": "/dopa_PJ/static/media/dopa_new_logo.901b7264168df08ed2cb.png",
     "index.html": "/dopa_PJ/index.html",
-    "main.69c7a6ae.css.map": "/dopa_PJ/static/css/main.69c7a6ae.css.map",
-    "main.9d563525.js.map": "/dopa_PJ/static/js/main.9d563525.js.map"
+    "main.e6d13310.css.map": "/dopa_PJ/static/css/main.e6d13310.css.map",
+    "main.05f126f1.js.map": "/dopa_PJ/static/js/main.05f126f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.69c7a6ae.css",
-    "static/js/main.9d563525.js"
+    "static/css/main.e6d13310.css",
+    "static/js/main.05f126f1.js"
   ]
 }
