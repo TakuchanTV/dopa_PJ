@@ -18,6 +18,7 @@ import { ResMakingtab } from '../../Responsivepages/ResponsiveHeader/ResMakingta
 import { ResGachadppokemon } from '../../Responsivepages/ResponsiveHeader/Navigatedp/ResGachadppokemon.tsx'
 import { ResBanner } from '../../Responsivepages/ResponsiveHeader/ResBanner.tsx'
 import { ResPagesChange } from '../../Responsivepages/ResponsiveHeader/ResPagesChange.tsx'
+import { ResFooter } from '../../Responsivepages/ResponsiveFooter/ResFooter.tsx'
 
 
 
@@ -201,7 +202,7 @@ export const PCpokemon = () => {
        </div>
      </div>
    </div>
- <Footer /> 
+ <ResFooter /> 
   </div>
   )
 }
