@@ -102,7 +102,7 @@ const Simg = styled.img`
     padding: 25px;
 `
 const Sdivflex = styled.div`
-  display: flex;
+  /* display: flex; */
   position: relative;
   left: 300px;
 `
@@ -121,12 +121,12 @@ const Scategory = styled.ul`
 `
 const Ssubpages = styled.ul`
     position: relative;
-    right: 250px;
+    right: 290px;
     white-space: nowrap;
 `
 const SDopatext = styled.p`
     position: relative;
     right: 300px;
-    bottom: 20px;
+    top:20px ;
     white-space: nowrap;
 `
