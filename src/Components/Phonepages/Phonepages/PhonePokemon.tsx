@@ -11,9 +11,7 @@ import pokemon6 from "../../Images/ポケモンページの写真/ポケモン�
 import { Footer } from '../../Footer/Footer.tsx'
 import { ResMakingtab } from '../../Responsivepages/ResponsiveHeader/ResMakingtab.tsx'
 import { ResBanner } from '../../Responsivepages/ResponsiveHeader/ResBanner.tsx'
-import { Gachadppokemon } from '../../Header/Navigatedp/Gachadppokemon.tsx'
 import { PagesChangetag } from '../../Header/PagesChange.tsx'
-import { PhoneGachadppokemon } from '../PhoneHeader/Navigatedp/PhoneGachadppokemon.tsx'
 import { ResGachadppokemon } from '../../Responsivepages/ResponsiveHeader/Navigatedp/ResGachadppokemon.tsx'
 export const PhonePokemon = () => {
     const GachaConfirm = ()  => {
