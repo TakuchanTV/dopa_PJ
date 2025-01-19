@@ -13,6 +13,7 @@ import { ResMakingtab } from '../../Responsivepages/ResponsiveHeader/ResMakingta
 import { ResBanner } from '../../Responsivepages/ResponsiveHeader/ResBanner.tsx'
 import { PagesChangetag } from '../../Header/PagesChange.tsx'
 import { ResGachadppokemon } from '../../Responsivepages/ResponsiveHeader/Navigatedp/ResGachadppokemon.tsx'
+import { ResPagesChange } from '../../Responsivepages/ResponsiveHeader/ResPagesChange.tsx'
 export const PhonePokemon = () => {
     const GachaConfirm = ()  => {
         if (window.confirm("使用ポイント確認 \n 500PT消費して1枚引く")){
@@ -37,7 +38,7 @@ export const PhonePokemon = () => {
     <ResMakingtab/>
     <ResBanner />
     <ResGachadppokemon />
-    <PagesChangetag/>
+    <ResPagesChange/>
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
