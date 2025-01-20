@@ -2,16 +2,41 @@ import React from 'react'
 import styles from "../PhoneModuleCSS/PhonePokemon.module.css"
 
 import pokemonimg1 from "../../Images/ポケモンページの写真/pokemonimg1.png"
+import pokemonimg2 from "../../Images/ポケモンページの写真/pokemonimg2.png"
+import pokemonimg3 from "../../Images/ポケモンページの写真/pokemonimg3.png"
+import pokemonimg4 from "../../Images/ポケモンページの写真/pokemonimg4.png"
+
 import pokemon1 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon1.png"
 import pokemon2 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon2.png"
 import pokemon3 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon3.png"
 import pokemon4 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon4.png"
 import pokemon5 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon5.png"
 import pokemon6 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon6.png"
-import { Footer } from '../../Footer/Footer.tsx'
+
+import pokemon2_1 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン2のリスト写真/pokemon1.png"
+import pokemon2_2 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン2のリスト写真/pokemon2.png"
+import pokemon2_3 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン2のリスト写真/pokemon3.png"
+import pokemon2_4 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン2のリスト写真/pokemon4.png"
+import pokemon2_5 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン2のリスト写真/pokemon5.png"
+import pokemon2_6 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon6.png"
+
+import pokemon3_1 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン3のリスト写真/pokemonimg1.png"
+import pokemon3_2 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン3のリスト写真/pokemonimg2.png"
+import pokemon3_3 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン3のリスト写真/pokemonimg3.png"
+import pokemon3_4 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン3のリスト写真/pokemonimg4.png"
+import pokemon3_5 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン3のリスト写真/pokemonimg5.png"
+import pokemon3_6 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン3のリスト写真/pokemonimg6.png"
+
+import pokemon4_1 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン4のリスト写真/pokemonimg1.png"
+import pokemon4_2 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン4のリスト写真/pokemonimg2.png"
+import pokemon4_3 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン4のリスト写真/pokemonimg3.png"
+import pokemon4_4 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン4のリスト写真/pokemonimg4.png"
+import pokemon4_5 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン4のリスト写真/pokemonimg5.png"
+import pokemon4_6 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン4のリスト写真/pokemonimg6.png"
+
+
 import { ResMakingtab } from '../../Responsivepages/ResponsiveHeader/ResMakingtab.tsx'
 import { ResBanner } from '../../Responsivepages/ResponsiveHeader/ResBanner.tsx'
-import { PagesChangetag } from '../../Header/PagesChange.tsx'
 import { ResGachadppokemon } from '../../Responsivepages/ResponsiveHeader/Navigatedp/ResGachadppokemon.tsx'
 import { ResPagesChange } from '../../Responsivepages/ResponsiveHeader/ResPagesChange.tsx'
 import { ResFooter } from '../../Responsivepages/ResponsiveFooter/ResFooter.tsx'
@@ -43,7 +68,7 @@ export const PhonePokemon = () => {
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
-        <img src={pokemonimg1} className={styles.img} /> 
+        <img src={pokemonimg1} className={styles.pokemonimg1} /> 
          <div className={styles.list1}>
           <span className={styles.span1}>
           <img src={pokemon1} className={styles.img1}/>
@@ -79,26 +104,27 @@ export const PhonePokemon = () => {
           <span>100連ガチャ</span>
          </button>
        </div>
-       <div className={styles.div1}>
-        <img src={pokemonimg1} className={styles.img} /> 
+
+       <div className={styles.div2}>
+        <img src={pokemonimg2} className={styles.pokemonimg2} /> 
          <div className={styles.list1}>
-          <span className={styles.span1}>
-          <img src={pokemon1} className={styles.img1}/>
+          <span className={styles.span2}>
+          <img src={pokemon2_1} className={styles.img1}/>
           </span>
-          <span className={styles.span1}>
-          <img src={pokemon2} className={styles.img2}/>
+          <span className={styles.span2}>
+          <img src={pokemon2_2} className={styles.img2}/>
           </span>
-          <span className={styles.span1}>
-          <img src={pokemon3} className={styles.img3}/>
+          <span className={styles.span2}>
+          <img src={pokemon2_3} className={styles.img3}/>
           </span>
-          <span className={styles.span1}>
-          <img src={pokemon4} className={styles.img4}/>
+          <span className={styles.span2}>
+          <img src={pokemon2_4} className={styles.img4}/>
           </span>
-          <span className={styles.span1}>
-          <img src={pokemon5} className={styles.img5}/>
+          <span className={styles.span2}>
+          <img src={pokemon2_5} className={styles.img5}/>
           </span>
-          <span className={styles.span1}>
-          <img src={pokemon6} className={styles.img6}/>
+          <span className={styles.span2}>
+          <img src={pokemon2_6} className={styles.img6}/>
           </span>
          </div>
          <div>
@@ -116,29 +142,29 @@ export const PhonePokemon = () => {
           <span>100連ガチャ</span>
          </button>
        </div>
-      
      </div>
+
      <div className={styles.Div2}>
-     <div className={styles.div1}>
-        <img src={pokemonimg1} className={styles.img} /> 
+     <div className={styles.div3}>
+        <img src={pokemonimg3} className={styles.pokemonimg3} /> 
          <div className={styles.list1}>
-          <span className={styles.span1}>
-          <img src={pokemon1} className={styles.img1}/>
+          <span className={styles.span3}>
+          <img src={pokemon3_1} className={styles.img1}/>
           </span>
-          <span className={styles.span1}>
-          <img src={pokemon2} className={styles.img2}/>
+          <span className={styles.span3}>
+          <img src={pokemon3_2} className={styles.img2}/>
           </span>
-          <span className={styles.span1}>
-          <img src={pokemon3} className={styles.img3}/>
+          <span className={styles.span3}>
+          <img src={pokemon3_3} className={styles.img3}/>
           </span>
-          <span className={styles.span1}>
-          <img src={pokemon4} className={styles.img4}/>
+          <span className={styles.span3}>
+          <img src={pokemon3_4} className={styles.img4}/>
           </span>
-          <span className={styles.span1}>
-          <img src={pokemon5} className={styles.img5}/>
+          <span className={styles.span3}>
+          <img src={pokemon3_5} className={styles.img5}/>
           </span>
-          <span className={styles.span1}>
-          <img src={pokemon6} className={styles.img6}/>
+          <span className={styles.span3}>
+          <img src={pokemon3_6} className={styles.img6}/>
           </span>
          </div>
          <div>
@@ -156,26 +182,26 @@ export const PhonePokemon = () => {
           <span>100連ガチャ</span>
          </button>
        </div>
-       <div className={styles.div1}>
-        <img src={pokemonimg1} className={styles.img} /> 
+       <div className={styles.div4}>
+        <img src={pokemonimg4} className={styles.pokemonimg4} /> 
          <div className={styles.list1}>
-          <span className={styles.span1}>
-          <img src={pokemon1} className={styles.img1}/>
+          <span className={styles.span4}>
+          <img src={pokemon4_1} className={styles.img1}/>
           </span>
-          <span className={styles.span1}>
-          <img src={pokemon2} className={styles.img2}/>
+          <span className={styles.span4}>
+          <img src={pokemon4_2} className={styles.img2}/>
           </span>
-          <span className={styles.span1}>
-          <img src={pokemon3} className={styles.img3}/>
+          <span className={styles.span4}>
+          <img src={pokemon4_3} className={styles.img3}/>
           </span>
-          <span className={styles.span1}>
-          <img src={pokemon4} className={styles.img4}/>
+          <span className={styles.span4}>
+          <img src={pokemon4_4} className={styles.img4}/>
           </span>
-          <span className={styles.span1}>
-          <img src={pokemon5} className={styles.img5}/>
+          <span className={styles.span4}>
+          <img src={pokemon4_5} className={styles.img5}/>
           </span>
-          <span className={styles.span1}>
-          <img src={pokemon6} className={styles.img6}/>
+          <span className={styles.span4}>
+          <img src={pokemon4_6} className={styles.img6}/>
           </span>
          </div>
          <div>
