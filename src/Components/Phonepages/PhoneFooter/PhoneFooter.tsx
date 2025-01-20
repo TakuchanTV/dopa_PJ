@@ -121,7 +121,7 @@ const Scategory = styled.ul`
 `
 const Ssubpages = styled.ul`
     position: relative;
-    right: 290px;
+    right: 280px;
     white-space: nowrap;
 `
 const SDopatext = styled.p`
