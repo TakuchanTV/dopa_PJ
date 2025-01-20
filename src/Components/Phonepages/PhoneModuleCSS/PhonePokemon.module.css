@@ -4,9 +4,35 @@
 .fixwidth{
     overflow-x: hidden;
  }
- 
  .div{
+   width: 100%;
+ }
+ 
+ .pokemonimg1{
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+ }
+ .pokemonimg2{
+   width: 100%;
+   border-radius: 20px;
+   margin-top: 20px;
+ }
+ .pokemonimg3{
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+ }
+ .pokemonimg4{
+   width: 100%;
+   border-radius: 20px;
+   margin-top: 20px;
+ }
+ 
+ /* .div{
     width: 100%;
+    position: relative;
+    right: 10px;
  }
  .div1{
     display: flex; 
@@ -14,8 +40,12 @@
     align-items: center;
     width: auto;
  }
+ .div2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
  .Div1{
-    display: flex;
     justify-content: center;
     justify-content: center ;
     align-items: center;
@@ -24,7 +54,6 @@
     top: 40px;
  }
  .Div2{
-     display: flex;
     justify-content: center;
     justify-content: center ;
     align-items: center;
@@ -36,6 +65,7 @@
  .div1 img{
      position: relative; 
      left: 80px;
+     width: 100%;
   }
   
   
@@ -48,11 +78,11 @@
  
  
  .div1 img,.div2 img{
-   width: 450px; 
-   /* height: auto; */
+   width: 100%;
    border-radius: 30px;
    position: relative;
- }
+   right: 70px;
+ } */
   
   
  /*div ここまで */
@@ -60,7 +90,9 @@
  /*span ここから*/
  .span1{
    display: inline-block;
-   padding: 10px;
+   padding: 3px;
+   position: relative;
+   left: 20px;
  }
  .span2{
      display: inline-block;
@@ -84,8 +116,8 @@
  .span1 .img1, .span1 .img2, .span1 .img3,
    .span1 .img6{
      display: block;
-     width: 60px;
-     padding: 0;
+     width: 50px;
+     padding: 0px;
      margin: 0;
      border-radius: 0;
   }
@@ -96,6 +128,45 @@
      margin: 0;
      border-radius: 0;
   }
+  .span2 .img1,.span2 .img2,.span2 .img3,.span2 .img4,
+  .span2 .img5,.span2 .img6{
+   display: block;
+   width: 50px;
+   padding: 0px;
+   margin: 0;
+   border-radius: 0;
+   position: relative;
+   right: 100px;
+  }
+
+  .span3 .img1,.span3 .img2,.span3 .img3,.span3 .img4,
+  .span3 .img5,.span3 .img6{
+   display: block;
+   width: 50px;
+   padding: 0px;
+   margin: 0;
+   border-radius: 0;
+   position: relative;
+   right: 5px;
+  }
+
+  .span4 .img1,.span4 .img2,.span4 .img3,.span4 .img4,
+  .span4 .img5,.span4 .img6{
+   display: block;
+   width: 50px;
+   padding: 0px;
+   margin: 0;
+   border-radius: 0;
+   position: relative;
+   right: 25px;
+  }
+
+
+
+
+
+
+
   
   
    
@@ -108,8 +179,7 @@
   }
   
   .list1 img{
-     /* position: relative;
-     left: 190px; */
+     padding: 5px;
    }
  
   .list1 img, .list2 img{
@@ -126,7 +196,7 @@
   .button1_1{
      position: relative;
      left: 60px;
-     padding: 20px 50px;
+     padding: 20px 55px;
      margin: 0 20px;
      background-color: rgb(79, 94, 79);
      border-radius: 10px;
@@ -149,9 +219,9 @@
   }
   .button1_3{
     position: relative;
-    left: 60px;
-    top: 10px;
-    padding: 20px 180px;
+    left: 10px;
+    top: 0px;
+    padding: 20px 100px;
     /* margin: 0 5px; */
     background-color: rgb(212, 59, 59);
     border-radius: 10px;
@@ -213,3 +283,9 @@
      display: flex;
  }
  /*button ここまで*/
+
+ .pokemonimg{
+ position: relative;
+ right: 120px;
+ width: 100px;
+}
