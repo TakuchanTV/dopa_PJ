@@ -30,6 +30,7 @@ declare module "*../Navigatedp/PhoneGachadppokemon.module.css";
 declare module "*../PhoneModuleCSS/PhonePagesChange.module.css";
 declare module "*../PhoneModuleCSS/PhoneOnepiece.module.css";
 declare module "*../Navigatedp/PhoneGachadponepiece.module.css";
+declare module "*../PhoneModuleCSS/PhoneDragonball.module.css";
 
 
 
