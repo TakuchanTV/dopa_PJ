@@ -19,6 +19,7 @@ import spinerstyles from "../Loading/Loadingdots.module.css"
 import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
 import { Gachadppokemon } from "../Header/Navigatedp/Gachadppokemon.tsx";
 import { PCpokemon } from "../PCpages/PCpages/PCpokemon.tsx";
+import { ResPokemon } from "../Responsivepages/ResPokemon.tsx";
 export const Pokemon = () => {
 const GachaConfirm = ()  => {
   if (window.confirm("使用ポイント確認 \n 500PT消費して1枚引く")){
@@ -49,7 +50,7 @@ useEffect(() => {
        isVisable ? (
         <Loadingsquares />
        ):(
-        <PCpokemon />
+        <ResPokemon />
       // <div className={styles.fixwidth}>
       //      <Makingtab />
       //      <Banner />

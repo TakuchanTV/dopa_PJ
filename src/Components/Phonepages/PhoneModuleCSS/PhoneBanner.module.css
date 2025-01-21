@@ -8,10 +8,10 @@ body,ul{
   
   /*スライドの外枠*/
   .slidewrapper {
-    width: 500%;
+    width: 550%;
     height: 100%;
     position: relative;
-    left: 25px;
+    left: 2px;
     /* background-color: green; */
     display: flex;
     justify-content: center;
