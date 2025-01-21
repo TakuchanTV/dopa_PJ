@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+ import React, { useEffect, useState } from "react"
 import styles from "../../ModuleCSS/onepiece.module.css"
 
 import onepieceimg1    from "../../Images/ワンピースページの写真/onepieceimg1.png"
