@@ -1,0 +1,218 @@
+import React, { useEffect, useState } from "react";
+import styles from "../../ModuleCSS/dragonball.module.css";
+import { ResMakingtab } from "../../Responsivepages/ResponsiveHeader/ResMakingtab.tsx";
+import { ResBanner } from "../../Responsivepages/ResponsiveHeader/ResBanner.tsx";
+import { Gachaddragonball } from "../../Header/Navigatedp/Gachadpdragonball.tsx";
+
+import dragonballimg1 from "../../Images/ドラゴンボールページの写真/dragonballimg1.png"
+
+import dragonball1 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール1のリスト写真/dragonballimg1.png"
+import dragonball2 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール1のリスト写真/dragonballimg2.png"
+import dragonball3 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール1のリスト写真/dragonballimg3.png"
+import dragonball4 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール1のリスト写真/dragonballimg4.png"
+import dragonball5 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール1のリスト写真/dragonballimg5.png"
+import dragonball6 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール1のリスト写真/dragonballimg6.png"
+
+import dragonball2_1 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール2のリスト写真/dragonballimg1.png"
+import dragonball2_2 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール2のリスト写真/dragonballimg2.png"
+import dragonball2_3 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール2のリスト写真/dragonballimg3.png"
+import dragonball2_4 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール2のリスト写真/dragonballimg4.png"
+import dragonball2_5 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール2のリスト写真/dragonballimg5.png"
+import dragonball2_6 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール2のリスト写真/dragonballimg6.png"
+
+import dragonball3_1 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール3のリスト写真/dragonballimg1.png"
+import dragonball3_2 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール3のリスト写真/dragonballimg2.png"
+import dragonball3_3 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール3のリスト写真/dragonballimg3.png"
+import dragonball3_4 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール3のリスト写真/dragonballimg4.png"
+import dragonball3_5 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール3のリスト写真/dragonballimg5.png"
+import dragonball3_6 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール3のリスト写真/dragonballimg6.png"
+
+import { ResPagesChange } from "../../Responsivepages/ResponsiveHeader/ResPagesChange.tsx"
+import { ResFooter } from "../../Responsivepages/ResponsiveFooter/ResFooter.tsx";
+
+
+export const PCdragonball = () => {
+    const GachaConfirm = ()  => {
+        if (window.confirm("使用ポイント確認 \n 500PT消費して1枚引く")){
+         window.alert("ありがとうございます")
+        }else{
+        }
+      }
+      const GachaConfirm10 = ()  => {
+        if (window.confirm("使用ポイント確認 \n 5000PT消費して1枚引く")){
+         window.alert("ありがとうございます")
+        }else{
+        }
+      }
+      const GachaConfirm100 = ()  => {
+        if (window.confirm("使用ポイント確認 \n 50000PT消費して1枚引く")){
+         window.alert("ありがとうございます")
+        }else{
+        }
+      }
+  return (
+    <div className={styles.fixwidth}>
+    <ResMakingtab />
+    <ResBanner />
+    <Gachaddragonball />
+    <ResPagesChange/>
+    <div className={styles.div}>
+     <div className={styles.Div1}>
+       <div className={styles.div1}>
+        <img src={dragonballimg1} className={styles.img} /> 
+         <div className={styles.list1}>
+          <span className={styles.span1}>
+          <img src={dragonball1} className={styles.img1}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball2} className={styles.img2}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball3} className={styles.img3}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball4} className={styles.img4}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball5} className={styles.img5}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball6} className={styles.img6}/>
+          </span>
+         </div>
+         <div>
+         <button className={styles.button1_1} onClick={GachaConfirm}>
+          <span className={styles.gacha}></span>
+          <span>1回ガチャ</span>
+         </button>
+         <button className={styles.button1_2} onClick={GachaConfirm10}>
+          <span className={styles.gacha}></span>
+          <span>10連ガチャ</span>
+         </button>
+         </div> 
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
+          <span className={styles.gacha}></span>
+          <span>100連ガチャ</span>
+         </button>
+       </div>
+       <div className={styles.div1}>
+        <img src={dragonballimg1} className={styles.img} /> 
+         <div className={styles.list1}>
+          <span className={styles.span1}>
+          <img src={dragonball1} className={styles.img1}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball2} className={styles.img2}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball3} className={styles.img3}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball4} className={styles.img4}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball5} className={styles.img5}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball6} className={styles.img6}/>
+          </span>
+         </div>
+         <div>
+         <button className={styles.button1_1} onClick={GachaConfirm}>
+          <span className={styles.gacha}></span>
+          <span>1回ガチャ</span>
+         </button>
+         <button className={styles.button1_2} onClick={GachaConfirm10}>
+          <span className={styles.gacha}></span>
+          <span>10連ガチャ</span>
+         </button>
+         </div> 
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
+          <span className={styles.gacha}></span>
+          <span>100連ガチャ</span>
+         </button>
+       </div>
+      
+     </div>
+     <div className={styles.Div2}>
+     <div className={styles.div1}>
+        <img src={dragonballimg1} className={styles.img} /> 
+         <div className={styles.list1}>
+          <span className={styles.span1}>
+          <img src={dragonball1} className={styles.img1}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball2} className={styles.img2}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball3} className={styles.img3}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball4} className={styles.img4}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball5} className={styles.img5}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball6} className={styles.img6}/>
+          </span>
+         </div>
+         <div>
+         <button className={styles.button1_1} onClick={GachaConfirm}>
+          <span className={styles.gacha}></span>
+          <span>1回ガチャ</span>
+         </button>
+         <button className={styles.button1_2} onClick={GachaConfirm10}>
+          <span className={styles.gacha}></span>
+          <span>10連ガチャ</span>
+         </button>
+         </div> 
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
+          <span className={styles.gacha}></span>
+          <span>100連ガチャ</span>
+         </button>
+       </div>
+       <div className={styles.div1}>
+        <img src={dragonballimg1} className={styles.img} /> 
+         <div className={styles.list1}>
+          <span className={styles.span1}>
+          <img src={dragonball1} className={styles.img1}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball2} className={styles.img2}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball3} className={styles.img3}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball4} className={styles.img4}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball5} className={styles.img5}/>
+          </span>
+          <span className={styles.span1}>
+          <img src={dragonball6} className={styles.img6}/>
+          </span>
+         </div>
+         <div>
+         <button className={styles.button1_1} onClick={GachaConfirm}>
+          <span className={styles.gacha}></span>
+          <span>1回ガチャ</span>
+         </button>
+         <button className={styles.button1_2} onClick={GachaConfirm10}>
+          <span className={styles.gacha}></span>
+          <span>10連ガチャ</span>
+         </button>
+         </div> 
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
+          <span className={styles.gacha}></span>
+          <span>100連ガチャ</span>
+         </button>
+       </div>
+     </div>
+   </div>
+ <ResFooter /> 
+  </div>
+  )
+}
+
