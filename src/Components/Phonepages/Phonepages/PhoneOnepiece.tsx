@@ -38,6 +38,11 @@ import onepiece4_3 from "../../Images/ワンピースページの写真/ワン�
 import onepiece4_4 from "../../Images/ワンピースページの写真/ワンピースページのリスト/ワンピース4のリスト写真/onepieceimg4.png"
 import onepiece4_5 from "../../Images/ワンピースページの写真/ワンピースページのリスト/ワンピース4のリスト写真/onepieceimg5.png"
 import onepiece4_6 from "../../Images/ワンピースページの写真/ワンピースページのリスト/ワンピース4のリスト写真/onepieceimg6.png"
+import { PhoneMakingtab } from '../PhoneHeader/PhoneMakingtab.tsx';
+import { PhoneBanner } from '../PhoneHeader/PhoneBanner.tsx';
+import { PhoneGachadponepiece } from '../PhoneHeader/Navigatedp/PhoneGachadponepiece.tsx';
+import { PhonePagesChange } from '../PhoneHeader/PhonePagesChange.tsx';
+import { PhoneFooter } from '../PhoneFooter/PhoneFooter.tsx';
 
 
 
@@ -62,10 +67,10 @@ export const PhoneOnepiece = () => {
       }
   return (
     <div className={styles.fixwidth}>
-    <ResMakingtab/>
-    <ResBanner />
-    <ResGachadponepiece />
-    <ResPagesChange/>
+    <PhoneMakingtab/>
+    <PhoneBanner />
+    <PhoneGachadponepiece />
+    <PhonePagesChange/>
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
@@ -222,7 +227,7 @@ export const PhoneOnepiece = () => {
        </div>
      </div>
    </div>
- <ResFooter /> 
+ <PhoneFooter /> 
   </div>
   )
 }

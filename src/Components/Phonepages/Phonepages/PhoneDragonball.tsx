@@ -1,10 +1,5 @@
 import React from 'react'
 import styles from "../PhoneModuleCSS/PhoneDragonball.module.css";
-import { ResMakingtab } from '../../Responsivepages/ResponsiveHeader/ResMakingtab.tsx'
-import { ResBanner } from '../../Responsivepages/ResponsiveHeader/ResBanner.tsx'
-import { ResPagesChange } from '../../Responsivepages/ResponsiveHeader/ResPagesChange.tsx'
-import { ResFooter } from '../../Responsivepages/ResponsiveFooter/ResFooter.tsx'
-import { ResGachadponepiece } from '../../Responsivepages/ResponsiveHeader/Navigatedp/ResGachadponepiece.tsx';
 
 import dragonballimg1 from "../../Images/ドラゴンボールページの写真/dragonballimg1.png" 
 import dragonballimg2 from "../../Images/ドラゴンボールページの写真/dragonballimg2.png" 
@@ -38,6 +33,11 @@ import dragonball4_3 from "../../Images/ドラゴンボールページの写真/
 import dragonball4_4 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール4のリスト写真/dragonballimg4.png"
 import dragonball4_5 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール4のリスト写真/dragonballimg5.png"
 import dragonball4_6 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール4のリスト写真/dragonballimg6.png"
+import { PhoneMakingtab } from '../PhoneHeader/PhoneMakingtab.tsx';
+import { PhoneBanner } from '../PhoneHeader/PhoneBanner.tsx';
+import { PhonePagesChange } from '../PhoneHeader/PhonePagesChange.tsx';
+import { PhoneFooter } from '../PhoneFooter/PhoneFooter.tsx';
+import {PhoneGachadpdragonball} from "../PhoneHeader/Navigatedp/PhoneGachadpdragonball.tsx"
 
 
 
@@ -63,10 +63,10 @@ export const PhoneDragonball = () => {
       }
   return (
     <div className={styles.fixwidth}>
-    <ResMakingtab/>
-    <ResBanner />
-    <ResGachadponepiece />
-    <ResPagesChange/>
+    <PhoneMakingtab/>
+    <PhoneBanner />
+    <PhoneGachadpdragonball/>
+    <PhonePagesChange/>
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
@@ -223,7 +223,7 @@ export const PhoneDragonball = () => {
        </div>
      </div>
    </div>
- <ResFooter /> 
+ <PhoneFooter /> 
   </div>
   )
 }

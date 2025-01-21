@@ -40,6 +40,11 @@ import { ResBanner } from '../../Responsivepages/ResponsiveHeader/ResBanner.tsx'
 import { ResGachadppokemon } from '../../Responsivepages/ResponsiveHeader/Navigatedp/ResGachadppokemon.tsx'
 import { ResPagesChange } from '../../Responsivepages/ResponsiveHeader/ResPagesChange.tsx'
 import { ResFooter } from '../../Responsivepages/ResponsiveFooter/ResFooter.tsx'
+import { PhoneMakingtab } from '../PhoneHeader/PhoneMakingtab.tsx'
+import { PhoneBanner } from '../PhoneHeader/PhoneBanner.tsx'
+import { PhoneGachadppokemon } from '../PhoneHeader/Navigatedp/PhoneGachadppokemon.tsx'
+import { PhonePagesChange } from '../PhoneHeader/PhonePagesChange.tsx'
+import { PhoneFooter } from '../PhoneFooter/PhoneFooter.tsx'
 export const PhonePokemon = () => {
     const GachaConfirm = ()  => {
         if (window.confirm("使用ポイント確認 \n 500PT消費して1枚引く")){
@@ -61,10 +66,10 @@ export const PhonePokemon = () => {
       }
   return (
     <div className={styles.fixwidth}>
-    <ResMakingtab/>
-    <ResBanner />
-    <ResGachadppokemon />
-    <ResPagesChange/>
+    <PhoneMakingtab/>
+    <PhoneBanner />
+    <PhoneGachadppokemon />
+    <PhonePagesChange/>
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
@@ -221,7 +226,7 @@ export const PhonePokemon = () => {
        </div>
      </div>
    </div>
- <ResFooter /> 
+ <PhoneFooter /> 
   </div>
   )
 }
