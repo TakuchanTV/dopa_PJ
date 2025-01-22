@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "../../ModuleCSS/dragonball.module.css";
-import { ResMakingtab } from "../../Responsivepages/ResponsiveHeader/ResMakingtab.tsx";
-import { ResBanner } from "../../Responsivepages/ResponsiveHeader/ResBanner.tsx";
+
 import { Gachaddragonball } from "../../Header/Navigatedp/Gachadpdragonball.tsx";
 
 import dragonballimg1 from "../../Images/ドラゴンボールページの写真/dragonballimg1.png"
@@ -27,8 +26,10 @@ import dragonball3_4 from "../../Images/ドラゴンボールページの写真/
 import dragonball3_5 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール3のリスト写真/dragonballimg5.png"
 import dragonball3_6 from "../../Images/ドラゴンボールページの写真/ドラゴンボールページのリスト/ドラゴンボール3のリスト写真/dragonballimg6.png"
 
-import { ResPagesChange } from "../../Responsivepages/ResponsiveHeader/ResPagesChange.tsx"
-import { ResFooter } from "../../Responsivepages/ResponsiveFooter/ResFooter.tsx";
+import { Makingtab } from "../../Header/Makingtab.tsx";
+import { Banner } from "../../Header/Banner.tsx";
+import { PagesChangetag } from "../../Header/PagesChange.tsx";
+import { Footer } from "../../Footer/Footer.tsx";
 
 
 export const PCdragonball = () => {
@@ -52,10 +53,10 @@ export const PCdragonball = () => {
       }
   return (
     <div className={styles.fixwidth}>
-    <ResMakingtab />
-    <ResBanner />
+    <Makingtab />
+    <Banner />
     <Gachaddragonball />
-    <ResPagesChange/>
+    <PagesChangetag/>
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
@@ -211,7 +212,7 @@ export const PCdragonball = () => {
        </div>
      </div>
    </div>
- <ResFooter /> 
+ <Footer /> 
   </div>
   )
 }

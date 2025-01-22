@@ -10,11 +10,12 @@ import onepiece4 from "../../Images/ワンピースページの写真/ワンピ�
 import onepiece5 from "../../Images/ワンピースページの写真/ワンピースページのリスト/ワンピース1のリスト写真/onepieceimg5.png"
 import onepiece6 from "../../Images/ワンピースページの写真/ワンピースページのリスト/ワンピース1のリスト写真/onepieceimg6.png"
 
-import { ResMakingtab } from "../../Responsivepages/ResponsiveHeader/ResMakingtab.tsx";
-import { ResBanner } from "../../Responsivepages/ResponsiveHeader/ResBanner.tsx";
-import { ResGachadponepiece } from "../../Responsivepages/ResponsiveHeader/Navigatedp/ResGachadponepiece.tsx";
-import { ResPagesChange } from "../../Responsivepages/ResponsiveHeader/ResPagesChange.tsx";
-import { ResFooter } from "../../Responsivepages/ResponsiveFooter/ResFooter.tsx"
+import { Makingtab } from "../../Header/Makingtab.tsx"
+import { Banner } from "../../Header/Banner.tsx"
+import { Gachadponepiece } from "../../Header/Navigatedp/Gachadponepiece.tsx"
+import { PagesChangetag } from "../../Header/PagesChange.tsx"
+import { PhoneFooter } from "../../Phonepages/PhoneFooter/PhoneFooter.tsx"
+import { Footer } from "../../Footer/Footer.tsx"
 export const PConePiece = () => {
   const GachaConfirm = ()  => {
     if (window.confirm("使用ポイント確認 \n 500PT消費して1枚引く")){
@@ -37,10 +38,10 @@ export const PConePiece = () => {
 
 return (
 <div className={styles.fixwidth}>
-    <ResMakingtab/>
-    <ResBanner />
-    <ResGachadponepiece />
-    <ResPagesChange/>
+    <Makingtab />
+    <Banner />
+    <Gachadponepiece />
+    <PagesChangetag/>
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
@@ -196,7 +197,7 @@ return (
        </div>
      </div>
    </div>
- <ResFooter /> 
+ <Footer /> 
   </div>
 )
 }

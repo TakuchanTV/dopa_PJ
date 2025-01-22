@@ -4,6 +4,8 @@ import { Makingtab } from '../../Header/Makingtab.tsx'
 import { Banner } from '../../Header/Banner.tsx'
 import { Gachadppokemon } from '../../Header/Navigatedp/Gachadppokemon.tsx'
 import { PagesChangetag } from '../../Header/PagesChange.tsx'
+import { Footer } from '../../Footer/Footer.tsx'
+
 
 import pokemonimg1 from "../../Images/ポケモンページの写真/pokemonimg1.png"
 import pokemon1 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon1.png"
@@ -13,12 +15,6 @@ import pokemon4 from "../../Images/ポケモンページの写真/ポケモン�
 import pokemon5 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon5.png"
 import pokemon6 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon6.png"
 
-import { Footer } from '../../Footer/Footer.tsx'
-import { ResMakingtab } from '../../Responsivepages/ResponsiveHeader/ResMakingtab.tsx'
-import { ResGachadppokemon } from '../../Responsivepages/ResponsiveHeader/Navigatedp/ResGachadppokemon.tsx'
-import { ResBanner } from '../../Responsivepages/ResponsiveHeader/ResBanner.tsx'
-import { ResPagesChange } from '../../Responsivepages/ResponsiveHeader/ResPagesChange.tsx'
-import { ResFooter } from '../../Responsivepages/ResponsiveFooter/ResFooter.tsx'
 
 
 
@@ -43,10 +39,10 @@ export const PCpokemon = () => {
       }
   return (
     <div className={styles.fixwidth}>
-    <ResMakingtab/>
-    <ResBanner />
-    <ResGachadppokemon />
-    <ResPagesChange/>
+    <Makingtab/>
+    <Banner />
+    <Gachadppokemon />
+    <PagesChangetag/>
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
@@ -202,7 +198,7 @@ export const PCpokemon = () => {
        </div>
      </div>
    </div>
- <ResFooter /> 
+ <Footer /> 
   </div>
   )
 }
