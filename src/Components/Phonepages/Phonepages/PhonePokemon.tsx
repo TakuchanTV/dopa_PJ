@@ -35,11 +35,7 @@ import pokemon4_5 from "../../Images/ポケモンページの写真/ポケモン
 import pokemon4_6 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン4のリスト写真/pokemonimg6.png"
 
 
-import { ResMakingtab } from '../../Responsivepages/ResponsiveHeader/ResMakingtab.tsx'
-import { ResBanner } from '../../Responsivepages/ResponsiveHeader/ResBanner.tsx'
-import { ResGachadppokemon } from '../../Responsivepages/ResponsiveHeader/Navigatedp/ResGachadppokemon.tsx'
-import { ResPagesChange } from '../../Responsivepages/ResponsiveHeader/ResPagesChange.tsx'
-import { ResFooter } from '../../Responsivepages/ResponsiveFooter/ResFooter.tsx'
+
 import { PhoneMakingtab } from '../PhoneHeader/PhoneMakingtab.tsx'
 import { PhoneBanner } from '../PhoneHeader/PhoneBanner.tsx'
 import { PhoneGachadppokemon } from '../PhoneHeader/Navigatedp/PhoneGachadppokemon.tsx'

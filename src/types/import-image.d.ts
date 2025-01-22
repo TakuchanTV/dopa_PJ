@@ -33,7 +33,9 @@ declare module "*../Navigatedp/PhoneGachadponepiece.module.css";
 declare module "*../PhoneModuleCSS/PhoneDragonball.module.css";
 declare module "*../PhoneModuleCSS/PhoneYuugiou.module.css";
 declare module "*../Navigatedp/PhoneGachadpyuugiou.module.css";
-declare module "*../Navigatedp/PhoneGachadpdragonball.module.css"
+declare module "*../Navigatedp/PhoneGachadpdragonball.module.css";
+declare module "*../PhoneModuleCSS/PhoneVice.module.css";
+declare module "*../Navigatedp/PhoneGachadpvice.module.css";
 
 
 
