@@ -68,7 +68,7 @@ export const PhoneVice = () => {
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
-        <img src={Viceimg1} className={styles.pokemonimg1} /> 
+        <img src={Viceimg1} className={styles.viceimg1} /> 
          <div className={styles.list1}>
           <span className={styles.span1}>
           <img src={Vice1} className={styles.img1}/>
@@ -106,7 +106,7 @@ export const PhoneVice = () => {
        </div>
 
        <div className={styles.div2}>
-        <img src={Viceimg2} className={styles.pokemonimg2} /> 
+        <img src={Viceimg2} className={styles.viceimg2} /> 
          <div className={styles.list1}>
           <span className={styles.span2}>
           <img src={Vice2_1} className={styles.img1}/>
@@ -146,7 +146,7 @@ export const PhoneVice = () => {
 
      <div className={styles.Div2}>
      <div className={styles.div3}>
-        <img src={Viceimg3} className={styles.pokemonimg3} /> 
+        <img src={Viceimg3} className={styles.viceimg3} /> 
          <div className={styles.list1}>
           <span className={styles.span3}>
           <img src={Vice3_1} className={styles.img1}/>
@@ -183,7 +183,7 @@ export const PhoneVice = () => {
          </button>
        </div>
        <div className={styles.div4}>
-        <img src={Viceimg4} className={styles.pokemonimg4} /> 
+        <img src={Viceimg4} className={styles.viceimg4} /> 
          <div className={styles.list1}>
           <span className={styles.span4}>
           <img src={Vice4_1} className={styles.img1}/>
