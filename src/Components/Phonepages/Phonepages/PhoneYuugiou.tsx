@@ -73,7 +73,7 @@ export const PhoneYuugiou = () => {
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
-        <img src={yuugiouimg1} className={styles.onepieceimg1} /> 
+        <img src={yuugiouimg1} className={styles.yuugiouimg1} /> 
          <div className={styles.list1}>
           <span className={styles.span1}>
           <img src={yuugiou1} className={styles.img1}/>
@@ -111,7 +111,7 @@ export const PhoneYuugiou = () => {
        </div>
 
        <div className={styles.div2}>
-        <img src={yuugiouimg2} className={styles.onepieceimg2} /> 
+        <img src={yuugiouimg2} className={styles.yuugiouimg2} /> 
          <div className={styles.list1}>
           <span className={styles.span2}>
           <img src={yuugiou2_1} className={styles.img1}/>
@@ -151,7 +151,7 @@ export const PhoneYuugiou = () => {
 
      <div className={styles.Div2}>
      <div className={styles.div3}>
-        <img src={yuugiouimg3} className={styles.onepieceimg3} /> 
+        <img src={yuugiouimg3} className={styles.yuugiouimg3} /> 
          <div className={styles.list1}>
           <span className={styles.span3}>
           <img src={yuugiou3_1} className={styles.img1}/>
@@ -188,7 +188,7 @@ export const PhoneYuugiou = () => {
          </button>
        </div>
        <div className={styles.div4}>
-        <img src={yuugiouimg4} className={styles.onepieceimg4} /> 
+        <img src={yuugiouimg4} className={styles.yuugiouimg4} /> 
          <div className={styles.list1}>
           <span className={styles.span4}>
           <img src={yuugiou4_1} className={styles.img1}/>
