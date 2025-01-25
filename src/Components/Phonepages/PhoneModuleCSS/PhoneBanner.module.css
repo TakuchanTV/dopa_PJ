@@ -62,10 +62,10 @@ body,ul{
     transform: translateX(-27%);
   }
   .slide4{/*スライドさせるために必要なクラス*/
-    transform: translateX(-46%);
+    transform: translateX(-47%);
   }
   .slide5{/*スライドさせるために必要なクラス*/
-    transform: translateX(-66%);
+    transform: translateX(-68%);
   }
   
   
