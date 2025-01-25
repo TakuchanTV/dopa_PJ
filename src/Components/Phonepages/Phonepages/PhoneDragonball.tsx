@@ -70,7 +70,7 @@ export const PhoneDragonball = () => {
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
-        <img src={dragonballimg1} className={styles.onepieceimg1} /> 
+        <img src={dragonballimg1} className={styles.dragonballimg1} /> 
          <div className={styles.list1}>
           <span className={styles.span1}>
           <img src={dragonball1} className={styles.img1}/>
@@ -108,7 +108,7 @@ export const PhoneDragonball = () => {
        </div>
 
        <div className={styles.div2}>
-        <img src={dragonballimg2} className={styles.onepieceimg2} /> 
+        <img src={dragonballimg2} className={styles.dragonballimg2} /> 
          <div className={styles.list1}>
           <span className={styles.span2}>
           <img src={dragonball2_1} className={styles.img1}/>
@@ -148,7 +148,7 @@ export const PhoneDragonball = () => {
 
      <div className={styles.Div2}>
      <div className={styles.div3}>
-        <img src={dragonballimg3} className={styles.onepieceimg3} /> 
+        <img src={dragonballimg3} className={styles.dragonballimg3} /> 
          <div className={styles.list1}>
           <span className={styles.span3}>
           <img src={dragonball3_1} className={styles.img1}/>
@@ -185,7 +185,7 @@ export const PhoneDragonball = () => {
          </button>
        </div>
        <div className={styles.div4}>
-        <img src={dragonballimg4} className={styles.onepieceimg4} /> 
+        <img src={dragonballimg4} className={styles.dragonballimg4} /> 
          <div className={styles.list1}>
           <span className={styles.span4}>
           <img src={dragonball4_1} className={styles.img1}/>
