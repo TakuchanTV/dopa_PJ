@@ -3,10 +3,18 @@
     top: 50%;
     left: 40%;
     background-color: green;
+    transform: translateX(-20%) translateY(-50%) ;
     padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 100px;
+    z-index: 1000;
+}
+.btndiv{
+    display: flex;
+}
+.btn1, .btn2{
+  margin: 0 20px;
 }

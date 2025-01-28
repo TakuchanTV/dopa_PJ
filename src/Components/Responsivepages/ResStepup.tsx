@@ -9,7 +9,7 @@ export const ResStepup = () => {
   return (
     <div>
       {/*414px以上はデスクトップの画面*/}  
-      {isDesktop && <Popup />}
+      {isDesktop && <Loadingsquares />}
       {/*414px未満はモバイル用の画面*/}  
       {!isDesktop && <Loadingdots />}
     </div>
