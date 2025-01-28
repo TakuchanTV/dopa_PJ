@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from "../../ModuleCSS/pokemon.module.css"
 import { Makingtab } from '../../Header/Makingtab.tsx'
 import { Banner } from '../../Header/Banner.tsx'
 import { Gachadppokemon } from '../../Header/Navigatedp/Gachadppokemon.tsx'
 import { PagesChangetag } from '../../Header/PagesChange.tsx'
 import { Footer } from '../../Footer/Footer.tsx'
+import { Popup } from '../../Popup/Popup.js'
 
 
 import pokemonimg1 from "../../Images/ポケモンページの写真/pokemonimg1.png"
@@ -14,28 +15,37 @@ import pokemon3 from "../../Images/ポケモンページの写真/ポケモン�
 import pokemon4 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon4.png"
 import pokemon5 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon5.png"
 import pokemon6 from "../../Images/ポケモンページの写真/ポケモンページのリスト/ポケモン1のリスト写真/pokemon6.png"
+import { Popup10 } from '../../Popup/Popup10.js'
+import { Popup100 } from '../../Popup/Popup100.js'
 
 
 
 
 export const PCpokemon = () => {
-    const GachaConfirm = ()  => {
-        if (window.confirm("使用ポイント確認 \n 500PT消費して1枚引く")){
-         window.alert("ありがとうございます")
-        }else{
-        }
-      }
+const [popupvisible, setPopupvisible] = useState(false)
+const [popupvisible10, setPopupvisible10] = useState(false)
+const [popupvisible100, setPopupvisible100] = useState(false)
+
+const togglePopup = () => setPopupvisible(!popupvisible)
+const togglePopup10 = () => setPopupvisible10(!popupvisible10)
+const togglePopup100 = () => setPopupvisible100(!popupvisible100)
+
+const GachaConfirm = ()  => {
+      togglePopup()
+    }
       const GachaConfirm10 = ()  => {
-        if (window.confirm("使用ポイント確認 \n 5000PT消費して1枚引く")){
-         window.alert("ありがとうございます")
-        }else{
-        }
+        // if (window.confirm("使用ポイント確認 \n 5000PT消費して1枚引く")){
+        //  window.alert("ありがとうございます")
+        // }else{
+        // }
+        togglePopup10()
       }
       const GachaConfirm100 = ()  => {
-        if (window.confirm("使用ポイント確認 \n 50000PT消費して1枚引く")){
-         window.alert("ありがとうございます")
-        }else{
-        }
+        // if (window.confirm("使用ポイント確認 \n 50000PT消費して1枚引く")){
+        //  window.alert("ありがとうございます")
+        // }else{
+        // }
+        togglePopup100()
       }
   return (
     <div className={styles.fixwidth}>
@@ -43,6 +53,10 @@ export const PCpokemon = () => {
     <Banner />
     <Gachadppokemon />
     <PagesChangetag/>
+    <Popup togglePopup={togglePopup} popupvisible={popupvisible}/>
+    <Popup10 togglePopup10={togglePopup10} popupvisible10={popupvisible10}/>
+    <Popup100 togglePopup100={togglePopup100} popupvisible100={popupvisible100}/>
+
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
