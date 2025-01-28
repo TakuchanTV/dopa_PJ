@@ -17,6 +17,7 @@ import { Dpyuugiou } from "../Dppages/Dpyuugiou.tsx"
 import { Dpvice } from "../Dppages/Dpvice.tsx"
 import { Dpunionarena } from "../Dppages/Dpunionarena.tsx"
 import { Dpothers } from "../Dppages/Dpothers.tsx"
+import { Gachaanime } from "../Gachaanimation/Gachaanime.tsx"
 export const PageRouter = () => {
    return (
     <Routes >
@@ -37,6 +38,7 @@ export const PageRouter = () => {
       <Route path="others" element={<Others />}/>
       <Route path="others/dp" element={<Dpothers />}/>
       <Route path="charge" element={<Charge />}/>
+      <Route path="Gachaanime" element={<Gachaanime />}/>
     </Routes>
    )
 }
