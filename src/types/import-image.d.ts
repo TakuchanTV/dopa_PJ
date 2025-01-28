@@ -36,8 +36,7 @@ declare module "*../Navigatedp/PhoneGachadpyuugiou.module.css";
 declare module "*../Navigatedp/PhoneGachadpdragonball.module.css";
 declare module "*../PhoneModuleCSS/PhoneVice.module.css";
 declare module "*../Navigatedp/PhoneGachadpvice.module.css";
-declare module "*../PhoneModuleCSS/PhoneUnionarena.module.css"
-declare module "*../Navigatedp/PhoneGachadpunionarena.module.css"
-
-
-
+declare module "*../PhoneModuleCSS/PhoneUnionarena.module.css";
+declare module "*../Navigatedp/PhoneGachadpunionarena.module.css";
+declare module "*./GachaanimeCSS/Gachaanime.module.css";
+declare module "*animejs";
