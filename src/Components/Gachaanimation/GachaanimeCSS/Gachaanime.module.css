@@ -1,17 +1,69 @@
+
+.div{
+   height: 100%;
+}
 .wrapper{
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 180px;
+    background-image: url("../GachaImages/skyblue.png");
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 .square{
-    background-color: rgb(90, 135, 255);
-    width:60px;
+    width:50px;
     height: 50px;
     cursor: pointer;
     margin: 20px;
     padding: 40px;
-    border-radius: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 480px;
+    background-color: #1fd522;
+    display:block
+   
 }
+.square::before{
+    animation: 0.1s buru 5.5s 35;
+    display:block;
+    content:"";
+    width:25px;
+    height:25px;
+    top:25px;
+    left:25px;
+    position: absolute;
+    background-color:#fff;
+    border-radius: 50%;  
+    z-index:2;
+    filter: blur(5px);
+  }
+  .square::after{
+    animation: 0.1s buru 5.5s 35 ;
+    display:block;
+    content:"";
+    width:95px;
+    height:100px;
+    top:30px;
+    left:30px;
+    position: absolute;
+    filter: blur(12px);
+    background-color:transparent;
+    z-index:1;
+    box-shadow: inset -10px -10px 0 3px #400;
+    border-radius: 40%;
+  }
+
+  .wrapper img{
+    width: 400px;
+  }
+
+  @keyframes buru{
+    0% {transform: translate(0px, 0px) rotateZ(0deg)}
+    25% {transform: translate(2px, 2px) rotateZ(1deg)}
+    50% {transform: translate(0px, 2px) rotateZ(0deg)}
+    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
+    100% {transform: translate(0px, 0px) rotateZ(0deg)}
+    
+  }
