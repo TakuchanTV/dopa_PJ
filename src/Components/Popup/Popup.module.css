@@ -2,19 +2,32 @@
     position: fixed;
     top: 50%;
     left: 40%;
-    background-color: green;
-    transform: translateX(-20%) translateY(-50%) ;
-    padding: 30px;
+    /* background-color: rgb(207, 245, 207); */
+    transform: translateX(-25%) translateY(-50%) ;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding: 150px;
     z-index: 1000;
+    backdrop-filter: blur(102px);
 }
+
 .btndiv{
     display: flex;
 }
 .btn1, .btn2{
   margin: 0 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn1{
+ &:hover{
+  background-color: rgb(224, 103, 103);
+ }
+}
+.btn2{
+  &:hover{
+    background-color: rgb(114, 230, 230);
+  }
 }
