@@ -7,25 +7,17 @@ import { keyframes } from 'styled-components'
 
 export const Gachaanime = () => {
 const elems = useRef<(HTMLDivElement)>(null)
+const LeftRef = useRef<(HTMLDivElement)>(null)
+const RightRef = useRef<(HTMLDivElement)>(null)
 
 useEffect(() => {
   const autoPlay = setInterval(() => {
-    if (elems.current) {
+    if (LeftRef.current,RightRef.current) {
         anime({
-           targets:elems.current,
-           translateY:450,
-           borderRadius: "100px",
+           targets:[LeftRef.current,RightRef.current],
+           translateY:400,
            opacity:1,
            duration:2000,
-   
-            complete:() => {
-              setTimeout(() => {
-                anime({
-                  targets:elems.current,
-                })  
-              },5000);
-            }
-            
           })
     }
   },3000)
@@ -34,10 +26,13 @@ useEffect(() => {
     },[])
 
   return (
-    <div className={styles.div}>
-        <div className={styles.wrapper}>
-        <div className={styles.square} ref={elems}></div>  
-        </div>
+      <div className={styles.div}>
+       <div className={styles.wrapper}>
+          <div className={styles.left_half} ref={LeftRef}></div>
+          <div className={styles.right_half} ref={RightRef}></div>
+        {/* <div className={styles.square} ref={elems}>
+        </div>   */}
+       </div>
     </div> 
   )
 }
