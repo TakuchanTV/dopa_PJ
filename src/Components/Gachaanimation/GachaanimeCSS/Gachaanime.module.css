@@ -3,7 +3,7 @@
    height: 100%;
 }
 .wrapper{
-  animation: backgroundImg 1.5s 11s  forwards ;
+  animation: backgroundImg 3.5s 10.5s forwards;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@
   width: 50px;          /* 親要素の幅の半分 */
   height: 100px;        /* 親要素と同じ高さ */
   background-color: #1fd522;
-  left: 30px;
+  left: 140px;
   bottom:410px;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
@@ -45,7 +45,7 @@
   width: 50px;          /* 親要素の幅の半分 */
   height: 100px;        /* 親要素と同じ高さ */
   background-color: #1fd522;
-  right: -30.1px;
+  right: -140.1px;
   bottom:410px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -84,17 +84,41 @@
   .square::before{
     content: "";
   }
-  
-
-  /* .left_half_before{
-    animation: 1s splitLeft  ease-in-out;
-  }
-  .right_half_after{
-    animation: 1s splitRight  ease-in-out;
-  } */
+ 
   .wrapper img{
     width: 400px;
   }
+
+  .hittext {
+    opacity: 0;
+    /* background-color: orange; */
+    color: rgb(228, 102, 23);
+    letter-spacing: 15px;
+    position: relative;
+    right: 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: 800;
+  }
+  .hittextAnimation {
+   animation: fadeup 3s ease-in-out forwards;
+ }
+  .misstext {
+    opacity: 0;
+    /* background-color: orange; */
+    color: rgb(12, 123, 188);
+    letter-spacing: 15px;
+    position: relative;
+    right: 160px;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: 800;
+  }
+  .misstextAnimation {
+   animation: fadeup 3s ease-in-out forwards;
+ }
 
   @keyframes buru{
     0% {transform: translate(0px, 0px) rotateZ(0deg)}
@@ -108,28 +132,54 @@
   @keyframes splitLeft {
     0% {
       transform: translateX(0px) translateY(400px) rotate(0deg);
+      opacity: 1;
     }
     100% {
       transform: translateX(-100px) translateY(400px) rotate(-45deg); /* 左方向に移動 */
+      opacity: 0;
     }
   }
   
   @keyframes splitRight {
     0% {
       transform: translateX(0px) translateY(400px) rotate(0deg);
+      opacity: 1;
     }
     100% {
       transform: translateX(100px) translateY(400px) rotate(45deg); /* 右方向に移動 */
+      opacity: 0;
     }
   }
 
   @keyframes backgroundImg {
     0% {
-      /* background-image: url("../GachaImages/skyblue.png"); */
+      opacity: 1;
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    70% {
       opacity: 1;
     }
     100% {
-      /* background-image: none; */
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeup {
+    0% {
       opacity: 0;
+      transform: translateY(2em);
+    }
+    50% {
+      opacity: 0.5;
+      transform: translateY(-1em);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
     }
   }
