@@ -33,7 +33,7 @@
   width: 50px;          /* 親要素の幅の半分 */
   height: 100px;        /* 親要素と同じ高さ */
   background-color: #1fd522;
-  left: 140px;
+  left: 500px;
   bottom:410px;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
@@ -45,7 +45,7 @@
   width: 50px;          /* 親要素の幅の半分 */
   height: 100px;        /* 親要素と同じ高さ */
   background-color: #1fd522;
-  right: -140.1px;
+  right: -500.1px;
   bottom:410px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -95,7 +95,7 @@
     color: rgb(228, 102, 23);
     letter-spacing: 15px;
     position: relative;
-    right: 15px;
+    left: 300px;
     justify-content: center;
     align-items: center;
     font-size: 80px;
@@ -110,13 +110,28 @@
     color: rgb(12, 123, 188);
     letter-spacing: 15px;
     position: relative;
-    right: 160px;
+    right: -20px;
     justify-content: center;
     align-items: center;
     font-size: 80px;
     font-weight: 800;
   }
   .misstextAnimation {
+   animation: fadeup 3s ease-in-out forwards;
+ }
+  .bigwintext {
+    opacity: 0;
+    /* background-color: orange; */
+    color: gold;
+    letter-spacing: 15px;
+    position: relative;
+    right: 300px;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: 800;
+  }
+  .bigwintextAnimation {
    animation: fadeup 3s ease-in-out forwards;
  }
 
