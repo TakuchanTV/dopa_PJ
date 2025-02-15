@@ -8,7 +8,7 @@ export const Popup10 = ({popupvisible10,togglePopup10}) => {
 // const togglePopup = () => setPopupvisible(!popupvisible)
 const navigate = useNavigate()
 
-const checkfunc = () =>navigate("/onepiece")
+const checkfunc = () =>navigate("/Gachaanime10")
   return (
     <div>
       {/* <button onClick={togglePopup}>ポップアップを開く</button> */}
