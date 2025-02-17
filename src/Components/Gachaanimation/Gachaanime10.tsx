@@ -8,16 +8,7 @@ export const Gachaanime10 = () => {
 const elems = useRef<(HTMLDivElement)>(null)
 const LeftRef = useRef<(HTMLDivElement)>(null)
 const RightRef = useRef<(HTMLDivElement)>(null)
-// const HitRef1 = useRef<(HTMLParagraphElement)>(null)
-// const HitRef2 = useRef<(HTMLParagraphElement)>(null)
-// const HitRef3 = useRef<(HTMLParagraphElement)>(null)
-// const MissRef1 = useRef<(HTMLParagraphElement)>(null)
-// const MissRef2 = useRef<(HTMLParagraphElement)>(null)
-// const MissRef3 = useRef<(HTMLParagraphElement)>(null)
-// const BigWinRef1 = useRef<(HTMLParagraphElement)>(null)
-// const BigWinRef2 = useRef<(HTMLParagraphElement)>(null)
-// const BigWinRef3 = useRef<(HTMLParagraphElement)>(null)
-// const BigWinRef4 = useRef<(HTMLParagraphElement)>(null)
+
 const hitText1:HTMLElement | null = document.getElementById("hitText1")
 const hitText2:HTMLElement | null = document.getElementById("hitText2")
 const hitText3:HTMLElement | null= document.getElementById("hitText3")
@@ -49,22 +40,10 @@ useEffect(() => {
       })
     }}
 
-    const missTextAnimation = ():void => {
-      anime({
-        opacity:0,
-        color: "rgb(12, 123, 188)",
-        letterSpacing:15,
-        postion:"relative",
-        right:-20,
-        justifiyContent:"center",
-        alignItems:"center",
-        fontSize:80,
-        fontWight:800,
-      })
-    }
+    
     
     const autoDisplay = () => {
-      if (randomText < 40) {
+      if (randomText < 50) {
         missText1?.classList.add(styles.misstextAnimation)
            setTimeout(() => {
            missText2?.classList.add(styles.misstextAnimation)
@@ -86,7 +65,7 @@ useEffect(() => {
           
           
         }
-        else if (randomText >=40 && randomText < 90) {
+        else if (randomText >=50 && randomText < 95) {
               hitText1?.classList.add(styles.hittextAnimation);
           setTimeout(() => {
               hitText2?.classList.add(styles.hittextAnimation)
