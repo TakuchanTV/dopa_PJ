@@ -15,7 +15,6 @@ const checkfunc = () =>navigate("/Gachaanime10")
       {popupvisible10 && (
         <div className={styles.Popup}>
          {/*ポップアップの画面*/}
-         <p>ポップアップの画面を表示します</p>
           <div className={styles.btndiv}>
             <button onClick={checkfunc} className={styles.btn1}>10連ガチャを引く</button>
             <button onClick={togglePopup10} className={styles.btn2}>キャンセル</button>
