@@ -91,10 +91,10 @@ export const PCdragonball = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         <button className={styles.button1_3} onClick={GachaConfirm100}>
+         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button>
+         </button> */}
        </div>
        <div className={styles.div1}>
         <img src={dragonballimg1} className={styles.img} /> 
@@ -128,10 +128,10 @@ export const PCdragonball = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         <button className={styles.button1_3} onClick={GachaConfirm100}>
+         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button>
+         </button> */}
        </div>
       
      </div>
@@ -168,10 +168,10 @@ export const PCdragonball = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         <button className={styles.button1_3} onClick={GachaConfirm100}>
+         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button>
+         </button> */}
        </div>
        <div className={styles.div1}>
         <img src={dragonballimg1} className={styles.img} /> 
@@ -205,10 +205,10 @@ export const PCdragonball = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         <button className={styles.button1_3} onClick={GachaConfirm100}>
+         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button>
+         </button> */}
        </div>
      </div>
    </div>
