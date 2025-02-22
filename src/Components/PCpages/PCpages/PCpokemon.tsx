@@ -34,17 +34,9 @@ const GachaConfirm = ()  => {
       togglePopup()
     }
       const GachaConfirm10 = ()  => {
-        // if (window.confirm("使用ポイント確認 \n 5000PT消費して1枚引く")){
-        //  window.alert("ありがとうございます")
-        // }else{
-        // }
         togglePopup10()
       }
       const GachaConfirm100 = ()  => {
-        // if (window.confirm("使用ポイント確認 \n 50000PT消費して1枚引く")){
-        //  window.alert("ありがとうございます")
-        // }else{
-        // }
         togglePopup100()
       }
   return (

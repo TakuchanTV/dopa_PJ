@@ -16,24 +16,25 @@ import { Gachadponepiece } from "../../Header/Navigatedp/Gachadponepiece.tsx"
 import { PagesChangetag } from "../../Header/PagesChange.tsx"
 import { PhoneFooter } from "../../Phonepages/PhoneFooter/PhoneFooter.tsx"
 import { Footer } from "../../Footer/Footer.tsx"
+import { Popup } from "../../Popup/Popup.js"
+import { Popup10 } from "../../Popup/Popup10.js"
+import { Popup100 } from "../../Popup/Popup100.js"
 export const PConePiece = () => {
+  const [popupvisible, setPopupvisible] = useState(false)
+  const [popupvisible10, setPopupvisible10] = useState(false)
+  const [popupvisible100, setPopupvisible100] = useState(false)
+  
+  const togglePopup = () => setPopupvisible(!popupvisible)
+  const togglePopup10 = () => setPopupvisible10(!popupvisible10)
+  const togglePopup100 = () => setPopupvisible100(!popupvisible100)
   const GachaConfirm = ()  => {
-    if (window.confirm("使用ポイント確認 \n 500PT消費して1枚引く")){
-     window.alert("ありがとうございます")
-    }else{
-    }
+    togglePopup();
   }
   const GachaConfirm10 = ()  => {
-    if (window.confirm("使用ポイント確認 \n 5000PT消費して1枚引く")){
-     window.alert("ありがとうございます")
-    }else{
-    }
+   togglePopup10();
   }
   const GachaConfirm100 = ()  => {
-    if (window.confirm("使用ポイント確認 \n 50000PT消費して1枚引く")){
-     window.alert("ありがとうございます")
-    }else{
-    }
+   togglePopup100();
   }
 
 return (
@@ -42,6 +43,9 @@ return (
     <Banner />
     <Gachadponepiece />
     <PagesChangetag/>
+    <Popup togglePopup={togglePopup} popupvisible={popupvisible}/>
+    <Popup10 togglePopup10={togglePopup10} popupvisible10={popupvisible10}/>
+    <Popup100 togglePopup100={togglePopup100} popupvisible100={popupvisible100}/>
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
