@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { PhoneMakingtab } from '../PhoneHeader/PhoneMakingtab.tsx'
 import { PhoneBanner } from '../PhoneHeader/PhoneBanner.tsx'
 import { PhonePagesChange } from '../PhoneHeader/PhonePagesChange.tsx'
@@ -38,33 +38,36 @@ import Vice4_4 from "../../Images/ヴァイスページの写真/ヴァイス4�
 import Vice4_5 from "../../Images/ヴァイスページの写真/ヴァイス4のリスト写真/vicepageimg5.png"
 import Vice4_6 from "../../Images/ヴァイスページの写真/ヴァイス4のリスト写真/vicepageimg6.png"
 import { PhoneGachadpvice } from '../PhoneHeader/Navigatedp/PhoneGachadpvice.tsx'
+import { PhonePopup } from '../../Popup/PhonePopup.js'
+import { PhonePopup10 } from '../../Popup/PhonePopup10.js'
 
 
 export const PhoneVice = () => {
-    const GachaConfirm = ()  => {
-        if (window.confirm("使用ポイント確認 \n 500PT消費して1枚引く")){
-         window.alert("ありがとうございます")
-        }else{
-        }
+        const [popupvisible, setPopupvisible] = useState(false)
+        const [popupvisible10, setPopupvisible10] = useState(false)
+        const [popupvisible100, setPopupvisible100] = useState(false)
+       
+       const togglePopup = () => setPopupvisible(!popupvisible)
+       const togglePopup10 = () => setPopupvisible10(!popupvisible10)
+       const togglePopup100 = () => setPopupvisible100(!popupvisible100)
+      
+       const GachaConfirm = ()  => {
+        togglePopup()
       }
-      const GachaConfirm10 = ()  => {
-        if (window.confirm("使用ポイント確認 \n 5000PT消費して1枚引く")){
-         window.alert("ありがとうございます")
-        }else{
+        const GachaConfirm10 = ()  => {
+          togglePopup10()
         }
-      }
-      const GachaConfirm100 = ()  => {
-        if (window.confirm("使用ポイント確認 \n 50000PT消費して1枚引く")){
-         window.alert("ありがとうございます")
-        }else{
+        const GachaConfirm100 = ()  => {
+          togglePopup100()
         }
-      }
   return (
     <div className={styles.fixwidth}>
     <PhoneMakingtab/>
     <PhoneBanner />
     <PhoneGachadpvice />
     <PhonePagesChange/>
+    <PhonePopup togglePopup={togglePopup} popupvisible={popupvisible}/>
+    <PhonePopup10 togglePopup10={togglePopup10} popupvisible10={popupvisible10}/>
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>

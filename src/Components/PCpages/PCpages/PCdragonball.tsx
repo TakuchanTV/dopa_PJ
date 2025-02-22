@@ -30,26 +30,28 @@ import { Makingtab } from "../../Header/Makingtab.tsx";
 import { Banner } from "../../Header/Banner.tsx";
 import { PagesChangetag } from "../../Header/PagesChange.tsx";
 import { Footer } from "../../Footer/Footer.tsx";
+import { Popup } from "../../Popup/Popup.js";
+import { Popup10 } from "../../Popup/Popup10.js";
+import { Popup100 } from "../../Popup/Popup100.js";
 
 
 export const PCdragonball = () => {
+  const [popupvisible, setPopupvisible] = useState(false)
+  const [popupvisible10, setPopupvisible10] = useState(false)
+  const [popupvisible100, setPopupvisible100] = useState(false)
+  
+  const togglePopup = () => setPopupvisible(!popupvisible)
+  const togglePopup10 = () => setPopupvisible10(!popupvisible10)
+  const togglePopup100 = () => setPopupvisible100(!popupvisible100)
+  
     const GachaConfirm = ()  => {
-        if (window.confirm("使用ポイント確認 \n 500PT消費して1枚引く")){
-         window.alert("ありがとうございます")
-        }else{
-        }
+       togglePopup()
       }
       const GachaConfirm10 = ()  => {
-        if (window.confirm("使用ポイント確認 \n 5000PT消費して1枚引く")){
-         window.alert("ありがとうございます")
-        }else{
-        }
+       togglePopup10()
       }
       const GachaConfirm100 = ()  => {
-        if (window.confirm("使用ポイント確認 \n 50000PT消費して1枚引く")){
-         window.alert("ありがとうございます")
-        }else{
-        }
+       togglePopup100()
       }
   return (
     <div className={styles.fixwidth}>
@@ -57,6 +59,9 @@ export const PCdragonball = () => {
     <Banner />
     <Gachaddragonball />
     <PagesChangetag/>
+    <Popup togglePopup={togglePopup} popupvisible={popupvisible}/>
+    <Popup10 togglePopup10={togglePopup10} popupvisible10={popupvisible10}/>
+    <Popup100 togglePopup100={togglePopup100} popupvisible100={popupvisible100}/>
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
@@ -91,10 +96,10 @@ export const PCdragonball = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         <button className={styles.button1_3} onClick={GachaConfirm100}>
+         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button>
+         </button> */}
        </div>
        <div className={styles.div1}>
         <img src={dragonballimg1} className={styles.img} /> 
@@ -128,10 +133,10 @@ export const PCdragonball = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         <button className={styles.button1_3} onClick={GachaConfirm100}>
+         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button>
+         </button> */}
        </div>
       
      </div>
@@ -168,10 +173,10 @@ export const PCdragonball = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         <button className={styles.button1_3} onClick={GachaConfirm100}>
+         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button>
+         </button> */}
        </div>
        <div className={styles.div1}>
         <img src={dragonballimg1} className={styles.img} /> 
@@ -205,10 +210,10 @@ export const PCdragonball = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         <button className={styles.button1_3} onClick={GachaConfirm100}>
+         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button>
+         </button> */}
        </div>
      </div>
    </div>

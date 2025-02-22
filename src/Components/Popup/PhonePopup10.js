@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import styles from "../Popup/Popup.module.css"
+import styles from "../Popup/PhonePopup.module.css"
 import { useNavigate } from 'react-router-dom'
 
-export const Popup10 = ({popupvisible10,togglePopup10}) => {
+export const PhonePopup10 = ({popupvisible10,togglePopup10}) => {
 // const [popupvisible, setPopupvisible] = useState(false)
 
 // const togglePopup = () => setPopupvisible(!popupvisible)
 const navigate = useNavigate()
 
-const checkfunc = () =>navigate("/Gachaanime10")
+const checkfunc = () =>navigate("/PhoneGachaanime10")
   return (
     <div>
       {/* <button onClick={togglePopup}>ポップアップを開く</button> */}
