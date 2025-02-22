@@ -36,7 +36,7 @@ useEffect(() => {
 
     let autoDisplay;
 
-    if (randomText < 40) {
+    if (randomText < 50) {
       autoDisplay = setTimeout(() => {
        if (HitRef1.current) {
          HitRef1.current.classList.add(styles.hittextAnimation)
@@ -53,10 +53,10 @@ useEffect(() => {
        }
        setTimeout(()=> {
         navigate("/")
-       },11000)
+       },6000)
       },13000)
     }
-    else if (randomText >=40 && randomText < 90) {
+    else if (randomText >=50 && randomText < 95) {
       autoDisplay = setTimeout(() => {
        if (MissRef1.current) {
          MissRef1.current.classList.add(styles.misstextAnimation)
@@ -73,7 +73,7 @@ useEffect(() => {
        }
          setTimeout(()=> {
           navigate("/")
-         },11000)
+         },6000)
       },13000)
     }
 
@@ -100,7 +100,7 @@ useEffect(() => {
        }
        setTimeout(()=> {
         navigate("/")
-       },11000)
+       },6000)
       },13000)
    }
 

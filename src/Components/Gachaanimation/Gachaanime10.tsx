@@ -149,7 +149,7 @@ useEffect(() => {
       clearTimeout(autoDisplayAnimation);
       }
       
-    },[randomText])
+    },[randomText,count])
 
   return (
       <div className={styles.div}>
