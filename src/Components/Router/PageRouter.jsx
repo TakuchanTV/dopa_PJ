@@ -20,6 +20,8 @@ import { Dpothers } from "../Dppages/Dpothers.tsx"
 import { Gachaanime } from "../Gachaanimation/Gachaanime.tsx"
 import { Gachaanime10 } from "../Gachaanimation/Gachaanime10.tsx"
 import { Gachaanime100 } from "../Gachaanimation/Gachaanime100.tsx"
+import { PhoneGachaanime } from "../Gachaanimation/PhoneGachanime.tsx"
+import { PhoneGachaanime10 } from "../Gachaanimation/PhoneGachaanime10.tsx"
 export const PageRouter = () => {
    return (
     <Routes >
@@ -43,6 +45,8 @@ export const PageRouter = () => {
       <Route path="Gachaanime" element={<Gachaanime />}/>
       <Route path="Gachaanime10" element={<Gachaanime10 />}/>
       <Route path="Gachaanime100" element={<Gachaanime100 />}/>
+      <Route path="PhoneGachaanime" element={<PhoneGachaanime />} />
+      <Route path="PhoneGachaanime10" element={<PhoneGachaanime10 />} />
     </Routes>
    )
 }
