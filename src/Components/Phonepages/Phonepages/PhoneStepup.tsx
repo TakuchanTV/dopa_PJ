@@ -3,7 +3,7 @@ import { PhoneMakingtab } from '../PhoneHeader/PhoneMakingtab.tsx'
 import { PhoneBanner } from '../PhoneHeader/PhoneBanner.tsx'
 import { PhonePagesChange } from '../PhoneHeader/PhonePagesChange.tsx'
 import { PhoneFooter } from '../PhoneFooter/PhoneFooter.tsx'
-import styles from "../PhoneModuleCSS/PhoneDp.module.css"
+import styles from "../PhoneModuleCSS/PhoneStepup.module.css"
 
 export const PhoneStepup = () => {
   return (
