@@ -17,6 +17,7 @@ import { Gachadpothers } from "../Header/Navigatedp/Gachadpothers.tsx";
 import { Popup } from "../Popup/Popup.js";
 import { Popup10 } from "../Popup/Popup10.js";
 import { Popup100 } from "../Popup/Popup100.js";
+import { ResOther } from "../Responsivepages/ResOther.tsx";
 
 export const Others = () => {
  const [popupvisible, setPopupvisible] = useState(false)
@@ -48,171 +49,172 @@ export const Others = () => {
       isVisable ? (
        <Loadingsquares />
       ) : (
-        <div className={styles.fixwidth}>
-        <Makingtab />
-        <Banner />
-        <Gachadpothers />
-        <PagesChangetag/>
-        <Popup togglePopup={togglePopup} popupvisible={popupvisible}/>
-        <Popup10 togglePopup10={togglePopup10} popupvisible10={popupvisible10}/>
-        <Popup100 togglePopup100={togglePopup100} popupvisible100={popupvisible100}/>
-        <div className={styles.div}>
-         <div className={styles.Div1}>
-           <div className={styles.div1}>
-            <img src={othersimg1} className={styles.img} /> 
-             <div className={styles.list1}>
-              <span className={styles.span1}>
-              <img src={others1} className={styles.img1}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others2} className={styles.img2}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others3} className={styles.img3}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others4} className={styles.img4}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others5} className={styles.img5}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others6} className={styles.img6}/>
-              </span>
-             </div>
-             <div>
-             <button className={styles.button1_1} onClick={GachaConfirm}>
-              <span className={styles.gacha}></span>
-              <span>1回ガチャ</span>
-             </button>
-             <button className={styles.button1_2} onClick={GachaConfirm10}>
-              <span className={styles.gacha}></span>
-              <span>10連ガチャ</span>
-             </button>
-             </div> 
-             {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
-              <span className={styles.gacha}></span>
-              <span>100連ガチャ</span>
-             </button> */}
-           </div>
-           <div className={styles.div1}>
-            <img src={othersimg1} className={styles.img} /> 
-             <div className={styles.list1}>
-              <span className={styles.span1}>
-              <img src={others1} className={styles.img1}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others2} className={styles.img2}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others3} className={styles.img3}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others4} className={styles.img4}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others5} className={styles.img5}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others6} className={styles.img6}/>
-              </span>
-             </div>
-             <div>
-             <button className={styles.button1_1} onClick={GachaConfirm}>
-              <span className={styles.gacha}></span>
-              <span>1回ガチャ</span>
-             </button>
-             <button className={styles.button1_2} onClick={GachaConfirm10}>
-              <span className={styles.gacha}></span>
-              <span>10連ガチャ</span>
-             </button>
-             </div> 
-             {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
-              <span className={styles.gacha}></span>
-              <span>100連ガチャ</span>
-             </button> */}
-           </div>
+        <ResOther />
+    //     <div className={styles.fixwidth}>
+    //     <Makingtab />
+    //     <Banner />
+    //     <Gachadpothers />
+    //     <PagesChangetag/>
+    //     <Popup togglePopup={togglePopup} popupvisible={popupvisible}/>
+    //     <Popup10 togglePopup10={togglePopup10} popupvisible10={popupvisible10}/>
+    //     <Popup100 togglePopup100={togglePopup100} popupvisible100={popupvisible100}/>
+    //     <div className={styles.div}>
+    //      <div className={styles.Div1}>
+    //        <div className={styles.div1}>
+    //         <img src={othersimg1} className={styles.img} /> 
+    //          <div className={styles.list1}>
+    //           <span className={styles.span1}>
+    //           <img src={others1} className={styles.img1}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others2} className={styles.img2}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others3} className={styles.img3}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others4} className={styles.img4}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others5} className={styles.img5}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others6} className={styles.img6}/>
+    //           </span>
+    //          </div>
+    //          <div>
+    //          <button className={styles.button1_1} onClick={GachaConfirm}>
+    //           <span className={styles.gacha}></span>
+    //           <span>1回ガチャ</span>
+    //          </button>
+    //          <button className={styles.button1_2} onClick={GachaConfirm10}>
+    //           <span className={styles.gacha}></span>
+    //           <span>10連ガチャ</span>
+    //          </button>
+    //          </div> 
+    //          {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+    //           <span className={styles.gacha}></span>
+    //           <span>100連ガチャ</span>
+    //          </button> */}
+    //        </div>
+    //        <div className={styles.div1}>
+    //         <img src={othersimg1} className={styles.img} /> 
+    //          <div className={styles.list1}>
+    //           <span className={styles.span1}>
+    //           <img src={others1} className={styles.img1}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others2} className={styles.img2}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others3} className={styles.img3}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others4} className={styles.img4}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others5} className={styles.img5}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others6} className={styles.img6}/>
+    //           </span>
+    //          </div>
+    //          <div>
+    //          <button className={styles.button1_1} onClick={GachaConfirm}>
+    //           <span className={styles.gacha}></span>
+    //           <span>1回ガチャ</span>
+    //          </button>
+    //          <button className={styles.button1_2} onClick={GachaConfirm10}>
+    //           <span className={styles.gacha}></span>
+    //           <span>10連ガチャ</span>
+    //          </button>
+    //          </div> 
+    //          {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+    //           <span className={styles.gacha}></span>
+    //           <span>100連ガチャ</span>
+    //          </button> */}
+    //        </div>
           
-         </div>
-         <div className={styles.Div2}>
-         <div className={styles.div1}>
-            <img src={othersimg1} className={styles.img} /> 
-             <div className={styles.list1}>
-              <span className={styles.span1}>
-              <img src={others1} className={styles.img1}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others2} className={styles.img2}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others3} className={styles.img3}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others4} className={styles.img4}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others5} className={styles.img5}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others6} className={styles.img6}/>
-              </span>
-             </div>
-             <div>
-             <button className={styles.button1_1} onClick={GachaConfirm}>
-              <span className={styles.gacha}></span>
-              <span>1回ガチャ</span>
-             </button>
-             <button className={styles.button1_2} onClick={GachaConfirm10}>
-              <span className={styles.gacha}></span>
-              <span>10連ガチャ</span>
-             </button>
-             </div> 
-             {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
-              <span className={styles.gacha}></span>
-              <span>100連ガチャ</span>
-             </button> */}
-           </div>
-           <div className={styles.div1}>
-            <img src={othersimg1} className={styles.img} /> 
-             <div className={styles.list1}>
-              <span className={styles.span1}>
-              <img src={others1} className={styles.img1}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others2} className={styles.img2}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others3} className={styles.img3}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others4} className={styles.img4}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others5} className={styles.img5}/>
-              </span>
-              <span className={styles.span1}>
-              <img src={others6} className={styles.img6}/>
-              </span>
-             </div>
-             <div>
-             <button className={styles.button1_1} onClick={GachaConfirm}>
-              <span className={styles.gacha}></span>
-              <span>1回ガチャ</span>
-             </button>
-             <button className={styles.button1_2} onClick={GachaConfirm10}>
-              <span className={styles.gacha}></span>
-              <span>10連ガチャ</span>
-             </button>
-             </div> 
-             {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
-              <span className={styles.gacha}></span>
-              <span>100連ガチャ</span>
-             </button> */}
-           </div>
-         </div>
-       </div>
-     <Footer /> 
-      </div>
+    //      </div>
+    //      <div className={styles.Div2}>
+    //      <div className={styles.div1}>
+    //         <img src={othersimg1} className={styles.img} /> 
+    //          <div className={styles.list1}>
+    //           <span className={styles.span1}>
+    //           <img src={others1} className={styles.img1}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others2} className={styles.img2}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others3} className={styles.img3}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others4} className={styles.img4}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others5} className={styles.img5}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others6} className={styles.img6}/>
+    //           </span>
+    //          </div>
+    //          <div>
+    //          <button className={styles.button1_1} onClick={GachaConfirm}>
+    //           <span className={styles.gacha}></span>
+    //           <span>1回ガチャ</span>
+    //          </button>
+    //          <button className={styles.button1_2} onClick={GachaConfirm10}>
+    //           <span className={styles.gacha}></span>
+    //           <span>10連ガチャ</span>
+    //          </button>
+    //          </div> 
+    //          {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+    //           <span className={styles.gacha}></span>
+    //           <span>100連ガチャ</span>
+    //          </button> */}
+    //        </div>
+    //        <div className={styles.div1}>
+    //         <img src={othersimg1} className={styles.img} /> 
+    //          <div className={styles.list1}>
+    //           <span className={styles.span1}>
+    //           <img src={others1} className={styles.img1}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others2} className={styles.img2}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others3} className={styles.img3}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others4} className={styles.img4}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others5} className={styles.img5}/>
+    //           </span>
+    //           <span className={styles.span1}>
+    //           <img src={others6} className={styles.img6}/>
+    //           </span>
+    //          </div>
+    //          <div>
+    //          <button className={styles.button1_1} onClick={GachaConfirm}>
+    //           <span className={styles.gacha}></span>
+    //           <span>1回ガチャ</span>
+    //          </button>
+    //          <button className={styles.button1_2} onClick={GachaConfirm10}>
+    //           <span className={styles.gacha}></span>
+    //           <span>10連ガチャ</span>
+    //          </button>
+    //          </div> 
+    //          {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+    //           <span className={styles.gacha}></span>
+    //           <span>100連ガチャ</span>
+    //          </button> */}
+    //        </div>
+    //      </div>
+    //    </div>
+    //  <Footer /> 
+    //   </div>
       )
     
     )
