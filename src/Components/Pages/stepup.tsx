@@ -17,6 +17,15 @@ const [isVisable, setIsVisable] = useState(true);
     return (
        isVisable ? (
         <Loadingsquares />
-       )  : (<ResStepup />)
+       )  : (
+        <div>
+            <Makingtab />
+            <Banner />
+            <PagesChangetag />
+           {/* <p>StepUpページです</p> */}
+           <ResStepup />
+           <Footer />
+        </div>
+       )
     )
 };

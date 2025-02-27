@@ -5,7 +5,6 @@ import { Banner } from "../Header/Banner.tsx";
 import { PagesChangetag } from "../Header/PagesChange.tsx";
 import spinerstyles from "../Loading/Loadingdots.module.css"
 import { Loadingsquares } from "../Loading/Loadingsquares.tsx";
-import { ResDp } from "../Responsivepages/ResDp.tsx";
 
 export const DP = () => {
 const [isVisable, setIsVisable] = useState(true);
@@ -18,6 +17,14 @@ const [isVisable, setIsVisable] = useState(true);
     return (
        isVisable ? (
          <Loadingsquares />
-       ) : (<ResDp />)
+       ) : (
+        <div>
+            <Makingtab />
+             <Banner />
+             <PagesChangetag />
+           <p>DPページです</p> 
+           <Footer />
+        </div>
+       )
     )
 };
