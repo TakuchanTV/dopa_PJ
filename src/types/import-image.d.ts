@@ -36,6 +36,7 @@ declare module "*../Navigatedp/PhoneGachadpyuugiou.module.css";
 declare module "*../Navigatedp/PhoneGachadpdragonball.module.css";
 declare module "*../PhoneModuleCSS/PhoneVice.module.css";
 declare module "*../Navigatedp/PhoneGachadpvice.module.css";
+<<<<<<< HEAD
 declare module "*../PhoneModuleCSS/PhoneUnionarena.module.css";
 declare module "*../Navigatedp/PhoneGachadpunionarena.module.css";
 declare module "*./GachaanimeCSS/Gachaanime.module.css";
@@ -47,3 +48,10 @@ declare module "*../../ModuleCSS/other.module.css";
 declare module "*../PhoneModuleCSS/PhoneOther.module.css";
 declare module "*../PhoneModuleCSS/PhoneDp.module.css";
 declare module "*../PhoneModuleCSS/PhoneStepup.module.css"
+=======
+declare module "*../PhoneModuleCSS/PhoneUnionarena.module.css"
+declare module "*../Navigatedp/PhoneGachadpunionarena.module.css"
+
+
+
+>>>>>>> parent of 5c9b15f (Merge pull request #32 from TakuchanTV/gachaanimation)

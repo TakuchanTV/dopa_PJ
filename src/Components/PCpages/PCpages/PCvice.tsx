@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Footer } from "../../Footer/Footer.tsx";
 import { Makingtab } from "../../Header/Makingtab.tsx";
 import { Banner } from "../../Header/Banner.tsx";
@@ -15,35 +15,31 @@ import vice6    from "../../Images/ヴァイスページの写真/ヴァイス1�
 
 import { PagesChangetag } from "../../Header/PagesChange.tsx";
 import { Gachadpvice } from '../../Header/Navigatedp/Gachadpvice.tsx';
-import { Popup } from '../../Popup/Popup.js';
-import { Popup10 } from '../../Popup/Popup10.js';
-import { Popup100 } from '../../Popup/Popup100.js';
 export const PCvice = () => {
-      const [popupvisible, setPopupvisible] = useState(false)
-      const [popupvisible10, setPopupvisible10] = useState(false)
-      const [popupvisible100, setPopupvisible100] = useState(false)
-       
-       const togglePopup = () => setPopupvisible(!popupvisible)
-       const togglePopup10 = () => setPopupvisible10(!popupvisible10)
-       const togglePopup100 = () => setPopupvisible100(!popupvisible100)
-       const GachaConfirm = ()  => {
-         togglePopup();
-       }
-       const GachaConfirm10 = ()  => {
-        togglePopup10();
-       }
-       const GachaConfirm100 = ()  => {
-        togglePopup100();
-       }
+    const GachaConfirm = ()  => {
+        if (window.confirm("使用ポイント確認 \n 500PT消費して1枚引く")){
+         window.alert("ありがとうございます")
+        }else{
+        }
+      }
+      const GachaConfirm10 = ()  => {
+        if (window.confirm("使用ポイント確認 \n 5000PT消費して1枚引く")){
+         window.alert("ありがとうございます")
+        }else{
+        }
+      }
+      const GachaConfirm100 = ()  => {
+        if (window.confirm("使用ポイント確認 \n 50000PT消費して1枚引く")){
+         window.alert("ありがとうございます")
+        }else{
+        }
+      }
   return (
     <div className={styles.fixwidth}>
         <Makingtab />
         <Banner />
         <Gachadpvice />
         <PagesChangetag/>
-        <Popup togglePopup={togglePopup} popupvisible={popupvisible}/>
-        <Popup10 togglePopup10={togglePopup10} popupvisible10={popupvisible10}/>
-        <Popup100 togglePopup100={togglePopup100} popupvisible100={popupvisible100}/>
         <div className={styles.div}>
          <div className={styles.Div1}>
            <div className={styles.div1}>
@@ -78,10 +74,10 @@ export const PCvice = () => {
               <span>10連ガチャ</span>
              </button>
              </div> 
-             {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+             <button className={styles.button1_3} onClick={GachaConfirm100}>
               <span className={styles.gacha}></span>
               <span>100連ガチャ</span>
-             </button> */}
+             </button>
            </div>
            <div className={styles.div1}>
             <img src={viceimg1} className={styles.img} /> 
@@ -115,10 +111,10 @@ export const PCvice = () => {
               <span>10連ガチャ</span>
              </button>
              </div> 
-             {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+             <button className={styles.button1_3} onClick={GachaConfirm100}>
               <span className={styles.gacha}></span>
               <span>100連ガチャ</span>
-             </button> */}
+             </button>
            </div>
           
          </div>
@@ -155,10 +151,10 @@ export const PCvice = () => {
               <span>10連ガチャ</span>
              </button>
              </div> 
-             {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+             <button className={styles.button1_3} onClick={GachaConfirm100}>
               <span className={styles.gacha}></span>
               <span>100連ガチャ</span>
-             </button> */}
+             </button>
            </div>
            <div className={styles.div1}>
             <img src={viceimg1} className={styles.img} /> 
@@ -192,10 +188,10 @@ export const PCvice = () => {
               <span>10連ガチャ</span>
              </button>
              </div> 
-             {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+             <button className={styles.button1_3} onClick={GachaConfirm100}>
               <span className={styles.gacha}></span>
               <span>100連ガチャ</span>
-             </button> */}
+             </button>
            </div>
          </div>
        </div>

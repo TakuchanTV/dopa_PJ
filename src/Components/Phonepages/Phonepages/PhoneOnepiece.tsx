@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styles from "../PhoneModuleCSS/PhoneOnepiece.module.css";
 import { ResMakingtab } from '../../Responsivepages/ResponsiveHeader/ResMakingtab.tsx'
 import { ResBanner } from '../../Responsivepages/ResponsiveHeader/ResBanner.tsx'
@@ -43,37 +43,34 @@ import { PhoneBanner } from '../PhoneHeader/PhoneBanner.tsx';
 import { PhoneGachadponepiece } from '../PhoneHeader/Navigatedp/PhoneGachadponepiece.tsx';
 import { PhonePagesChange } from '../PhoneHeader/PhonePagesChange.tsx';
 import { PhoneFooter } from '../PhoneFooter/PhoneFooter.tsx';
-import { PhonePopup } from '../../Popup/PhonePopup.js';
-import { PhonePopup10 } from '../../Popup/PhonePopup10.js';
 
 
 
 export const PhoneOnepiece = () => {
-   const [popupvisible, setPopupvisible] = useState(false)
-   const [popupvisible10, setPopupvisible10] = useState(false)
-   const [popupvisible100, setPopupvisible100] = useState(false)
-   
-   const togglePopup = () => setPopupvisible(!popupvisible)
-   const togglePopup10 = () => setPopupvisible10(!popupvisible10)
-   const togglePopup100 = () => setPopupvisible100(!popupvisible100)
-  
-   const GachaConfirm = ()  => {
-    togglePopup()
-  }
-    const GachaConfirm10 = ()  => {
-      togglePopup10()
-    }
-    const GachaConfirm100 = ()  => {
-      togglePopup100()
-    }
+    const GachaConfirm = ()  => {
+        if (window.confirm("使用ポイント確認 \n 500PT消費して1枚引く")){
+         window.alert("ありがとうございます")
+        }else{
+        }
+      }
+      const GachaConfirm10 = ()  => {
+        if (window.confirm("使用ポイント確認 \n 5000PT消費して1枚引く")){
+         window.alert("ありがとうございます")
+        }else{
+        }
+      }
+      const GachaConfirm100 = ()  => {
+        if (window.confirm("使用ポイント確認 \n 50000PT消費して1枚引く")){
+         window.alert("ありがとうございます")
+        }else{
+        }
+      }
   return (
     <div className={styles.fixwidth}>
     <PhoneMakingtab/>
     <PhoneBanner />
     <PhoneGachadponepiece />
     <PhonePagesChange/>
-     <PhonePopup togglePopup={togglePopup} popupvisible={popupvisible}/>
-     <PhonePopup10 togglePopup10={togglePopup10} popupvisible10={popupvisible10}/>
     <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
@@ -108,10 +105,10 @@ export const PhoneOnepiece = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button> */}
+         </button>
        </div>
 
        <div className={styles.div2}>
@@ -146,10 +143,10 @@ export const PhoneOnepiece = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button> */}
+         </button>
        </div>
      </div>
 
@@ -186,10 +183,10 @@ export const PhoneOnepiece = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button> */}
+         </button>
        </div>
        <div className={styles.div4}>
         <img src={onepieceimg4} className={styles.onepieceimg4} /> 
@@ -223,10 +220,10 @@ export const PhoneOnepiece = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button> */}
+         </button>
        </div>
      </div>
    </div>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import styles from "../PhoneModuleCSS/PhonePokemon.module.css"
 
 import pokemonimg1 from "../../Images/ポケモンページの写真/pokemonimg1.png"
@@ -41,26 +41,24 @@ import { PhoneBanner } from '../PhoneHeader/PhoneBanner.tsx'
 import { PhoneGachadppokemon } from '../PhoneHeader/Navigatedp/PhoneGachadppokemon.tsx'
 import { PhonePagesChange } from '../PhoneHeader/PhonePagesChange.tsx'
 import { PhoneFooter } from '../PhoneFooter/PhoneFooter.tsx'
-
-import { PhonePopup } from '../../Popup/PhonePopup.js'
-import { PhonePopup10 } from '../../Popup/PhonePopup10.js'
 export const PhonePokemon = () => {
-     const [popupvisible, setPopupvisible] = useState(false)
-     const [popupvisible10, setPopupvisible10] = useState(false)
-     const [popupvisible100, setPopupvisible100] = useState(false)
-     
-     const togglePopup = () => setPopupvisible(!popupvisible)
-     const togglePopup10 = () => setPopupvisible10(!popupvisible10)
-     const togglePopup100 = () => setPopupvisible100(!popupvisible100)
-    
-     const GachaConfirm = ()  => {
-      togglePopup()
-    }
+    const GachaConfirm = ()  => {
+        if (window.confirm("使用ポイント確認 \n 500PT消費して1枚引く")){
+         window.alert("ありがとうございます")
+        }else{
+        }
+      }
       const GachaConfirm10 = ()  => {
-        togglePopup10()
+        if (window.confirm("使用ポイント確認 \n 5000PT消費して1枚引く")){
+         window.alert("ありがとうございます")
+        }else{
+        }
       }
       const GachaConfirm100 = ()  => {
-        togglePopup100()
+        if (window.confirm("使用ポイント確認 \n 50000PT消費して1枚引く")){
+         window.alert("ありがとうございます")
+        }else{
+        }
       }
   return (
     <div className={styles.fixwidth}>
@@ -68,10 +66,7 @@ export const PhonePokemon = () => {
     <PhoneBanner />
     <PhoneGachadppokemon />
     <PhonePagesChange/>
-    <PhonePopup togglePopup={togglePopup} popupvisible={popupvisible}/>
-    <PhonePopup10 togglePopup10={togglePopup10} popupvisible10={popupvisible10}/>
-    {/* <Popup100 togglePopup100={togglePopup100} popupvisible100={popupvisible100}/> */}
-<div className={styles.div}>
+    <div className={styles.div}>
      <div className={styles.Div1}>
        <div className={styles.div1}>
         <img src={pokemonimg1} className={styles.pokemonimg1} /> 
@@ -105,10 +100,10 @@ export const PhonePokemon = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button> */}
+         </button>
        </div>
 
        <div className={styles.div2}>
@@ -143,10 +138,10 @@ export const PhonePokemon = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button> */}
+         </button>
        </div>
      </div>
 
@@ -183,10 +178,10 @@ export const PhonePokemon = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button> */}
+         </button>
        </div>
        <div className={styles.div4}>
         <img src={pokemonimg4} className={styles.pokemonimg4} /> 
@@ -220,10 +215,10 @@ export const PhonePokemon = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button> */}
+         </button>
        </div>
      </div>
    </div>

@@ -34,9 +34,17 @@ const GachaConfirm = ()  => {
       togglePopup()
     }
       const GachaConfirm10 = ()  => {
+        // if (window.confirm("使用ポイント確認 \n 5000PT消費して1枚引く")){
+        //  window.alert("ありがとうございます")
+        // }else{
+        // }
         togglePopup10()
       }
       const GachaConfirm100 = ()  => {
+        // if (window.confirm("使用ポイント確認 \n 50000PT消費して1枚引く")){
+        //  window.alert("ありがとうございます")
+        // }else{
+        // }
         togglePopup100()
       }
   return (
@@ -83,10 +91,10 @@ const GachaConfirm = ()  => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button> */}
+         </button>
        </div>
        <div className={styles.div1}>
         <img src={pokemonimg1} className={styles.img} /> 
@@ -120,10 +128,10 @@ const GachaConfirm = ()  => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button> */}
+         </button>
        </div>
       
      </div>
@@ -160,10 +168,10 @@ const GachaConfirm = ()  => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button> */}
+         </button>
        </div>
        <div className={styles.div1}>
         <img src={pokemonimg1} className={styles.img} /> 
@@ -197,10 +205,10 @@ const GachaConfirm = ()  => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
+         <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button> */}
+         </button>
        </div>
      </div>
    </div>
