@@ -1,6 +1,6 @@
 import React from 'react'
 import { useMediaQuery } from 'react-responsive'
-import { PCdp } from '../PCpages/PCdp.tsx'
+import { PCdp } from '../PCpages/PCpages/PCdp.tsx'
 import { PhoneDp } from '../Phonepages/Phonepages/PhoneDp.tsx'
 
 
