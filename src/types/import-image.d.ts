@@ -46,3 +46,4 @@ declare module "*../Gachaanimation/GachaanimeCSS/PhoneGachaanime10.module.css";
 declare module "*../PhoneModuleCSS/PhoneDp.module.css";
 declare module "*../PhoneModuleCSS/PhoneStepup.module.css";
 declare module "*../PhoneDPpagesModuleCSS/PhoneDppokemon.module.css";
+declare module "*../PhoneDPpagesModuleCSS/PhoneDponepiece.module.css";
