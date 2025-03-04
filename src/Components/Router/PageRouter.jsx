@@ -22,11 +22,13 @@ import { Gachaanime10 } from "../Gachaanimation/Gachaanime10.tsx"
 import { Gachaanime100 } from "../Gachaanimation/Gachaanime100.tsx"
 import { PhoneGachaanime } from "../Gachaanimation/PhoneGachanime.tsx"
 import { PhoneGachaanime10 } from "../Gachaanimation/PhoneGachaanime10.tsx"
+import { PhoneDpPokemon } from "../PhoneDppages/PhoneDpPokemon.tsx"
 export const PageRouter = () => {
    return (
     <Routes >
       <Route path="pokemon" element={<Pokemon />}/>
       <Route path="pokemon/dp" element={<Dppokemon />}/>
+      <Route path="Phonepokemon/dp" element={<PhoneDpPokemon />} />
       <Route path="onepiece" element={<OnePiece />}/>
       <Route path="onepiece/dp" element={<Dponepiece />}/>
       <Route path="dragonball" element={<Dragonball />}/>
