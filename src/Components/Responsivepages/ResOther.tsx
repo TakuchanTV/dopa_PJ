@@ -1,6 +1,6 @@
 import React from 'react'
 import { useMediaQuery } from 'react-responsive'
-import { PCother } from '../PCpages/PCother.tsx'
+import { PCother } from '../PCpages/PCpages/PCother.tsx'
 import { PhoneOther } from '../Phonepages/Phonepages/PhoneOther.tsx'
 
 export const ResOther = () => {
