@@ -1,23 +1,23 @@
 import React from 'react'
-import { Gachadpvice } from '../Header/Navigatedp/Gachadpvice.tsx'
-import { Makingtab } from '../Header/Makingtab.tsx'
-import { Banner } from '../Header/Banner.tsx'
-import styles from "../DPpagesModuleCSS/Dpvice.module.css"
+import styles from "../PhoneDPpagesModuleCSS/PhoneDpvice.module.css"
 import viceimg1 from "../Images/DPページの写真/ヴァイス/img1.png"
 import viceimg2 from "../Images/DPページの写真/ヴァイス/img2.png"
 import viceimg3 from "../Images/DPページの写真/ヴァイス/img3.png"
 import viceimg4 from "../Images/DPページの写真/ヴァイス/img4.png"
 import viceimg5 from "../Images/DPページの写真/ヴァイス/img5.png"
-import { Footer } from '../Footer/Footer.tsx'
-import { DppagesChange } from '../Header/DppagesChange.tsx'
+import { PhoneMakingtab } from '../Phonepages/PhoneHeader/PhoneMakingtab.tsx'
+import { PhoneBanner } from '../Phonepages/PhoneHeader/PhoneBanner.tsx'
+import { PhoneGachadpvice } from '../Phonepages/PhoneHeader/Navigatedp/PhoneGachadpvice.tsx'
+import { PhonePagesChange } from '../Phonepages/PhoneHeader/PhonePagesChange.tsx'
+import { PhoneFooter } from '../Phonepages/PhoneFooter/PhoneFooter.tsx'
 
-export const Dpvice = () => {
+export const PhoneDpVice = () => {
   return (
     <div className={styles.divwidth}>
-    <Makingtab />
-     <Banner />
-  <Gachadpvice />
- <DppagesChange/>
+    <PhoneMakingtab />
+     <PhoneBanner />
+  <PhoneGachadpvice />
+ <PhonePagesChange/>
  <div className={styles.carddiv}>
    <div className={styles.card1}>
      <img src={viceimg1} />
@@ -65,7 +65,7 @@ export const Dpvice = () => {
      <span className={styles.DP}>1,300DP</span>
    </div>
  </div>
-  <Footer />
+  <PhoneFooter />
 </div> 
   )
 }
