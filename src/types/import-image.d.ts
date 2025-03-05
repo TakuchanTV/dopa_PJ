@@ -51,3 +51,5 @@ declare module "*../PhoneDPpagesModuleCSS/PhoneDpdragonball.module.css";
 declare module "*../PhoneDPpagesModuleCSS/PhoneDpyuugiou.module.css";
 declare module "*../PhoneDPpagesModuleCSS/PhoneDpvice.module.css";
 declare module "*../PhoneDPpagesModuleCSS/PhoneDpunionarena.module.css";
+declare module "*../Navigatedp/PhoneGachadpother.module.css";
+declare module "*../PhoneModuleCSS/PhoneOther.module.css"
