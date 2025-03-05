@@ -9,7 +9,7 @@ export const PhoneGachadpunionarena = () => {
           navigate("/unionarena")
         }
       const handleNavigatedp = () => {
-         navigate("/unionarena/dp")
+         navigate("/Phoneunionarena/dp")
       }
   return (
     <div className={styles.gachadp} >
