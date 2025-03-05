@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from "../ModuleCSS/others.module.css"
+import styles from "../../ModuleCSS/others.module.css"
 import { Makingtab } from '../../Header/Makingtab.tsx'
 import { Banner } from '../../Header/Banner.tsx'
 import { Gachadpothers } from '../../Header/Navigatedp/Gachadpothers.tsx'
@@ -7,13 +7,14 @@ import { PagesChangetag } from '../../Header/PagesChange.tsx'
 import { Popup } from '../../Popup/Popup.js'
 import { Popup10 } from '../../Popup/Popup10.js'
 import { Popup100 } from '../../Popup/Popup100.js'
-import othersimg1 from "../Images/その他ページの写真/othersimg1.png"
-import others1 from "../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg1.png"
-import others2 from "../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg2.png"
-import others3 from "../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg3.png"
-import others4 from "../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg4.png"
-import others5 from "../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg5.png"
-import others6 from "../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg6.png"
+import othersimg1 from "../../Images/その他ページの写真/othersimg1.png"
+import others1 from "../../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg1.png"
+import others2 from "../../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg2.png"
+import others3 from "../../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg3.png"
+import others4 from "../../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg4.png"
+import others5 from "../../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg5.png"
+import others6 from "../../Images/その他ページの写真/その他ページのリスト/その他1のリスト写真/othersimg6.png"
+
 import { Footer } from '../../Footer/Footer.tsx'
 
 
