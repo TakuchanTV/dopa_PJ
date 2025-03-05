@@ -48,3 +48,4 @@ declare module "*../PhoneModuleCSS/PhoneStepup.module.css";
 declare module "*../PhoneDPpagesModuleCSS/PhoneDppokemon.module.css";
 declare module "*../PhoneDPpagesModuleCSS/PhoneDponepiece.module.css";
 declare module "*../PhoneDPpagesModuleCSS/PhoneDpdragonball.module.css";
+declare module"*../PhoneDPpagesModuleCSS/PhoneDpyuugiou.module.css"

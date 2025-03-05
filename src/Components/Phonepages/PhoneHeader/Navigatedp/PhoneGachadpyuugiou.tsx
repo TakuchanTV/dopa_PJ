@@ -9,7 +9,7 @@ export const PhoneGachadpyuugiou = () => {
       navigate("/yuugiou")
     }
   const handleNavigatedp = () => {
-     navigate("/yuugiou/dp")
+     navigate("/Phoneyuugiou/dp")
   }
   return (
     <div className={styles.gachadp} >
