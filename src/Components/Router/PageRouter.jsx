@@ -25,6 +25,7 @@ import { PhoneGachaanime10 } from "../Gachaanimation/PhoneGachaanime10.tsx"
 import { PhoneDpPokemon } from "../PhoneDppages/PhoneDpPokemon.tsx"
 import { PhoneDpOnepiece } from "../PhoneDppages/PhoneDpOnepiece.tsx"
 import { PhoneDpDragonball } from "../PhoneDppages/PhoneDpDragonball.tsx"
+import { PhoneDpYuugiou } from "../PhoneDppages/PhoneDpYuugiou.tsx"
 export const PageRouter = () => {
    return (
     <Routes >
@@ -39,6 +40,7 @@ export const PageRouter = () => {
       <Route path="Phonedragonball/dp" element = {<PhoneDpDragonball />} />
       <Route path="yuugiou" element={<Yuugiou />}/>
       <Route path="yuugiou/dp" element={<Dpyuugiou />}/>
+      <Route path="Phoneyuugiou/dp" element={<PhoneDpYuugiou />} />
       <Route path="vice" element={<Vice />}/>
       <Route path="vice/dp" element={<Dpvice />}/>
       <Route path="unionarena" element={<UnionArena />}/>
