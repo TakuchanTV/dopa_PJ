@@ -1,0 +1,51 @@
+.tag{
+    /* display: flex; 
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 35px;
+    z-index: 1000;
+    padding: 10px;
+    overflow: hidden;
+    width: 100%; */
+    background-color: rgb(161, 238, 125);
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    width: 100%;
+    padding: 20px;
+    white-space: nowrap;
+    overflow-x: scroll;
+  }
+  .spandiv{
+       /* flex-wrap: nowrap;*/
+       display: flex;
+  }
+  .spandiv div{
+}
+  .spandiv span{
+  }
+  .tag span {
+   /* padding: 15px;
+   margin: 0 15px;
+   font-family: "HGS創英角ﾎﾟｯﾌﾟ体";
+   font-size: 15px;
+   flex-wrap: nowrap;
+  &:hover{
+      cursor: pointer;
+  } */
+   font-family:'Times New Roman', Times, serif ;
+   font-size: 30px;
+   font-weight: bold;
+   padding: 15px;
+   position: relative;
+   right: 30px;
+}
+  .active{
+  /* background-color: rgb(125, 125, 239);
+  border-radius: 20px;
+  padding: 10px;
+  margin:0 15px; */
+         }
