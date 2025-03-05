@@ -1,0 +1,55 @@
+.gachadp{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    left:100px;
+ }
+ .gacha{
+    padding: 0px 10px; 
+    /* background-color: green; */
+    font-family:"HGS創英角ﾎﾟｯﾌﾟ体";
+    font-size: 20px;
+    position: relative;
+    right: 60px;
+    /* background-color: yellowgreen; */
+    &:hover{
+     cursor: pointer;
+    }
+    }
+ 
+ 
+ .dp{
+     padding: 0px 10px; 
+     font-family:"HGS創英角ﾎﾟｯﾌﾟ体";
+     font-size: 20px;
+     position: relative;
+     right: 40px;
+     bottom: 10px;
+     /* background-color: yellowgreen; */
+     &:hover{
+       cursor: pointer;  
+     }
+ 
+ 
+ }
+ .gacha span{
+     background-color: rgb(217, 70, 70);
+     border: solid 2px black;
+     width: 34px;
+     padding: 4px 15px;
+     border-radius: 50%;
+     height: 34px;
+     position: relative;
+     right: 160px;
+ }
+ .dp img{
+  width: 40px;
+  position: relative;
+  right: 180px;
+  top: 10px;
+ }
+ .gacha p:hover{
+     cursor: pointer;
+ }
+ 
