@@ -10,6 +10,7 @@ import { PhoneBanner } from '../Phonepages/PhoneHeader/PhoneBanner.tsx'
 import { PhoneGachadponepiece } from '../Phonepages/PhoneHeader/Navigatedp/PhoneGachadponepiece.tsx'
 import { PhonePagesChange } from '../Phonepages/PhoneHeader/PhonePagesChange.tsx'
 import { PhoneFooter } from '../Phonepages/PhoneFooter/PhoneFooter.tsx'
+import { PhoneDpPagesChange } from '../Phonepages/PhoneHeader/PhoneDpPagesChage.tsx'
 
 export const PhoneDpOnepiece = () => {
   return (
@@ -17,7 +18,7 @@ export const PhoneDpOnepiece = () => {
     <PhoneMakingtab />
      <PhoneBanner />
   <PhoneGachadponepiece />
- <PhonePagesChange/>
+ <PhoneDpPagesChange/>
  <div className={styles.carddiv}>
    <div className={styles.card1}>
      <img src={onepieceimg1} />

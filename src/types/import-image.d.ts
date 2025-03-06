@@ -54,3 +54,4 @@ declare module "*../PhoneDPpagesModuleCSS/PhoneDpunionarena.module.css";
 declare module "*../Navigatedp/PhoneGachadpother.module.css";
 declare module "*../PhoneModuleCSS/PhoneOther.module.css";
 declare module "*../PhoneDPpagesModuleCSS/PhoneDpother.module.css";
+declare module "*../PhoneModuleCSS/PhoneDpPagesChange.module.css";
