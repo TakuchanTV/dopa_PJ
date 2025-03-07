@@ -102,10 +102,10 @@ export const PhoneVice = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         <button className={styles.button1_3} onClick={GachaConfirm100}>
+         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button>
+         </button> */}
        </div>
 
        <div className={styles.div2}>
@@ -140,10 +140,10 @@ export const PhoneVice = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         <button className={styles.button1_3} onClick={GachaConfirm100}>
+         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button>
+         </button> */}
        </div>
      </div>
 
@@ -180,10 +180,10 @@ export const PhoneVice = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         <button className={styles.button1_3} onClick={GachaConfirm100}>
+         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button>
+         </button> */}
        </div>
        <div className={styles.div4}>
         <img src={Viceimg4} className={styles.viceimg4} /> 
@@ -217,10 +217,10 @@ export const PhoneVice = () => {
           <span>10連ガチャ</span>
          </button>
          </div> 
-         <button className={styles.button1_3} onClick={GachaConfirm100}>
+         {/* <button className={styles.button1_3} onClick={GachaConfirm100}>
           <span className={styles.gacha}></span>
           <span>100連ガチャ</span>
-         </button>
+         </button> */}
        </div>
      </div>
    </div>
