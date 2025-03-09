@@ -15,7 +15,8 @@
     "typed-css-modules": "^0.9.1"
   },
   "scripts": {
-    "deploy": "rm -rf docs && npm run build && mv build docs",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
