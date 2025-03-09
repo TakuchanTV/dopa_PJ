@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dopa_PJ/static/css/main.c23a29f2.css",
-    "main.js": "/dopa_PJ/static/js/main.2182b989.js",
+    "main.css": "/dopa_PJ/static/css/main.f0fadc19.css",
+    "main.js": "/dopa_PJ/static/js/main.0dfc7350.js",
     "static/media/img3.png": "/dopa_PJ/static/media/img3.dfd37e1c79ad9b9158b7.png",
     "static/media/pokemonimg2.png": "/dopa_PJ/static/media/pokemonimg2.2a1c62e184da5360517e.png",
     "static/media/img4.png": "/dopa_PJ/static/media/img4.dbee630695a8b337488f.png",
@@ -13,7 +13,7 @@
     "static/media/yuugiouimg6.png": "/dopa_PJ/static/media/yuugiouimg6.8aa5f07512ff356d8642.png",
     "static/media/onepieceimg3.png": "/dopa_PJ/static/media/onepieceimg3.ef8548fab1a0e43bf27d.png",
     "static/media/vicepageimg3.png": "/dopa_PJ/static/media/vicepageimg3.1d414d9e707c2ba9200e.png",
-    "static/media/unionarenaimg1.png": "/dopa_PJ/static/media/unionarenaimg1.37ccca207c62557d3107.png",
+    "static/media/unionarenaimg1.png": "/dopa_PJ/static/media/unionarenaimg1.6328836e86590295abd4.png",
     "static/media/yuugiouimg5.png": "/dopa_PJ/static/media/yuugiouimg5.e3da9fe98a328a29ee0c.png",
     "static/media/dragonballimg3.png": "/dopa_PJ/static/media/dragonballimg3.848fd8f4bbb3907b82e0.png",
     "static/media/onepieceimg5.png": "/dopa_PJ/static/media/onepieceimg5.cafed1815fe0be589bb5.png",
@@ -28,7 +28,9 @@
     "static/media/img2.png": "/dopa_PJ/static/media/img2.ccec21b180043f161900.png",
     "static/media/othersimg1.png": "/dopa_PJ/static/media/othersimg1.11874f90d9122b23f453.png",
     "static/media/onepieceimg4.png": "/dopa_PJ/static/media/onepieceimg4.4f5684afa74354b0e44f.png",
+    "static/media/unionarenaimg3.png": "/dopa_PJ/static/media/unionarenaimg3.0de64d851608761872f4.png",
     "static/media/vicepageimg4.png": "/dopa_PJ/static/media/vicepageimg4.efd726342f9be8c7f683.png",
+    "static/media/unionarenaimg2.png": "/dopa_PJ/static/media/unionarenaimg2.9b82b516f7ba5dda3f1b.png",
     "static/media/pokemon5.png": "/dopa_PJ/static/media/pokemon5.4af77e3eb59d5e4188cf.png",
     "static/media/onepieceimg1.png": "/dopa_PJ/static/media/onepieceimg1.6e930b783811c72becd5.png",
     "static/media/pokemon4.png": "/dopa_PJ/static/media/pokemon4.c91b43eaadee01ca3860.png",
@@ -41,11 +43,9 @@
     "static/media/pokemonimg6.png": "/dopa_PJ/static/media/pokemonimg6.8d4fea82d3ff24d131eb.png",
     "static/media/onepieceimg6.png": "/dopa_PJ/static/media/onepieceimg6.785a033d4f685318210b.png",
     "static/media/dragonballimg5.png": "/dopa_PJ/static/media/dragonballimg5.ad988c238f835e8332e9.png",
-    "static/media/dragonballimg6.png": "/dopa_PJ/static/media/dragonballimg6.f400c393af2c54009d9f.png",
-    "static/media/unionarenaimg3.png": "/dopa_PJ/static/media/unionarenaimg3.0de64d851608761872f4.png",
-    "static/media/unionarenaimg2.png": "/dopa_PJ/static/media/unionarenaimg2.5ba34c17b6a9c321e7df.png",
-    "static/media/unionarenaimg6.png": "/dopa_PJ/static/media/unionarenaimg6.39180a39afedc011dbcb.png",
     "static/media/unionarenaimg4.png": "/dopa_PJ/static/media/unionarenaimg4.ef71ee1304ccf4f8f495.png",
+    "static/media/dragonballimg6.png": "/dopa_PJ/static/media/dragonballimg6.f400c393af2c54009d9f.png",
+    "static/media/unionarenaimg6.png": "/dopa_PJ/static/media/unionarenaimg6.39180a39afedc011dbcb.png",
     "static/media/unionarenaimg5.png": "/dopa_PJ/static/media/unionarenaimg5.0490192acc8da3bd49ac.png",
     "static/media/vicepageimg6.png": "/dopa_PJ/static/media/vicepageimg6.43e9f264bcd099969a56.png",
     "static/media/vicepageimg5.png": "/dopa_PJ/static/media/vicepageimg5.48186f3d3d8018b1a21d.png",
@@ -57,17 +57,18 @@
     "static/media/bannerphoto2.png": "/dopa_PJ/static/media/bannerphoto2.7f79d2ec8c3fa0abbc2e.png",
     "static/media/othersimg2.png": "/dopa_PJ/static/media/othersimg2.a74696b20b3a4b060082.png",
     "static/media/Coin.png": "/dopa_PJ/static/media/Coin.2412fd987dd9896d9627.png",
+    "static/media/skyblue.png": "/dopa_PJ/static/media/skyblue.5741b68933c1c0503267.png",
     "static/media/othersimg5.png": "/dopa_PJ/static/media/othersimg5.1737a9ebcae8d0dbd45a.png",
     "static/media/bannerphoto4.png": "/dopa_PJ/static/media/bannerphoto4.f67a9d3c02d40e6a8335.png",
     "static/media/othersimg3.png": "/dopa_PJ/static/media/othersimg3.ef18322d323a8c978d36.png",
     "static/media/bannerphoto3.png": "/dopa_PJ/static/media/bannerphoto3.e4dc4ccbedcd69b6a07c.png",
     "static/media/dopa_new_logo.png": "/dopa_PJ/static/media/dopa_new_logo.901b7264168df08ed2cb.png",
     "index.html": "/dopa_PJ/index.html",
-    "main.c23a29f2.css.map": "/dopa_PJ/static/css/main.c23a29f2.css.map",
-    "main.2182b989.js.map": "/dopa_PJ/static/js/main.2182b989.js.map"
+    "main.f0fadc19.css.map": "/dopa_PJ/static/css/main.f0fadc19.css.map",
+    "main.0dfc7350.js.map": "/dopa_PJ/static/js/main.0dfc7350.js.map"
   },
   "entrypoints": [
-    "static/css/main.c23a29f2.css",
-    "static/js/main.2182b989.js"
+    "static/css/main.f0fadc19.css",
+    "static/js/main.0dfc7350.js"
   ]
 }
