@@ -32,4 +32,32 @@ background-color: rgb(125, 125, 239);
 border-radius: 20px;
 padding: 10px;
 margin:0 15px;
-       }
+}
+
+@media screen and (max-width:768px) {
+  .tag{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    position: sticky;  
+    position: -webkit-sticky;
+    z-index: 1000;
+    top: 50px;
+    padding: 10px;
+    /* overflow: hidden; */
+    width: 100%;
+    background-color:aquamarine;
+    margin: 0 auto;
+  }
+
+  .tag span {
+    padding: 0px;
+    margin: 0 5px;
+    font-family: "HGS創英角ﾎﾟｯﾌﾟ体";
+    white-space: nowrap;
+    font-size: 10px;
+
+   &:hover{
+       cursor: pointer;
+   }}
+}
