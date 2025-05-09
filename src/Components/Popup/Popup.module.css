@@ -20,6 +20,7 @@
   margin: 0 20px;
   border-radius: 20px;
   cursor: pointer;
+  white-space: nowrap;
 }
 .btn1{
  &:hover{
