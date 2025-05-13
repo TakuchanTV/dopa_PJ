@@ -213,3 +213,586 @@
     display: flex;
 }
 /*button ここまで*/
+
+@media screen and (max-width:1024px) {
+   .fixwidth {
+      overflow-x: hidden;
+   }
+
+   .div {
+      width: 100%;
+   }
+
+   .div1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+   }
+
+   .div2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .Div1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+   }
+
+   .Div2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+   }
+
+   .div1 img {
+      width: 80%;
+   }
+
+   .div2 img {
+      width: 80%;
+   }
+
+
+   .div1,
+   .div2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+
+
+   .div1 img,
+   .div2 img {
+      /* width: 450px; 
+        height: auto;
+        border-radius: 30px;
+        position: relative; */
+   }
+
+
+   /*div ここまで */
+
+   /*span ここから*/
+   .span1 {
+      display: inline-block;
+      padding: 10px;
+   }
+
+   .span2 {
+      display: inline-block;
+      padding: 5px;
+      position: relative;
+      left: 100px;
+   }
+
+   .span3 {
+      display: inline-block;
+      padding: 5px;
+      position: relative;
+      left: 0px;
+   }
+
+   .span4 {
+      display: inline-block;
+      padding: 3px;
+      position: relative;
+      left: 30px;
+   }
+
+   .span1 .img1,
+   .span1 .img2,
+   .span1 .img3,
+   .span1 .img6 {
+      display: block;
+      width: 60px;
+      padding: 0;
+      margin: 0;
+      border-radius: 0;
+   }
+
+   .span1 .img4,
+   .span1 .img5 {
+      display: block;
+      width: 40px;
+      padding: 0;
+      margin: 0;
+      border-radius: 0;
+   }
+
+
+
+   /*span ここまで*/
+
+   /*list ここから*/
+   .list1 {
+      display: flex;
+      margin: 5px;
+   }
+
+   .list1 img {
+      /* position: relative;
+          left: 190px; */
+   }
+
+   .list1 img,
+   .list2 img {
+      width: 6%;
+      padding: 5px;
+   }
+
+
+
+
+   /*list ここまで*/
+
+   /*button ここから*/
+   .buttondiv {
+      /* display: flex; */
+      white-space: nowrap;
+   }
+
+   .button1_1 {
+      
+      background-color: rgb(79, 94, 79);
+      padding: 15px;
+      border-radius: 15px;
+
+      &:hover {
+         cursor: pointer;
+         background-color: rgb(81, 192, 209);
+      }
+   }
+
+   .button1_2 {
+      position: relative;
+      left: 60px;
+      padding: 15px;
+      background-color: rgb(212, 59, 59);
+      border-radius: 15px;
+
+      &:hover {
+         cursor: pointer;
+         background-color: rgb(228, 168, 39);
+      }
+   }
+
+   .button1_3 {
+      position: relative;
+      left: 60px;
+      top: 10px;
+      padding: 20px 180px;
+      /* margin: 0 5px; */
+      background-color: rgb(212, 59, 59);
+      border-radius: 10px;
+
+      &:hover {
+         cursor: pointer;
+         background-color: rgb(228, 168, 39);
+      }
+   }
+
+
+   .button1_1 span {
+      font-size: 20px;
+      font-family: "HGS創英角ﾎﾟｯﾌﾟ体";
+   }
+
+   .button1_2 span {
+      font-size: 20px;
+      font-family: "HGS創英角ﾎﾟｯﾌﾟ体";
+   }
+
+   .button1_3 span {
+      font-size: 20px;
+      font-family: "HGS創英角ﾎﾟｯﾌﾟ体";
+   }
+
+
+   .button1_1 .gacha {
+      border: solid 2px black;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      padding: 5px 14px;
+      background-color: rgb(141, 178, 85);
+      position: relative;
+      right: 10px;
+   }
+
+   .button1_2 .gacha {
+      border: solid 2px black;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      padding: 5px 14px;
+      background-color: rgb(141, 178, 85);
+      position: relative;
+      right: 10px;
+   }
+
+   .button1_3 .gacha {
+      border: solid 2px black;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      padding: 5px 14px;
+      background-color: rgb(141, 178, 85);
+      position: relative;
+      right: 30px;
+
+   }
+
+
+   .button {
+      display: flex;
+   }
+}
+
+@media screen and (max-width:820px){
+   .div1 img {
+      width: 75%;
+      margin: 10px;
+      padding: 10px;
+      /* zoom: 0.5; */
+   }
+
+   .imgdiv1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateX(5%);
+   }
+
+   .imgdiv2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateX(-10%);
+   }
+   .imgdiv3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateX(5%);
+   }
+
+   .imgdiv4{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateX(-10%);
+   }
+
+   .button1_1 {
+      background-color: rgb(79, 94, 79);
+      padding: 10px;
+      border-radius: 15px;
+      transform: translateX(10%);
+
+      &:hover {
+         cursor: pointer;
+         background-color: rgb(81, 192, 209);
+      }
+   }
+
+   .button1_2 {
+
+      padding: 10px;
+      background-color: rgb(212, 59, 59);
+      border-radius: 15px;
+
+      &:hover {
+         cursor: pointer;
+         background-color: rgb(228, 168, 39);
+      }
+   }
+
+   .span1 img{
+     height: 80%;
+   }
+
+   .list1{
+      scale: 0.8;
+      padding: 0px;
+   }
+}
+
+@media screen and (max-width:768px) {
+   .fixwidth {
+      overflow-x: hidden;
+   }
+
+   .div {
+      width: 100%;
+   }
+
+   .div1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+   }
+
+   .div2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .Div1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+   }
+
+   .Div2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .div1 img {
+      width: 75%;
+      margin: 10px;
+      padding: 10px;
+      zoom: 0.5;
+   }
+
+   .div2 img {
+      width: 70%;
+   }
+
+
+   .div1,
+   .div2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+
+
+   .div1 img,
+   .div2 img {
+      /* width: 450px; 
+        height: auto;
+        border-radius: 30px;
+        position: relative; */
+   }
+
+   .imgdiv1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateX(5%);
+   }
+
+   .imgdiv2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateX(-10%);
+   }
+
+   .imgdiv3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateX(5%);
+   }
+
+   .imgdiv4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateX(-10%);
+   }
+
+
+
+   /*div ここまで */
+
+   /*span ここから*/
+   .span1 {
+      display: inline-block;
+      padding: 10px;
+   }
+
+   .span2 {
+      display: inline-block;
+      padding: 5px;
+      position: relative;
+      left: 100px;
+   }
+
+   .span3 {
+      display: inline-block;
+      padding: 5px;
+      position: relative;
+      left: 0px;
+   }
+
+   .span4 {
+      display: inline-block;
+      padding: 3px;
+      position: relative;
+      left: 30px;
+   }
+
+   .span1 .img1,
+   .span1 .img2,
+   .span1 .img3,
+   .span1 .img6 {
+      display: block;
+      width: 60px;
+      padding: 0;
+      margin: 0;
+      border-radius: 0;
+   }
+
+   .span1 .img4,
+   .span1 .img5 {
+      display: block;
+      width: 40px;
+      padding: 0;
+      margin: 0;
+      border-radius: 0;
+   }
+
+
+
+   /*span ここまで*/
+
+   /*list ここから*/
+   .list1 {
+      display: flex;
+      margin: 5px;
+   }
+
+   .list1 img {
+      scale: 1.5;
+   }
+
+   .list1 img,
+   .list2 img {
+      width: 6%;
+      padding: 5px;
+   }
+
+
+
+
+   /*list ここまで*/
+
+   /*button ここから*/
+   .buttondiv2 {
+      transform: translateX(-20%);
+   }
+
+   .buttondiv4{
+      transform: translateX(-20%);
+
+   }
+
+   .button1_1 {
+      background-color: rgb(79, 94, 79);
+      padding: 10px;
+      border-radius: 15px;
+
+      &:hover {
+         cursor: pointer;
+         background-color: rgb(81, 192, 209);
+      }
+   }
+
+   .button1_2 {
+
+      padding: 10px;
+      background-color: rgb(212, 59, 59);
+      border-radius: 15px;
+
+      &:hover {
+         cursor: pointer;
+         background-color: rgb(228, 168, 39);
+      }
+   }
+
+   .button1_3 {
+      position: relative;
+      left: 60px;
+      top: 10px;
+      padding: 20px 180px;
+      /* margin: 0 5px; */
+      background-color: rgb(212, 59, 59);
+      border-radius: 10px;
+
+      &:hover {
+         cursor: pointer;
+         background-color: rgb(228, 168, 39);
+      }
+   }
+
+
+   .button1_1 span {
+      font-size: 10px;
+      font-family: "HGS創英角ﾎﾟｯﾌﾟ体";
+   }
+
+   .button1_2 span {
+      font-size: 10px;
+      font-family: "HGS創英角ﾎﾟｯﾌﾟ体";
+   }
+
+   .button1_3 span {
+      font-size: 20px;
+      font-family: "HGS創英角ﾎﾟｯﾌﾟ体";
+   }
+
+
+   .button1_1 .gacha {
+      border: solid 2px black;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      padding: 5px 14px;
+      background-color: rgb(141, 178, 85);
+      position: relative;
+      right: 10px;
+   }
+
+   .button1_2 .gacha {
+      border: solid 2px black;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      padding: 5px 14px;
+      background-color: rgb(141, 178, 85);
+      position: relative;
+      right: 10px;
+   }
+
+   .button1_3 .gacha {
+      border: solid 2px black;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      padding: 5px 14px;
+      background-color: rgb(141, 178, 85);
+      position: relative;
+      right: 30px;
+
+   }
+
+
+   .button {
+      display: flex;
+   }
+}
