@@ -4,7 +4,7 @@ import { PCunionarena } from '../PCpages/PCpages/PCunionarena.tsx'
 import { PhoneUnionarena } from '../Phonepages/Phonepages/PhoneUnionarena.tsx'
 
 export const ResUnionarena = () => {
-const isDesktop: boolean = useMediaQuery({query: `(min-width: 431x)`})  
+const isDesktop: boolean = useMediaQuery({query: `(min-width: 431px)`})  
     
   return (
 <div>
