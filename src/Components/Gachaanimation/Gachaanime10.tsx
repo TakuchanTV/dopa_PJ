@@ -34,7 +34,7 @@ useEffect(() => {
     if (LeftRef.current,RightRef.current) {
       anime({
         targets:[LeftRef.current,RightRef.current],
-        translateY:400,
+        translateY:300,
         opacity:1,
         duration:2000,
       })
