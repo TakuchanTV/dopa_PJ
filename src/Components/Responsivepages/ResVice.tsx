@@ -6,12 +6,12 @@ import { PCvice } from '../PCpages/PCpages/PCvice.tsx'
 
 
 export const ResVice = () => {
-  const isDesktop: boolean = useMediaQuery({query: `(min-width: 414px)`})  
+  const isDesktop: boolean = useMediaQuery({query: `(min-width: 431px)`})  
   return (
     <div>
-      {/*414px以上はデスクトップの画面*/}  
+      {/*431px以上はデスクトップの画面*/}  
       {isDesktop && <PCvice/>}
-      {/*414px未満はモバイル用の画面*/}  
+      {/*431px未満はモバイル用の画面*/}  
       {!isDesktop && <PhoneVice />}
     </div>
   )

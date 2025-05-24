@@ -6,12 +6,12 @@ import { PhonePokemon } from '../Phonepages/Phonepages/PhonePokemon.tsx'
 
 
 export const ResPokemon = () => {
-  const isDesktop: boolean = useMediaQuery({query: `(min-width: 414px)`})  
+  const isDesktop: boolean = useMediaQuery({query: `(min-width: 431px)`})  
   return (
     <div>
-      {/*414px以上はデスクトップの画面*/}  
+      {/*431px以上はデスクトップの画面*/}  
       {isDesktop && <PCpokemon />}
-      {/*414px未満はモバイル用の画面*/}  
+      {/*431px未満はモバイル用の画面*/}  
       {!isDesktop && <PhonePokemon />}
     </div>
   )
