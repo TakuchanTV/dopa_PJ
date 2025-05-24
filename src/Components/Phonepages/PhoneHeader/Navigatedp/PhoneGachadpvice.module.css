@@ -53,3 +53,55 @@
      cursor: pointer;
  }
  
+
+ @media screen and (max-width:382px) {
+    .gachadp{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    }
+ .gacha{
+    padding: 0px 10px; 
+    font-family:"HGS創英角ﾎﾟｯﾌﾟ体";
+    font-size: 15px;
+    position: relative;
+    right: 60px;
+    &:hover{
+     cursor: pointer;
+    }
+    }
+ 
+ 
+ .dp{
+     /* background-color: yellow; */
+     padding-bottom: 0px;
+     font-family:"HGS創英角ﾎﾟｯﾌﾟ体";
+     font-size: 15px;
+     transform: translateX(-20px);
+     &:hover{
+       cursor: pointer;  
+     }
+ 
+ 
+ }
+ .gacha span{
+     background-color: rgb(217, 70, 70);
+     border: solid 2px black;
+     width: 34px;
+     padding: 4px 12px;
+     border-radius: 50%;
+     height: 34px;
+     position: relative;
+     right: 130px;
+ }
+ .dp img{
+  width: 30px;
+  position: relative;
+  right: 40px;
+  top: 8px;
+  transform: translateX(-90px);
+ }
+ .gacha p:hover{
+     cursor: pointer;
+ }
+ }
