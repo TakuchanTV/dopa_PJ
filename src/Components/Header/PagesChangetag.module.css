@@ -34,7 +34,7 @@ padding: 10px;
 margin:0 15px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024px) {
   .tag{
     display: flex; 
     align-items: center;
@@ -55,7 +55,7 @@ margin:0 15px;
     margin: 0 5px;
     font-family: "HGS創英角ﾎﾟｯﾌﾟ体";
     white-space: nowrap;
-    font-size: 10px;
+    font-size: 1px;
 
    &:hover{
        cursor: pointer;
