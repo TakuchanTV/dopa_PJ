@@ -292,36 +292,6 @@
  }
    }
 
-     @media screen and (max-width:380px) {
-     .left_half{
-   animation: splitLeft 1s  10s forwards;
-   
-   position: absolute;
-   width: 50px;          /* 親要素の幅の半分 */
-   height: 100px;        /* 親要素と同じ高さ */
-   background-color:#1fd522;
-   top: -120px;
-   left: 130px;
-   bottom: 140px;
-   border-top-left-radius: 50px;
-   border-bottom-left-radius: 50px;
- }
- .right_half{
-   animation: splitRight 1s 10s forwards;
- 
-   position: absolute;
-   width: 50px;          /* 親要素の幅の半分 */
-   height: 100px;        /* 親要素と同じ高さ */
-   background-color: #1fd522;
-   top: -120px;
-   right: 135px;
-   border-top-right-radius: 50px;
-   border-bottom-right-radius: 50px;
- 
- }
-   }
-
-
    
 
 
